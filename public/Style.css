@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Merienda:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("bible.css");
+@import url('contact.css');
+/* nav */
+.navbr-font{
+  padding: 8px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: crimson;
+  font-family: 'Lobster', cursive;
+}
+.navbr-font:hover{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(252, 115, 142);
+}
+/* nav */
+/* index */
+body, html {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+body,
+header,
+.view {
+    height: 100vh;
+  }
+}
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #78909c !important;
+  }
+}
+/* main */
+.bg {
+  /* The image used */
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+  /* Full height */
+  height: 100%;
+  padding-top: 15%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* bible */
+.bg2 {
+  /* The image used */
+  background-image: url("Image/Bible.png");
+  /* Full height */
+  height: 100%;
+  padding-top: 15%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h1-font {
+  letter-spacing: 8px;
+  color: crimson;
+  font-weight: bold;
+  font-family: "Merienda", cursive;
+  font-size: 80px;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+/* index button */
+.btn-in {
+  border: 2px solid #003f52;
+  padding: 11.2px 34.24px;
+  margin: 5px;
+  color: #012530;
+  background: #80e1ff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Lobster', cursive;
+}
+
+.btn-in:hover {
+  border: 2px solid #00c3ff;
+  border-radius: 5px;
+  padding: 11.2px 34.24px;
+  margin: 5px;
+  color: white;
+  background: #003f52;
+  box-shadow: 5px 1px 20px 1px #616161;
+}
+.btn-in2 {
+  border: 2px solid#880e4f;
+  padding: 11.2px 34.24px;
+  margin: 5px;
+  color:#38021f;
+  background: rgba(252, 139, 176, 0.3);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Lobster', cursive;
+}
+
+.btn-in2:hover {
+  border: 2px solid  rgba(252, 139, 176, 0.3);
+  border-radius: 5px;
+  padding: 11.2px 34.24px;
+  margin: 5px;
+  color: white;
+  background: #880e4f;
+  box-shadow: 5px 1px 20px 1px #616161;
+}
+.btn-in3 {
+  border: 2px solid#03b5c2;
+  padding: 11.2px 34.24px;
+  margin: 5px;
+  color:#023038;
+  background: #8ef3fa;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Lobster', cursive;
+}
+
+.btn-in3:hover {
+  border: 2px solid rgba(90, 2, 32, 0.3);
+  border-radius: 5px;
+  padding: 11.2px 34.24px;
+  margin: 5px;
+  color: white;
+  background: #03b5c2;
+  box-shadow: 5px 1px 20px 1px #616161;
+}
+/* index button */
+
+/* bibletitle */
+.bibletitle {
+  text-align: center;
+}
+.bibletitle h3 {
+  font-size: 50px;
+  color: crimson;
+  font-weight: bold;
+}
+.bibletitle p {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 25px 5px;
+}
+.list-social i{
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 100%;
+  font-size: 25px;
+  opacity: 30%;
+  color: brown;
+  transition-duration: 1000ms;
+}
+.list-social i:hover{
+  transform: rotate(1turn);
+  opacity: 100%;
+}
+/* Registered */
+.Reg-bg{
+  background-color: wheat;
+  /* Full height */
+  height: 100%;
+  padding-top: 15%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.reg-content{
+  background-color: #1C2331;
+}
+.h1-reg-font{
+  letter-spacing: 8px;
+  color: crimson;
+  font-weight: bold;
+  font-family: "Merienda", cursive;
+  font-size: 25px;
+}
+.btn-reg i{
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 100%;
+  font-size: 25px;
+  opacity: 30%;
+  background: brown;
+  color: rgb(0, 0, 0);
+  transition-duration: 1000ms;
+}
+.btn-reg i:hover{
+  transform: rotate(1turn);
+  opacity: 100%;
+}
+/* image */
+.card-im{
+  background-image: url(Image/Lesson.png);
+}
+/* Registered */
+/* index */
+
+
+

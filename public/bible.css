@@ -1,0 +1,299 @@
+/* Bible home */
+.main-bible{
+    background: url(/Image/Bible.png);
+    /* Full height */
+    height: 100%;
+    padding-top: 15%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  .bible-title h2{
+        font-size: 80px;
+        font-weight: bold;
+        color: crimson;
+        padding: 8px;
+        text-shadow: rgb(0, 238, 255) 1px 0 10px;
+  }
+  .bible-title p{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(66, 4, 16);
+    padding: 15px;
+    text-shadow: rgb(243, 239, 224) 1px 0 10px;
+  }
+  .card-body ul{
+        list-style: none;
+        padding: 20px;
+  }
+  .card-body li{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+  }
+  .card-body  a{
+    font-size: 20px;
+    color: crimson;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .card-body a:hover{
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .bi-mu{
+    text-align: center;
+  }
+  .bi-mu h3{
+    font-size: 50px;
+    text-align: center;
+    text-shadow: rgb(214, 210, 210) 1px 0 10px;
+    color: rgb(70, 3, 3);
+    font-weight: bold;
+    padding: 20px;
+  }
+  .bi-mu button{
+    border: 1px solid brown;
+    border-radius: 3px;
+    color: brown;
+    width: 150px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .bi-mu button:hover{
+    transform: scale(1,1);
+    background: brown;
+    color: cornsilk;
+  }
+  .bi-ti{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 33px 0;
+    
+  }
+  .mu-bi{
+    text-align: center;
+  }
+  .mu-bi button{
+    border: 1px solid brown;
+    border-radius: 3px;
+    color: brown;
+    width: 150px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .mu-bi button:hover{
+    transform: scale(1,1);
+    background: brown;
+    color: cornsilk;
+  }
+  .btn-menu{
+    border: 2px solid#3F729B;
+    border-radius: 3px;
+    color:#3F729B;
+    width: 150px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .btn-menu:hover{
+    transform: scale(1,1);
+    background: #3F729B;
+    color: cornsilk;
+    border: 2px solid#1C2331;
+  }
+  .bible-menu1{
+    padding: 8px;
+  }
+  .bible-menu1 h4{
+    margin: 10px;
+    padding: 15px;
+    font-size: 50px;
+    font-weight: bold;
+    color: crimson;
+    text-shadow: 1px 1px 2px rgb(8, 8, 8);
+  }
+  .bible-menu1 ul{
+    list-style: none;
+    margin-left: 20px;
+    border-style: outset;
+  }
+  .bible-menu1 li{
+    text-align: justify;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    width:180px;
+    font-size: 16px;
+  }
+  .bible-menu1 a{
+    color: darkred;
+    font-weight: bold;
+  }
+  .bible-menu1 a:hover{
+    color: crimson;
+    text-decoration: none;
+    transform: scale(1,1) translate(10%,10%);
+  }
+  .bible-menu2{
+    padding: 10px;
+  }
+  .bible-menu2 h4{
+    margin: 10px;
+    margin-top: 3px;
+    padding: 15px;
+    font-size: 50px;
+    font-weight: bold;
+    color: crimson;
+    text-shadow: 1px 1px 2px rgb(8, 8, 8);
+  }
+  .bible-menu2 ul{
+    list-style: none;
+    margin-left: 10px;
+    border-style: outset; 
+  }
+  .bible-menu2 li{
+    text-align: justify;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    width:235px;
+    font-size: 16px;
+  }
+  .bible-menu2 a{
+    color: darkred;
+    font-weight: bold;
+  }
+  .bible-menu2 a:hover{
+    color: crimson;
+    text-decoration: none;
+    transform: scale(1,1) translate(10%,10%);
+  }
+  .btn-g{
+    padding: 15px 10px;
+    margin: .5px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid#3F729B;
+    border-radius: 5px;
+    width: 75px;
+    color:  #3F729B;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .btn-g:hover{
+    color: white;
+    background: #1C2331;
+    text-decoration: none;
+  }
+  /* Bible home */
+  /* Bible textament */
+.main-new{
+  background: rgb(255, 255, 255);
+  box-shadow: 5px 5px 2px 2px  rgb(204, 130, 130);
+  padding-top: 7%;
+  
+}
+.content-new{
+  margin-top: 20px;
+}
+.btn-g2{
+  padding: 10px 5px;
+  margin: .5px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid#3F729B;
+  border-radius: 5px;
+  width: 50px;
+  color:#3F729B;
+  font-weight: bold;
+  font-size: 16px;
+}
+.btn-g2:hover{
+  color: white;
+  background:#1C2331;
+  text-decoration: none;
+}
+.new-title h3{
+      font-size: 30px;
+      font-weight: bold;
+      text-shadow: rgb(0, 153, 255) 1px 0 10px;
+      color: crimson;
+      margin: 10px;
+      margin-left: -120px;
+      padding: 5px;
+}
+.bible-menu-group{
+  margin: 5px;
+  padding: 10px;
+  
+}
+.bible-menu-group button{
+  margin: 5px 20px;
+}
+.bible-menu-title{
+  border-bottom: 2px solid rgb(179, 177, 177);
+  border-right: 2px solid rgb(179, 177, 177);
+  box-shadow: 10px 5px 10px 5px rgb(248, 220, 220);
+  border-radius: 10px;
+  text-align: center;
+}
+.bible-menu-title h3{
+  font-size: 23px;
+  font-weight: bold;
+  color: green;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  text-shadow: 5px 5px 5px burlywood;
+  border-bottom: 1px solid rgb(187, 186, 186);
+}
+.BB{
+    position: fixed;
+    margin-top: 200px;
+}
+.BF{
+    position: fixed;
+    margin-top: 200px;
+}
+.btn-bib{
+  border: 2px solid #003f52;
+  padding: 11.2px 15.24px;
+  margin: 5px;
+  color: #012530;
+  background: #80e1ff;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Lobster', cursive;
+}
+.btn-bib:hover {
+  border: 2px solid #00c3ff;
+  border-radius: 10px;
+  padding: 11.2px 15.24px;
+  margin: 5px;
+  color: white;
+  background: #003f52;
+  box-shadow: 5px 1px 20px 1px #616161;
+}
+.p-cont{
+  margin: 15px;
+}
+.p-cont p{
+  text-align: justify;
+}
+.p-cont h4{
+  font-size: 20px;
+  font-weight: bold;
+}
+.p-cont h6{
+  display: inline;
+  font-size: 16px;
+  font-weight: bold;
+}
+    /* Bible textament */
