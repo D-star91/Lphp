@@ -16,4 +16,5 @@ Route::get("/About",[Loyalcontroller::class,"About"]) ->name("about");
 // Bible
 Route::get("/Bible",[Biblecontroller::class,"Bible"]) ->name("bible");
 // New
-Route::get("/Bible/New/Matthew1",[Biblecontroller::class,"Matthew"]) ->name("mat1");
+Route::get("/Bible/New/Matthew1",[Biblecontroller::class,"Matthew1"]) ->name("mat1");
+Route::get("/Bible/New/Matthew2",[Biblecontroller::class,"Matthew2"]) ->name("mat2");

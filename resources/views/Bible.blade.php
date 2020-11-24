@@ -2127,7 +2127,7 @@
                                     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                       <div class="btn-group" role="group" aria-label="First group">
                                         <a href="{{route('mat1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
-                                        <a href="/Bible/new/Mat/mat2.html" class="btn-g" role="button" aria-pressed="true">၂</a>
+                                        <a href="{{route('mat2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
                                         <a href="/Bible/new/Mat/mat3.html" class="btn-g" role="button" aria-pressed="true">၃</a>
                                         <a href="/Bible/new/Mat/mat4.html" class="btn-g" role="button" aria-pressed="true">၄</a>
                                         <a href="/Bible/new/Mat/mat5.html" class="btn-g" role="button" aria-pressed="true">၅</a>
