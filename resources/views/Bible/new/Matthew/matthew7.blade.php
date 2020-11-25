@@ -60,7 +60,7 @@
             </div>
             <div class="col-md-4">
               <div class="new-title">
-                <h3>ရှင်မဿဲခရစ်ဝင် - ၆<h3>
+                <h3>ရှင်မဿဲခရစ်ဝင် - ၇<h3>
               </div>
           </div>
           </div>
