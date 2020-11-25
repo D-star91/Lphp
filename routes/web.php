@@ -27,4 +27,23 @@ Route::get("/Bible/New/Matthew7",[Biblecontroller::class,"Matthew7"])->name("mat
 Route::get("/Bible/New/Matthew8",[Biblecontroller::class,"Matthew8"])->name("mat8");
 Route::get("/Bible/New/Matthew9",[Biblecontroller::class,"Matthew9"])->name("mat9");
 Route::get("/Bible/New/Matthew10",[Biblecontroller::class,"Matthew10"])->name("mat10");
+Route::get("/Bible/New/Matthew11",[Biblecontroller::class,"Matthew11"])->name("mat11");
+Route::get("/Bible/New/Matthew12",[Biblecontroller::class,"Matthew12"])->name("mat12");
+Route::get("/Bible/New/Matthew13",[Biblecontroller::class,"Matthew13"])->name("mat13");
+Route::get("/Bible/New/Matthew14",[Biblecontroller::class,"Matthew14"])->name("mat14");
+Route::get("/Bible/New/Matthew15",[Biblecontroller::class,"Matthew15"])->name("mat15");
+Route::get("/Bible/New/Matthew16",[Biblecontroller::class,"Matthew16"])->name("mat16");
+Route::get("/Bible/New/Matthew17",[Biblecontroller::class,"Matthew17"])->name("mat17");
+Route::get("/Bible/New/Matthew18",[Biblecontroller::class,"Matthew18"])->name("mat18");
+Route::get("/Bible/New/Matthew19",[Biblecontroller::class,"Matthew19"])->name("mat19");
+Route::get("/Bible/New/Matthew20",[Biblecontroller::class,"Matthew20"])->name("mat20");
+Route::get("/Bible/New/Matthew21",[Biblecontroller::class,"Matthew21"])->name("mat21");
+Route::get("/Bible/New/Matthew22",[Biblecontroller::class,"Matthew22"])->name("mat22");
+Route::get("/Bible/New/Matthew23",[Biblecontroller::class,"Matthew23"])->name("mat23");
+Route::get("/Bible/New/Matthew24",[Biblecontroller::class,"Matthew24"])->name("mat24");
+Route::get("/Bible/New/Matthew25",[Biblecontroller::class,"Matthew25"])->name("mat25");
+Route::get("/Bible/New/Matthew26",[Biblecontroller::class,"Matthew26"])->name("mat26");
+Route::get("/Bible/New/Matthew27",[Biblecontroller::class,"Matthew27"])->name("mat27");
+Route::get("/Bible/New/Matthew28",[Biblecontroller::class,"Matthew28"])->name("mat28");
+
 // Bible
