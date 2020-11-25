@@ -18,14 +18,14 @@
                           <div class="btn-group mr-2" role="group" aria-label="First group">
                             <a href="{{route('mat1')}}" class="btn-g2" role="button" aria-pressed="true">၁</a>
                             <a href="{{route('mat2')}}" class="btn-g2" role="button" aria-pressed="true">၂</a>
-                            <a href="/Bible/new/Mat/mat3.html" class="btn-g2" role="button" aria-pressed="true">၃</a>
-                            <a href="/Bible/new/Mat/mat4.html" class="btn-g2" role="button" aria-pressed="true">၄</a>
-                            <a href="/Bible/new/Mat/mat5.html" class="btn-g2" role="button" aria-pressed="true">၅</a>
-                            <a href="/Bible/new/Mat/mat6.html" class="btn-g2" role="button" aria-pressed="true">၆</a>
-                            <a href="/Bible/new/Mat/mat7.html" class="btn-g2" role="button" aria-pressed="true">၇</a>
-                            <a href="/Bible/new/Mat/mat8.html" class="btn-g2" role="button" aria-pressed="true">၈</a>
-                            <a href="/Bible/new/Mat/mat9.html" class="btn-g2" role="button" aria-pressed="true">၉</a>
-                            <a href="/Bible/new/Mat/mat10.html" class="btn-g2" role="button" aria-pressed="true">၁၀</a>
+                            <a href="{{route('mat3')}}" class="btn-g2" role="button" aria-pressed="true">၃</a>
+                            <a href="{{route('mat4')}}" class="btn-g2" role="button" aria-pressed="true">၄</a>
+                            <a href="{{route('mat5')}}" class="btn-g2" role="button" aria-pressed="true">၅</a>
+                            <a href="{{route('mat6')}}" class="btn-g2" role="button" aria-pressed="true">၆</a>
+                            <a href="{{route('mat7')}}" class="btn-g2" role="button" aria-pressed="true">၇</a>
+                            <a href="{{route('mat8')}}" class="btn-g2" role="button" aria-pressed="true">၈</a>
+                            <a href="{{route('mat9')}}" class="btn-g2" role="button" aria-pressed="true">၉</a>
+                            <a href="{{route('mat10')}}" class="btn-g2" role="button" aria-pressed="true">၁၀</a>
                           </div>
                         </div>
                         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
@@ -68,7 +68,7 @@
           <div class="row justify-content-center">
                   <div class="col-md-1">
                       <div class="BB">
-                        <a class="btn-bib" href="{{route('mat2')}}" role="button"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <a class="btn-bib" href="{{route('mat3')}}" role="button"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
                             <path fill-rule="evenodd" d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
                           </svg></a>
@@ -106,7 +106,7 @@
                   </div>
                   <div class="col-auto">
                     <div class="BF">
-                        <a class="btn-bib" href="{{route('mat4')}}" role="button"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <a class="btn-bib" href="{{route('mat5')}}" role="button"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
                             <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
                           </svg></a>
