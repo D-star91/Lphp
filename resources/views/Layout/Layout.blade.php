@@ -25,7 +25,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav mr-auto ml-5">
           <li class="nav-item">
           <a class="navbr-font" href="{{route('home')}}">Home
             <span class="sr-only">(current)</span>
@@ -44,6 +44,10 @@
           </li>
           </li>
           </ul>
+          <form class="form-inline my-2 my-lg-0 ml-auto">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-white btn-md my-2 my-sm-0 ml-3" type="submit">Search</button>
+          </form>
       </div>
     </div>
 </nav>

@@ -261,11 +261,11 @@
     margin-top: 200px;
 }
 .btn-bib{
-  border: 2px solid #003f52;
+  border: 2px solid #008bb6;
   padding: 11.2px 15.24px;
   margin: 5px;
   color: #012530;
-  background: #80e1ff;
+  background: #cbeffa;
   border-radius: 10px;
   font-weight: bold;
   font-size: 16px;
@@ -277,7 +277,7 @@
   padding: 11.2px 15.24px;
   margin: 5px;
   color: white;
-  background: #003f52;
+  background: #01799e;
   box-shadow: 5px 1px 20px 1px #616161;
 }
 .p-cont{
