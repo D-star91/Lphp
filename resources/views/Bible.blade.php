@@ -2681,7 +2681,7 @@
                                       <div class="btn-group" role="group" aria-label="First group">
                                         <a href="/Bible/new/Tit/Tit1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
                                         <a href="/Bible/new/Tit/Tit2.html" class="btn-g" role="button" aria-pressed="true">၂</a>
-                                        <a href="/Bible/new/Tit/Tit3.html" class="btn-g" role="button" aria-pressed="true">၃</a>
+                                        <a href="{{route('tit3')}}" class="btn-g" role="button" aria-pressed="true">၃</a>
                                       </div>
                                     </div> 
                                   </div>
@@ -2700,7 +2700,7 @@
                                   <div class="modal-body">
                                     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="/Bible/new/Phm/phm1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                        <a href="{{route('Phm1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
                                       </div>
                                     </div>  
                                   </div>
@@ -2719,7 +2719,7 @@
                                   <div class="modal-body">
                                     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="/Bible/new/Heb/Heb1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                        <a href="{{route('heb1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
                                         <a href="/Bible/new/Heb/Heb2.html" class="btn-g" role="button" aria-pressed="true">၂</a>
                                         <a href="/Bible/new/Heb/Heb3.html" class="btn-g" role="button" aria-pressed="true">၃</a>
                                         <a href="/Bible/new/Heb/Heb4.html" class="btn-g" role="button" aria-pressed="true">၄</a>

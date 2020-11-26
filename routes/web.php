@@ -47,4 +47,10 @@ Route::get("/Bible/New/Matthew27",[Biblecontroller::class,"Matthew27"])->name("m
 Route::get("/Bible/New/Matthew28",[Biblecontroller::class,"Matthew28"])->name("mat28");
 // Mark
 Route::get("/Bible/New/Mark1",[Biblecontroller::class,"Mark1"])->name("mark1");
+// Titus
+Route::get("/Bible/New/Titus3",[Biblecontroller::class,"Titus3"])->name("tit3");
+// Philemon
+Route::get("/Bible/New/Philemon1",[Biblecontroller::class,"Philemon1"])->name("Phm1");
+// Hebrews
+Route::get("/Bible/New/Hebrews1",[Biblecontroller::class,"Hebrews1"])->name("heb1");
 // Bible
