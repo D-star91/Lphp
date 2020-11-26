@@ -2061,9 +2061,9 @@
                                     <div class="tab-pane fade" id="list-Titus" role="tabpanel" aria-labelledby="list-Titus-list">
                                       <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                           <div class="btn-group" role="group" aria-label="First group">
-                                            <a href="/Bible/new/Tit/Tit1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
-                                            <a href="/Bible/new/Tit/Tit2.html" class="btn-g" role="button" aria-pressed="true">၂</a>
-                                            <a href="/Bible/new/Tit/Tit3.html" class="btn-g" role="button" aria-pressed="true">၃</a>
+                                            <a href="{{route('tit1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                            <a href="{{route('tit2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
+                                            <a href="{{route('tit3')}}" class="btn-g" role="button" aria-pressed="true">၃</a>
                                           </div>
                                         </div>  
                                       </div>

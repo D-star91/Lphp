@@ -96,14 +96,25 @@ class Biblecontroller extends Controller
     function Mark1(){
         return view("Bible.new.Mark.Mark1");
     }
+    // Second Timothy
+    function SecTimothy4(){
+        return view("Bible.new.Second_Timothy.2Tim4");
+    }
+    // Titus
+    function Titus1(){
+        return view("Bible.new.Titus.tit1");
+    }
+    function Titus2(){
+        return view("Bible.new.Titus.tit2");
+    }
+    function Titus3(){
+        return view("Bible.new.Titus.tit3");
+    }
     // Philemon
     function Philemon1(){
         return view("Bible.new.Philemon.philemon1");
     }
-    // Titus
-    function Titus3(){
-        return view("Bible.new.Titus.tit3");
-    }
+    
     // Hebrews
     function hebrews1(){
         return view("Bible.new.Hebrews.heb1");
