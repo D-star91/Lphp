@@ -2070,7 +2070,7 @@
                                     <div class="tab-pane fade" id="list-Philemon" role="tabpanel" aria-labelledby="list-Philemon-list">
                                       <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/Phm/phm1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                          <a href="{{route('Phm1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
                                         </div>
                                       </div>  
                                     </div>
