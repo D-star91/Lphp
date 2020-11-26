@@ -2127,43 +2127,43 @@
                                     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                       <div class="btn-group" role="group" aria-label="First group">
                                         <a href="{{route('mat1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
-                                        <a href="/Bible/new/Mat/mat2.html" class="btn-g" role="button" aria-pressed="true">၂</a>
-                                        <a href="/Bible/new/Mat/mat3.html" class="btn-g" role="button" aria-pressed="true">၃</a>
-                                        <a href="/Bible/new/Mat/mat4.html" class="btn-g" role="button" aria-pressed="true">၄</a>
-                                        <a href="/Bible/new/Mat/mat5.html" class="btn-g" role="button" aria-pressed="true">၅</a>
+                                        <a href="{{route('mat2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
+                                        <a href="{{route('mat3')}}" class="btn-g" role="button" aria-pressed="true">၃</a>
+                                        <a href="{{route('mat4')}}" class="btn-g" role="button" aria-pressed="true">၄</a>
+                                        <a href="{{route('mat5')}}" class="btn-g" role="button" aria-pressed="true">၅</a>
                                       </div>
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="/Bible/new/Mat/mat6.html" class="btn-g" role="button" aria-pressed="true">၆</a>
-                                        <a href="/Bible/new/Mat/mat7.html" class="btn-g" role="button" aria-pressed="true">၇</a>
-                                        <a href="/Bible/new/Mat/mat8.html" class="btn-g" role="button" aria-pressed="true">၈</a>
-                                        <a href="/Bible/new/Mat/mat9.html" class="btn-g" role="button" aria-pressed="true">၉</a>
-                                        <a href="/Bible/new/Mat/mat10.html" class="btn-g" role="button" aria-pressed="true">၁၀</a>
+                                        <a href="{{route('mat6')}}" class="btn-g" role="button" aria-pressed="true">၆</a>
+                                        <a href="{{route('mat7')}}" class="btn-g" role="button" aria-pressed="true">၇</a>
+                                        <a href="{{route('mat8')}}" class="btn-g" role="button" aria-pressed="true">၈</a>
+                                        <a href="{{route('mat9')}}" class="btn-g" role="button" aria-pressed="true">၉</a>
+                                        <a href="{{route('mat10')}}" class="btn-g" role="button" aria-pressed="true">၁၀</a>
                                       </div>
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="/Bible/new/Mat/mat11.html" class="btn-g" role="button" aria-pressed="true">၁၁</a>
-                                        <a href="/Bible/new/Mat/mat12.html" class="btn-g" role="button" aria-pressed="true">၁၂</a>
-                                        <a href="/Bible/new/Mat/mat13.html" class="btn-g" role="button" aria-pressed="true">၁၃</a>
-                                        <a href="/Bible/new/Mat/mat14.html" class="btn-g" role="button" aria-pressed="true">၁၄</a>
-                                        <a href="/Bible/new/Mat/mat15.html" class="btn-g" role="button" aria-pressed="true">၁၅</a>
+                                        <a href="{{route('mat11')}}" class="btn-g" role="button" aria-pressed="true">၁၁</a>
+                                        <a href="{{route('mat12')}}" class="btn-g" role="button" aria-pressed="true">၁၂</a>
+                                        <a href="{{route('mat13')}}" class="btn-g" role="button" aria-pressed="true">၁၃</a>
+                                        <a href="{{route('mat14')}}" class="btn-g" role="button" aria-pressed="true">၁၄</a>
+                                        <a href="{{route('mat15')}}" class="btn-g" role="button" aria-pressed="true">၁၅</a>
                                       </div>
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="/Bible/new/Mat/mat16.html" class="btn-g" role="button" aria-pressed="true">၁၆</a>
-                                        <a href="/Bible/new/Mat/mat17.html" class="btn-g" role="button" aria-pressed="true">၁၇</a>
-                                        <a href="/Bible/new/Mat/mat18.html" class="btn-g" role="button" aria-pressed="true">၁၈</a>
-                                        <a href="/Bible/new/Mat/mat19.html" class="btn-g" role="button" aria-pressed="true">၁၉</a>
-                                        <a href="/Bible/new/Mat/mat20.html" class="btn-g" role="button" aria-pressed="true">၂၀</a>
+                                        <a href="{{route('mat16')}}" class="btn-g" role="button" aria-pressed="true">၁၆</a>
+                                        <a href="{{route('mat17')}}" class="btn-g" role="button" aria-pressed="true">၁၇</a>
+                                        <a href="{{route('mat18')}}" class="btn-g" role="button" aria-pressed="true">၁၈</a>
+                                        <a href="{{route('mat19')}}" class="btn-g" role="button" aria-pressed="true">၁၉</a>
+                                        <a href="{{route('mat20')}}" class="btn-g" role="button" aria-pressed="true">၂၀</a>
                                       </div>
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="/Bible/new/Mat/mat21.html" class="btn-g" role="button" aria-pressed="true">၂၁</a>
-                                        <a href="/Bible/new/Mat/mat22.html" class="btn-g" role="button" aria-pressed="true">၂၂</a>
-                                        <a href="/Bible/new/Mat/mat23.html" class="btn-g" role="button" aria-pressed="true">၂၃</a>
-                                        <a href="/Bible/new/Mat/mat24.html" class="btn-g" role="button" aria-pressed="true">၂၄</a>
-                                        <a href="/Bible/new/Mat/mat25.html" class="btn-g" role="button" aria-pressed="true">၂၅</a>
+                                        <a href="{{route('mat21')}}" class="btn-g" role="button" aria-pressed="true">၂၁</a>
+                                        <a href="{{route('mat22')}}" class="btn-g" role="button" aria-pressed="true">၂၂</a>
+                                        <a href="{{route('mat23')}}" class="btn-g" role="button" aria-pressed="true">၂၃</a>
+                                        <a href="{{route('mat24')}}" class="btn-g" role="button" aria-pressed="true">၂၄</a>
+                                        <a href="{{route('mat25')}}" class="btn-g" role="button" aria-pressed="true">၂၅</a>
                                       </div>
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="/Bible/new/Mat/mat26.html" class="btn-g" role="button" aria-pressed="true">၂၆</a>
-                                        <a href="/Bible/new/Mat/mat27.html" class="btn-g" role="button" aria-pressed="true">၂၇</a>
-                                        <a href="/Bible/new/Mat/mat28.html" class="btn-g" role="button" aria-pressed="true">၂၈</a>
+                                        <a href="{{route('mat26')}}" class="btn-g" role="button" aria-pressed="true">၂၆</a>
+                                        <a href="{{route('mat27')}}" class="btn-g" role="button" aria-pressed="true">၂၇</a>
+                                        <a href="{{route('mat28')}}" class="btn-g" role="button" aria-pressed="true">၂၈</a>
                                       </div>
                                     </div>
                                   </div>

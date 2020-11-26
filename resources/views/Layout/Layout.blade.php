@@ -106,10 +106,10 @@
                   <button class="btn btn-sm btn-outline-white my-0" type="submit">Subscribe</button>
                 </div>
               </form>
-              @if(Session('success'))
-                    <div class="text-center mt-2">
-                      {{Session('success')}}
-                    </div>   
+                @if (session('status'))
+                    <div class="alert alert-success">
+                        {{ session('status') }}
+                    </div>
               @endif
                   @error("userName")
                       <p class="text-danger">{{$message}}</p>
