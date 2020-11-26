@@ -4,10 +4,10 @@
         <div class="main-new">
         
         </div>
-      <div class="content-new">
+      <div class="content-new ">
         <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-4">
+          <div class="row justify-content-center ">
+            <div class="col-md-4 ">
               <div class="dropdown">
                 <button class="btn btn-outline-danger dropdown-toggle mt-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   ရှင်မဿဲခရစ်ဝင် အခန်းကြီး
@@ -62,9 +62,9 @@
               <div class="new-title">
               <h3>ရှင်မဿဲခရစ်ဝင် - ၁<h3>
               </div>
+            </div>
           </div>
-          </div>
-          </div>  
+          </div>  <hr>
           <div class="row justify-content-center">
                   <div class="col-md-1">
                       <div class="BB">
@@ -114,7 +114,6 @@
                     </div>
                 </div>
           </div>
-          
         </div>
         </div>
       </div>  
