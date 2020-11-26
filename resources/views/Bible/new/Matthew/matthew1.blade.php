@@ -4,10 +4,10 @@
         <div class="main-new">
         
         </div>
-      <div class="content-new">
+      <div class="content-new ">
         <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-4">
+          <div class="row justify-content-center ">
+            <div class="col-md-4 ">
               <div class="dropdown">
                 <button class="btn btn-outline-danger dropdown-toggle mt-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   ရှင်မဿဲခရစ်ဝင် အခန်းကြီး
@@ -62,9 +62,9 @@
               <div class="new-title">
               <h3>ရှင်မဿဲခရစ်ဝင် - ၁<h3>
               </div>
+            </div>
           </div>
           </div>
-          </div>  
           <div class="row justify-content-center">
                   <div class="col-md-1">
                       <div class="BB">
@@ -75,7 +75,7 @@
                       </div>
                   </div>              
                   <div class="col-md-8 p-cont">
-                    <h5>အခန်းကြီး - ၁</h5>
+                    <h4>အခန်းကြီး - ၁</h4>
                         <p class="text-justify"> <p><h6>ယေ​ရှု​ခ​ရစ်​၏​ဆွေ​စဉ်​မျိုး​ဆက်</h6></p>
                       <h6>၁</h6> အာ​ဗြ​ဟံ​နှင့် ဒါ​ဝိဒ်​တို့​မှ​ဆင်း​သက်​တော်​မူ​သော ယေ​ရှု​ခ​ရစ်၏ ဆွေ​တော်​စဉ်​မျိုး​တော်​ဆက် စာ​ရင်း​ဟူ​မူ​ကား၊-<br>
                       <h6>၂</h6> 	အာ​ဗြ​ဟံ​သား ဣ​ဇာက်။ ဣ​ဇာက်​သား ယာ​ကုပ်။ ယာ​ကုပ်​သား ယု​ဒ​မှ​စ၍ ညီ​နောင်​တစ်​စု။-</h6><br>
@@ -114,7 +114,6 @@
                     </div>
                 </div>
           </div>
-          
         </div>
         </div>
       </div>  

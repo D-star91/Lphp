@@ -45,5 +45,6 @@ Route::get("/Bible/New/Matthew25",[Biblecontroller::class,"Matthew25"])->name("m
 Route::get("/Bible/New/Matthew26",[Biblecontroller::class,"Matthew26"])->name("mat26");
 Route::get("/Bible/New/Matthew27",[Biblecontroller::class,"Matthew27"])->name("mat27");
 Route::get("/Bible/New/Matthew28",[Biblecontroller::class,"Matthew28"])->name("mat28");
-
+// Mark
+Route::get("/Bible/New/Mark1",[Biblecontroller::class,"Mark1"])->name("mark1");
 // Bible

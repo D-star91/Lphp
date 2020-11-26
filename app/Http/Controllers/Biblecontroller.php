@@ -92,6 +92,10 @@ class Biblecontroller extends Controller
         return view("Bible.new.Matthew.matthew28");
     }
 
+    // Mark
+    function Mark1(){
+        return view("Bible.new.Mark.Mark1");
+    }
     // main
     function Bible(){
         return view("Bible");
