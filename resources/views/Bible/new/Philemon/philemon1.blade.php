@@ -10,48 +10,13 @@
             <div class="col-md-4 ">
               <div class="dropdown">
                 <button class="btn btn-outline-danger dropdown-toggle mt-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  ရှင်မဿဲခရစ်ဝင် အခန်းကြီး
+                  ဖိလေမုန်ဩဝါဒစာ အခန်းကြီး
                 </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                       <div class="card-body">
                         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                           <div class="btn-group mr-2" role="group" aria-label="First group">
-                            <a href="{{route('mat1')}}" class="btn-g2" role="button" aria-pressed="true">၁</a>
-                            <a href="{{route('mat2')}}" class="btn-g2" role="button" aria-pressed="true">၂</a>
-                            <a href="{{route('mat3')}}" class="btn-g2" role="button" aria-pressed="true">၃</a>
-                            <a href="{{route('mat4')}}" class="btn-g2" role="button" aria-pressed="true">၄</a>
-                            <a href="{{route('mat5')}}" class="btn-g2" role="button" aria-pressed="true">၅</a>
-                            <a href="{{route('mat6')}}" class="btn-g2" role="button" aria-pressed="true">၆</a>
-                            <a href="{{route('mat7')}}" class="btn-g2" role="button" aria-pressed="true">၇</a>
-                            <a href="{{route('mat8')}}" class="btn-g2" role="button" aria-pressed="true">၈</a>
-                            <a href="{{route('mat9')}}" class="btn-g2" role="button" aria-pressed="true">၉</a>
-                            <a href="{{route('mat10')}}" class="btn-g2" role="button" aria-pressed="true">၁၀</a>
-                          </div>
-                        </div>
-                        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                          <div class="btn-group mr-2" role="group" aria-label="First group">
-                            <a href="{{route('mat11')}}" class="btn-g2" role="button" aria-pressed="true">၁၁</a>
-                            <a href="{{route('mat12')}}" class="btn-g2" role="button" aria-pressed="true">၁၂</a>
-                            <a href="{{route('mat13')}}" class="btn-g2" role="button" aria-pressed="true">၁၃</a>
-                            <a href="{{route('mat14')}}" class="btn-g2" role="button" aria-pressed="true">၁၄</a>
-                            <a href="{{route('mat15')}}" class="btn-g2" role="button" aria-pressed="true">၁၅</a>
-                            <a href="{{route('mat16')}}" class="btn-g2" role="button" aria-pressed="true">၁၆</a>
-                            <a href="{{route('mat17')}}" class="btn-g2" role="button" aria-pressed="true">၁၇</a>
-                            <a href="{{route('mat18')}}" class="btn-g2" role="button" aria-pressed="true">၁၈</a>
-                            <a href="{{route('mat19')}}" class="btn-g2" role="button" aria-pressed="true">၁၉</a>
-                            <a href="{{route('mat20')}}" class="btn-g2" role="button" aria-pressed="true">၂၀</a>
-                          </div>
-                        </div>
-                        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                          <div class="btn-group mr-2" role="group" aria-label="First group">
-                            <a href="{{route('mat21')}}" class="btn-g2" role="button" aria-pressed="true">၂၁</a>
-                            <a href="{{route('mat22')}}" class="btn-g2" role="button" aria-pressed="true">၂၂</a>
-                            <a href="{{route('mat23')}}" class="btn-g2" role="button" aria-pressed="true">၂၃</a>
-                            <a href="{{route('mat24')}}" class="btn-g2" role="button" aria-pressed="true">၂၄</a>
-                            <a href="{{route('mat25')}}" class="btn-g2" role="button" aria-pressed="true">၂၅</a>
-                            <a href="{{route('mat26')}}" class="btn-g2" role="button" aria-pressed="true">၂၆</a>
-                            <a href="{{route('mat27')}}" class="btn-g2" role="button" aria-pressed="true">၂၇</a>
-                            <a href="{{route('mat28')}}" class="btn-g2" role="button" aria-pressed="true">၂၈</a>
+                            <a href="{{route('Phm1')}}" class="btn-g2" role="button" aria-pressed="true">၁</a>
                           </div>
                         </div>
                       </div>
@@ -60,7 +25,7 @@
             </div>
             <div class="col-md-4">
               <div class="new-title">
-              <h3>ရှင်မဿဲခရစ်ဝင် - ၁<h3>
+              <h3>ဖိလေမုန်ဩဝါဒစာ - ၁<h3>
               </div>
             </div>
           </div>
