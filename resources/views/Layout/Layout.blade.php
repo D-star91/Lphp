@@ -106,6 +106,7 @@
                   <button class="btn btn-sm btn-outline-white my-0" type="submit">Subscribe</button>
                 </div>
               </form>
+              
                 @if (session('status'))
                     <div class="alert alert-success">
                         {{ session('status') }}

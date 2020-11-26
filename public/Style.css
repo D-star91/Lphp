@@ -212,6 +212,71 @@ h5 {
   background-image: url(Image/Lesson.png);
 }
 /* Registered */
+
+/* prayform */
+.prayform{
+  border: 2px solid rgb(155, 155, 155);
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.prayform p{
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+.ll-select{
+  border: 1px solid rgb(179, 177, 177);
+  border-radius: 3px;
+  width: 120px;
+  padding: 5px;
+  display: block;
+}
+.ll-select option{
+  padding: 10px ;
+}
+.lable{
+  margin-top: 15px;
+}
+.btn-pray{
+  border: 1px solid #003f52;
+  padding: 5.2px 34.24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #000000;
+  background: #f5f5f5;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Lobster', cursive;
+  display: block;
+}
+.btn-pray:hover{
+  border: 1px solid #464646;
+  border-radius: 5px;
+  padding: 5.2px 34.24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  background: #b0b1b1;
+  box-shadow: 5px 1px 20px 1px #dbdada;
+}
+.h{
+  font-size: 25px;
+  font-weight: bold;
+  color: crimson;
+  text-align: center;
+  
+}
+.my-custom-scrollbar {
+  position: relative;
+  height: 400px;
+  overflow: auto;
+  }
+  .table-wrapper-scroll-y {
+  display: block;
+  }
+/* prayform */
 /* index */
 
 
