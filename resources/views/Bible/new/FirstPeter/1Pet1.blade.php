@@ -16,11 +16,11 @@
                       <div class="card-body">
                         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                           <div class="btn-group mr-2" role="group" aria-label="First group">
-                            <a href="{{route('Jam1')}}" class="btn-g2" role="button" aria-pressed="true">၁</a>
-                            <a href="{{route('Jam2')}}" class="btn-g2" role="button" aria-pressed="true">၂</a>
-                            <a href="{{route('Jam3')}}" class="btn-g2" role="button" aria-pressed="true">၃</a>
-                            <a href="{{route('Jam4')}}" class="btn-g2" role="button" aria-pressed="true">၄</a>
-                            <a href="{{route('Jam5')}}" class="btn-g2" role="button" aria-pressed="true">၅</a>
+                            <a href="{{route('1Pet1')}}" class="btn-g2" role="button" aria-pressed="true">၁</a>
+                            <a href="{{route('1Pet2')}}" class="btn-g2" role="button" aria-pressed="true">၂</a>
+                            <a href="{{route('1Pet3')}}" class="btn-g2" role="button" aria-pressed="true">၃</a>
+                            <a href="{{route('1Pet4')}}" class="btn-g2" role="button" aria-pressed="true">၄</a>
+                            <a href="{{route('1Pet5')}}" class="btn-g2" role="button" aria-pressed="true">၅</a>
                           </div>
                         </div>
                       </div>
