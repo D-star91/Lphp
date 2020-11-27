@@ -29,7 +29,7 @@
             </div>
             <div class="col-md-4">
               <div class="new-title">
-              <h3>ရှင်ယာကုပ်ဩဝါဒစာ - ၅<h3>
+              <h3>ရှင်ပေတရုဩဝါဒစာ ပထမစောင် - ၁<h3>
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@
           <div class="row justify-content-center">
                   <div class="col-md-1">
                       <div class="BB">
-                        <a class="btn-bib" href="{{route('Jam4')}}" role="button"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <a class="btn-bib" href="{{route('Jam5')}}" role="button"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
                             <path fill-rule="evenodd" d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
                           </svg></a>
@@ -73,7 +73,7 @@
                   </div>
                   <div class="col-auto">
                     <div class="BF">
-                        <a class="btn-bib" href="{{route('1Pet1')}}" role="button"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <a class="btn-bib" href="{{route('1Pet2')}}" role="button"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
                             <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
                           </svg></a>

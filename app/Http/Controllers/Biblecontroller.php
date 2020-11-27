@@ -139,6 +139,22 @@ class Biblecontroller extends Controller
     function Jame5(){
         return view("Bible.new.James.Jam5");
     }
+    // First Peter
+    function FirstPeter1(){
+        return view("Bible.new.FirstPeter.1Pet1");
+    }
+    function FirstPeter2(){
+        return view("Bible.new.FirstPeter.1Pet2");
+    }
+    function FirstPeter3(){
+        return view("Bible.new.FirstPeter.1Pet3");
+    }
+    function FirstPeter4(){
+        return view("Bible.new.FirstPeter.1Pet4");
+    }
+    function FirstPeter5(){
+        return view("Bible.new.FirstPeter.1Pet5");
+    }
     // main
     function Bible(){
         return view("Bible");
