@@ -277,6 +277,38 @@ h5 {
   display: block;
   }
 /* prayform */
+
+/* card */
+.btn-card {
+  
+  padding: 6.200px 25.600px;
+  margin: 6px;
+  background: #80e1ff;
+  border-radius: 3px;
+  font-family: 'Lobster', cursive;
+  box-shadow: 2px 5px 8px 5px #eeecec;
+}
+
+.btn-card:hover {
+  
+  border-radius: 3px;
+  padding: 6.200px 25.600px;
+  margin: 6px;
+  color: #ec407a;
+  box-shadow: 2px 5px 15px 5px #cccaca;
+}
+.card-body a{
+  color: #ec407a;
+}
+.pink-lighter-hover {
+  color: #ec407a;
+  -webkit-transition: .4s;
+  transition: .4s; }
+.pink-lighter-hover:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: #f386aa; }
+/* card */
 /* index */
 
 

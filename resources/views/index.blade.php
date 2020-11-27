@@ -99,10 +99,99 @@
 
                   </div>
             </div>
+          </div><hr>
+          <div class="row">
+            <!-- Card deck -->
+<div class="card-deck mt-4">
+
+<!-- Card -->
+<div class="card mb-4">
+
+  <!--Card image-->
+  <div class="view overlay">
+    <img class="card-img-top" src="{{asset('Image/books.png')}}"
+      alt="Card image cap">
+    <a href="{{route('book')}}">
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  <!--Card content-->
+  <div class="card-body">
+
+    <!--Title-->
+    <h4 class="card-title font-weight-bold pink-lighter-hover">Books</h4>
+    <!--Text-->
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+      content.</p>
+    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+    <a href="{{route('book')}}" type="submit" class="btn-card" >Read more</a>
+
+  </div>
+
+</div>
+<!-- Card -->
+
+<!-- Card -->
+<div class="card mb-4">
+
+  <!--Card image-->
+  <div class="view overlay">
+    <img class="card-img-top" src="{{asset('Image/bibles.png')}}"
+      alt="Card image cap">
+    <a href="{{route('bible')}}">
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  <!--Card content-->
+  <div class="card-body" action="{{route('bible')}}">
+
+    <!--Title-->
+    <h4 class="card-title font-weight-bold pink-lighter-hover">Bible</h4>
+    <!--Text-->
+    <p class="card-text">ဟေဗြဲ၊ဟေလသပါဠိတော်မှ၊မြန်မာဘာသာအားဖြင့်၊ဆရာယုဒသန်အနက်ပြန်သောဓမ္မဟောင်းကျမ်းနှင့်ဓမ္မသစ်ကျမ်း</p>
+    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+    <a href="{{route('bible')}}" type="submit" class="btn-card" >Read more</a>
+
+  </div>
+
+</div>
+<!-- Card -->
+
+<!-- Card -->
+<div class="card mb-4">
+
+  <!--Card image-->
+  <div class="view overlay">
+    <img class="card-img-top" src="{{asset('Image/donate.png')}}"
+      alt="Card image cap">
+    <a href="#!">
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  <!--Card content-->
+  <div class="card-body">
+
+    <!--Title-->
+    <h4 class="card-title font-weight-bold pink-lighter-hover">Activities</h4>
+    <!--Text-->
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+      content.</p>
+    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+    <a href="" type="submit" class="btn-card" >Read more</a>
+
+  </div>
+
+</div>
+<!-- Card -->
+
+</div>
+<!-- Card deck -->
           </div>
-          <div class="row"></div>
         </div>
       </div>
         
-      
+    .
 @endsection

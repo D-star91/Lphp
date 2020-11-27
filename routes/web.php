@@ -57,4 +57,5 @@ Route::get("/Bible/New/Titus3",[Biblecontroller::class,"Titus3"])->name("tit3");
 Route::get("/Bible/New/Philemon1",[Biblecontroller::class,"Philemon1"])->name("Phm1");
 // Hebrews
 Route::get("/Bible/New/Hebrews1",[Biblecontroller::class,"Hebrews1"])->name("heb1");
+Route::get("/Bible/New/Hebrews13",[Biblecontroller::class,"Hebrews13"])->name("heb13");
 // Bible

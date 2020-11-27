@@ -119,6 +119,10 @@ class Biblecontroller extends Controller
     function hebrews1(){
         return view("Bible.new.Hebrews.heb1");
     }
+
+    function hebrews13(){
+        return view("Bible.new.Hebrews.heb13");
+    }
     // main
     function Bible(){
         return view("Bible");
