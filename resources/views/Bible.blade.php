@@ -2777,11 +2777,11 @@
                                   <div class="modal-body">
                                     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="/Bible/new/1Pet/1Pet1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
-                                        <a href="/Bible/new/1Pet/1Pet2.html" class="btn-g" role="button" aria-pressed="true">၂</a>
-                                        <a href="/Bible/new/1Pet/1Pet3.html" class="btn-g" role="button" aria-pressed="true">၃</a>
-                                        <a href="/Bible/new/1Pet/1Pet4.html" class="btn-g" role="button" aria-pressed="true">၄</a>
-                                        <a href="/Bible/new/1Pet/1Pet5.html" class="btn-g" role="button" aria-pressed="true">၅</a>
+                                        <a href="{{route('1Pet1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                        <a href="{{route('1Pet2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
+                                        <a href="{{route('1Pet3')}}" class="btn-g" role="button" aria-pressed="true">၃</a>
+                                        <a href="{{route('1Pet4')}}" class="btn-g" role="button" aria-pressed="true">၄</a>
+                                        <a href="{{route('1Pet5')}}" class="btn-g" role="button" aria-pressed="true">၅</a>
                                       </div>
                                     </div>   
                                   </div>
@@ -2800,9 +2800,9 @@
                                   <div class="modal-body">
                                     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="/Bible/new/2Pet/2Pet1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
-                                        <a href="/Bible/new/2Pet/2Pet2.html" class="btn-g" role="button" aria-pressed="true">၂</a>
-                                        <a href="/Bible/new/2Pet/2Pet3.html" class="btn-g" role="button" aria-pressed="true">၃</a>
+                                        <a href="{{route('2Pet1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                        <a href="{{route('2Pet2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
+                                        <a href="{{route('2Pet3')}}" class="btn-g" role="button" aria-pressed="true">၃</a>
                                       </div>  
                                     </div> 
                                   </div>
