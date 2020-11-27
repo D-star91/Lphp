@@ -74,4 +74,10 @@ Route::get("/Bible/New/1Peter5",[Biblecontroller::class,"FirstPeter5"])->name("1
 Route::get("/Bible/New/2Peter1",[Biblecontroller::class,"SecondPeter1"])->name("2Pet1");
 Route::get("/Bible/New/2Peter2",[Biblecontroller::class,"SecondPeter2"])->name("2Pet2");
 Route::get("/Bible/New/2Peter3",[Biblecontroller::class,"SecondPeter3"])->name("2Pet3");
+// First John
+Route::get("/Bible/New/1John1",[Biblecontroller::class,"FirstJohn1"])->name("1Joh1");
+Route::get("/Bible/New/1John2",[Biblecontroller::class,"FirstJohn2"])->name("1Joh2");
+Route::get("/Bible/New/1John3",[Biblecontroller::class,"FirstJohn3"])->name("1Joh3");
+Route::get("/Bible/New/1John4",[Biblecontroller::class,"FirstJohn4"])->name("1Joh4");
+Route::get("/Bible/New/1John5",[Biblecontroller::class,"FirstJohn5"])->name("1Joh5");
 // Bible
