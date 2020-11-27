@@ -36,12 +36,15 @@
           </li>
           <li class="nav-item">
           <a class=" navbr-font" href="{{route('book')}}">Books</a>
+          </li>
+          <li class="nav-item">
+          <a class=" navbr-font" href="{{route('prayer')}}">Prayer</a>
+          </li>
           <li class="nav-item">
           <a class=" navbr-font" href="{{route('contact')}}">Contact</a>
           </li>
           <li class="nav-item">
           <a class=" navbr-font" href="{{route('about')}}">About</a>
-          </li>
           </li>
           </ul>
           <form class="form-inline my-2 my-lg-0 ml-auto">
@@ -2208,6 +2211,100 @@
                 </div>
               </div>
           </div><hr>
+      <div class="card-index">
+          <div class="container">
+            <div class="row">
+            <!-- Card deck -->
+<div class="card-deck mt-4">
+
+<!-- Card -->
+<div class="card mb-4">
+
+  <!--Card image-->
+  <div class="view overlay">
+    <img class="card-img-top" src="{{asset('Image/books.png')}}"
+      alt="Card image cap">
+    <a href="{{route('book')}}">
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  <!--Card content-->
+  <div class="card-body">
+
+    <!--Title-->
+    <h4 class="card-title font-weight-bold pink-lighter-hover">Books</h4>
+    <!--Text-->
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+      content.</p>
+    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+    <a href="{{route('book')}}" type="submit" class="btn-card" >Read more</a>
+
+  </div>
+
+</div>
+<!-- Card -->
+
+<!-- Card -->
+<div class="card mb-4">
+
+  <!--Card image-->
+  <div class="view overlay">
+    <img class="card-img-top" src="{{asset('Image/bibles.png')}}"
+      alt="Card image cap">
+    <a href="{{route('bible')}}">
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  <!--Card content-->
+  <div class="card-body" action="{{route('bible')}}">
+
+    <!--Title-->
+    <h4 class="card-title font-weight-bold pink-lighter-hover">Bible</h4>
+    <!--Text-->
+    <p class="card-text">ဟေဗြဲ၊ဟေလသပါဠိတော်မှ၊မြန်မာဘာသာအားဖြင့်၊ဆရာယုဒသန်အနက်ပြန်သောဓမ္မဟောင်းကျမ်းနှင့်ဓမ္မသစ်ကျမ်း</p>
+    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+    <a href="{{route('bible')}}" type="submit" class="btn-card" >Read more</a>
+
+  </div>
+
+</div>
+<!-- Card -->
+
+<!-- Card -->
+<div class="card mb-4">
+
+  <!--Card image-->
+  <div class="view overlay">
+    <img class="card-img-top" src="{{asset('Image/donate.png')}}"
+      alt="Card image cap">
+    <a href="#!">
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  <!--Card content-->
+  <div class="card-body">
+
+    <!--Title-->
+    <h4 class="card-title font-weight-bold pink-lighter-hover">Activities</h4>
+    <!--Text-->
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+      content.</p>
+    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+    <a href="" type="submit" class="btn-card" >Read more</a>
+
+  </div>
+
+</div>
+<!-- Card -->
+
+</div>
+<!-- Card deck -->
+            </div><hr>
+          </div>
+        </div>
 <!-- footer -->
       <footer class="page-footer font-small special-color-dark pt-4">
         <div class="container">
@@ -2218,7 +2315,7 @@
             </div>
             <!-- Social button -->
             <div class="col">
-              <h5 class="font-weight-bold text-uppercase mt-3 mb-2">Bible</h5>
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-2">Vision</h5>
                 <ul class="list-unstyled">
                   <li>
                     <a href="#!">Old Testaments</a>
@@ -2232,7 +2329,7 @@
                 </ul>
             </div>
             <div class="col">
-              <h5 class="font-weight-bold text-uppercase mt-3 mb-2">Bible</h5>
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-2">Mission</h5>
               <ul class="list-unstyled">
                 <li>
                   <a href="#!">Old Testaments</a>
@@ -2271,7 +2368,7 @@
               <!-- Social -->
         <ul class="list-unstyled list-inline text-center mt-5">
           <li class="list-inline-item">
-            <a class="btn-floating btn-fb mx-3">
+            <a class="btn-floating btn-fb mx-3" href="https://www.facebook.com/loyalland91/" target="_back">
               <i class="fab fa-facebook"></i>
             </a>
           </li>
@@ -2281,17 +2378,17 @@
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="btn-floating btn-li mx-3">
+            <a class="btn-floating btn-li mx-3" >
               <i class="fab fa-linkedin-in"> </i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="btn-floating btn-dribbble mx-3">
+            <a class="btn-floating btn-dribbble mx-3" href="https://www.youtube.com/channel/UCQqEREbXJChXr4HV2AW-4-g?view_as=subscriber" target="_back">
             <i class="fab fa-youtube"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="btn-floating btn-dribbble mx-3">
+            <a class="btn-floating btn-dribbble mx-3" href="https://www.instagram.com/loyalland91/" target="_back">
             <i class="fab fa-instagram"></i>
             </a>
           </li>

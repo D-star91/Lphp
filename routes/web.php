@@ -13,6 +13,10 @@ Route::get("/Book",[Loyalcontroller::class,"Book"]) ->name("book");
 Route::get("/Contact",[Contactcontroller::class,"Contact"]) ->name("contact");
 Route::post("/Contact",[Contactcontroller::class,"usercontact"]) ->name("usercontact");
 Route::get("/About",[Loyalcontroller::class,"About"]) ->name("about");
+// Prayer
+Route::get("/Prayer",[Loyalcontroller::class,"Prayer"]) ->name("prayer");
+// Prayer
+
 // Bible
 Route::get("/Bible",[Biblecontroller::class,"Bible"])->name("bible");
 // New

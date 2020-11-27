@@ -32,6 +32,9 @@ class Loyalcontroller extends Controller
         function Book(){
             return view("Book");
         }
+        function Prayer(){
+            return view("Prayer");
+        }
         function About(){
             return view("About");
         }

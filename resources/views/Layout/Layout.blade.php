@@ -36,12 +36,15 @@
           </li>
           <li class="nav-item">
           <a class=" navbr-font" href="{{route('book')}}">Books</a>
+          </li>
+          <li class="nav-item">
+          <a class=" navbr-font" href="{{route('prayer')}}">Prayer</a>
+          </li>
           <li class="nav-item">
           <a class=" navbr-font" href="{{route('contact')}}">Contact</a>
           </li>
           <li class="nav-item">
           <a class=" navbr-font" href="{{route('about')}}">About</a>
-          </li>
           </li>
           </ul>
           <form class="form-inline my-2 my-lg-0 ml-auto">
@@ -56,7 +59,6 @@
 
     @yield("content")
 
-
 <!-- footer -->
       <footer class="page-footer font-small special-color-dark pt-4">
         <div class="container">
@@ -67,7 +69,7 @@
             </div>
             <!-- Social button -->
             <div class="col">
-              <h5 class="font-weight-bold text-uppercase mt-3 mb-2">Bible</h5>
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-2">Vision</h5>
                 <ul class="list-unstyled">
                   <li>
                     <a href="#!">Old Testaments</a>
@@ -81,7 +83,7 @@
                 </ul>
             </div>
             <div class="col">
-              <h5 class="font-weight-bold text-uppercase mt-3 mb-2">Bible</h5>
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-2">Mission</h5>
               <ul class="list-unstyled">
                 <li>
                   <a href="#!">Old Testaments</a>
@@ -121,7 +123,7 @@
               <!-- Social -->
         <ul class="list-unstyled list-inline text-center mt-5">
           <li class="list-inline-item">
-            <a class="btn-floating btn-fb mx-3">
+            <a class="btn-floating btn-fb mx-3" href="https://www.facebook.com/loyalland91/" target="_back">
               <i class="fab fa-facebook"></i>
             </a>
           </li>
@@ -131,17 +133,17 @@
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="btn-floating btn-li mx-3">
+            <a class="btn-floating btn-li mx-3" >
               <i class="fab fa-linkedin-in"> </i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="btn-floating btn-dribbble mx-3">
+            <a class="btn-floating btn-dribbble mx-3" href="https://www.youtube.com/channel/UCQqEREbXJChXr4HV2AW-4-g?view_as=subscriber" target="_back">
             <i class="fab fa-youtube"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="btn-floating btn-dribbble mx-3">
+            <a class="btn-floating btn-dribbble mx-3" href="https://www.instagram.com/loyalland91/" target="_back">
             <i class="fab fa-instagram"></i>
             </a>
           </li>

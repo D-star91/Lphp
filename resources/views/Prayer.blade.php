@@ -1,7 +1,7 @@
 @extends("Layout.Layout")
 @section("content")
-    
-      <div class="bg">
+
+    <div class="bg-pray">
         <div class="mask rgba-cyan-light align-items-center">
               <!-- Content -->
           <div class="container">
@@ -9,10 +9,9 @@
               <div class="row">
                   <!--Grid column-->
                 <div class="col-md-12 mb-4 white-text text-center">
-                    <h1 class="h1-font mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Loyal Land</strong></h1>
+                    <h1 class="h1-font mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Prayer</strong></h1>
                     <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
-                    <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Ministry</strong></h5>
-                    <a class="btn-in wow fadeInDown" data-wow-delay="0.4s" href="{{route('prayer')}}">Prayer</a>
+                    <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>ဆုတောင်းချက်များကို သင်ကိုယ်တိုင်လည်းပါဝင် ဆုတောင်းပေးနိုင်ပါသည်။</strong></h5>
                 </div>
                   <!--Grid column-->
               </div>
@@ -21,10 +20,10 @@
               <!-- Content -->
         </div> 
       </div>
-      <!-- prayer content -->
+<!-- prayer content -->
       <div class="prayer">
         <div class="container">
-          <div class="row ">
+          <div class="row">
             <div class="col-md-5" id="Prayform">
               <!-- prayform -->
                 <form class="prayform" action="" method="POST">
@@ -51,16 +50,74 @@
                   <button class="btn-pray" type="submit">Save</button>
                 </form>
             </div>
-            <div class="col-md-7 align-self-center">
-              <div class="mt-5 text-center">
-                <h3 class="h mb-4">နေ့စဉ်ကျမ်းပိုဒ်</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fuga explicabo aspernatur! Accusantium, sed omnis quam inventore dignissimos labore accusamus corrupti consequatur sit iusto vitae saepe aut eos quaerat repudiandae?</p>
-              </div>
+          </div><hr>
+        <div class="row">
+        <div class="col-md-12">
+            <!-- Collapse buttons -->
+<div>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+    aria-expanded="false" aria-controls="collapseExample">
+  <h4>ဆုတောင်းချက်များကြည့်ရန်</h4>
+  </button>
+</div>
+<!-- / Collapse buttons -->
+
+<!-- Collapsible element -->
+<div class="collapse" id="collapseExample">
+  <div class="mt-3">
+              <p>ဆုတောင်းချက်များကို သင်ကိုယ်တိုင်လည်းပါဝင် ဆုတောင်းပေးနိုင်ပါသည်။</p>
+              <div class="table-wrapper-scroll-y my-custom-scrollbar mt-2">
+              <table class="table table-bordered table-striped mb-0">
+                  <thead>
+                    <tr>
+                        <th scope="col">အမည်/Name</th>
+                        <th scope="col">အမျိုးအစား/Type</th>
+                        <th scope="col">ဆုတောင်းချက်/Text</th>
+                        </tr>
+                  </thead>
+                    <tbody>
+                     <tr>
+                       <td>Mark                 </td>
+                       <td>Otto                 </td>
+                       <td>@mdo     </td>
+                      </tr>
+                     <tr>
+                       <td>Jacob                </td>
+                       <td>Thornton   </td>
+                       <td>@fat                 </td>
+                      </tr>
+                     <tr>
+                       <td>Larr</td>
+                       <td>the Bird  </td>
+                       <td>@twitter </td>
+                      </tr>
+                     <tr>
+                       <td>Kyaw Kyaw</td>
+                       <td>Otto</td>
+                       <td>Please enter only 1 prayer or praise request for each box.</td>
+                      </tr>
+                     <tr>
+                       <td>Jacob                </td>
+                       <td>Thornton                 </td>
+                       <td>@fat                 </td>
+                      </tr>
+                     <tr>
+                       <td>Larry                </td>
+                       <td>the Bird                 </td>
+                       <td>@twitter                 </td>
+                      </tr>
+                      </tbody>
+                  </table>
+
+                  </div>
+  </div>
+</div>
+<!-- / Collapsible element -->
             </div>
-            </div><hr>
+        </div><hr>
         </div>
-        </div>
-        <div class="card-index">
+    </div>
+    <div class="cardindex">
           <div class="container">
             <div class="row">
             <!-- Card deck -->
@@ -151,124 +208,8 @@
 
 </div>
 <!-- Card deck -->
-            </div><hr>
-            <div class="row">
-              <!--Section: Testimonials v.1-->
-<section class="section pb-3 text-center">
-
-  <!--Section heading-->
-  <h1 class="section-heading h1 pt-4">Testimony</h1>
-  <!--Section description-->
-  <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
-    numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur
-    accusamus veniam.</p>
-
-  <div class="row">
-
-    <!--Grid column-->
-    <div class="col-lg-4 col-md-12 mb-4">
-
-      <!-- Card -->
-<div class="card testimonial-card">
-
-  <!-- Background color -->
-  <div class="card-up indigo lighten-1"></div>
-
-  <!-- Avatar -->
-  <div class="avatar mx-auto white mt-2">
-    <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle"
-      alt="woman avatar">
-  </div>
-
-  <!-- Content -->
-  <div class="card-body test-a">
-    <!-- Name -->
-    <h4 class="card-title">Anna Doe</h4>
-    <hr>
-    <!-- Quotation -->
-    <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci
-    </p>
-    <a href="">Read more</a>
-  </div>
-
-</div>
-<!-- Card -->
-
-    </div>
-    <!--Grid column-->
-
-    <!--Grid column-->
-    <div class="col-lg-4 col-md-12 mb-4">
-
-      <!-- Card -->
-<div class="card testimonial-card">
-
-  <!-- Background color -->
-  <div class="card-up indigo lighten-1"></div>
-
-  <!-- Avatar -->
-  <div class="avatar mx-auto white mt-2">
-    <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle"
-      alt="woman avatar">
-  </div>
-
-  <!-- Content -->
-  <div class="card-body test-a">
-    <!-- Name -->
-    <h4 class="card-title">Anna Doe</h4>
-    <hr>
-    <!-- Quotation -->
-    <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci
-    </p>
-    <a href="">Read more</a>
-  </div>
-
-</div>
-<!-- Card -->
-
-    </div>
-    <!--Grid column-->
-
-    <!--Grid column-->
-    <div class="col-lg-4 col-md-12 mb-4">
-
-      <!-- Card -->
-<div class="card testimonial-card">
-
-  <!-- Background color -->
-  <div class="card-up indigo lighten-1"></div>
-
-  <!-- Avatar -->
-  <div class="avatar mx-auto white mt-2">
-    <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle"
-      alt="woman avatar">
-  </div>
-
-  <!-- Content -->
-  <div class="card-body test-a">
-    <!-- Name -->
-    <h4 class="card-title">Anna Doe</h4>
-    <hr>
-    <!-- Quotation -->
-    <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci
-    </p>
-    <a href="">Read more</a>
-  </div>
-
-</div>
-<!-- Card -->
-
-    </div>
-    <!--Grid column-->
-
-  </div>
-
-</section>
-<!--Section: Testimonials v.1-->
-            </div>
+          </div>
           </div>
         </div>
 
-        
-    .
 @endsection

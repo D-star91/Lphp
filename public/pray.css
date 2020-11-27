@@ -1,0 +1,10 @@
+.bg-pray{
+    background-image: url("Image/pray12.png");
+  /* Full height */
+  height: 80%;
+  padding-top: 10%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

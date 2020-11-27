@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url("bible.css");
 @import url('contact.css');
+@import url('pray.css');
 /* nav */
 .navbr-font{
   padding: 8px;
@@ -308,6 +309,13 @@ h5 {
   -webkit-transition: .4s;
   transition: .4s;
   color: #f386aa; }
+
+.test-a a{
+  font-size: 14px;
+}
+.test-a a:hover{
+  font-size: 14px;
+}
 /* card */
 /* index */
 
