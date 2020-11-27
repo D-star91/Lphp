@@ -2754,11 +2754,11 @@
                                   <div class="modal-body">
                                     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="/Bible/new/Jam/Jam1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
-                                        <a href="/Bible/new/Jam/Jam2.html" class="btn-g" role="button" aria-pressed="true">၂</a>
-                                        <a href="/Bible/new/Jam/Jam3.html" class="btn-g" role="button" aria-pressed="true">၃</a>
-                                        <a href="/Bible/new/Jam/Jam4.html" class="btn-g" role="button" aria-pressed="true">၄</a>
-                                        <a href="/Bible/new/Jam/Jam5.html" class="btn-g" role="button" aria-pressed="true">၅</a>
+                                        <a href="{{route('Jam1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                        <a href="{{route('Jam2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
+                                        <a href="{{route('Jam3')}}" class="btn-g" role="button" aria-pressed="true">၃</a>
+                                        <a href="{{route('Jam4')}}" class="btn-g" role="button" aria-pressed="true">၄</a>
+                                        <a href="{{route('Jam5')}}" class="btn-g" role="button" aria-pressed="true">၅</a>
                                       </div>
                                     </div>   
                                   </div>

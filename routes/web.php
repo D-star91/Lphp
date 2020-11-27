@@ -58,4 +58,10 @@ Route::get("/Bible/New/Philemon1",[Biblecontroller::class,"Philemon1"])->name("P
 // Hebrews
 Route::get("/Bible/New/Hebrews1",[Biblecontroller::class,"Hebrews1"])->name("heb1");
 Route::get("/Bible/New/Hebrews13",[Biblecontroller::class,"Hebrews13"])->name("heb13");
+// Jame
+Route::get("/Bible/New/Jame1",[Biblecontroller::class,"Jame1"])->name("Jam1");
+Route::get("/Bible/New/Jame2",[Biblecontroller::class,"Jame2"])->name("Jam2");
+Route::get("/Bible/New/Jame3",[Biblecontroller::class,"Jame3"])->name("Jam3");
+Route::get("/Bible/New/Jame4",[Biblecontroller::class,"Jame4"])->name("Jam4");
+Route::get("/Bible/New/Jame5",[Biblecontroller::class,"Jame5"])->name("Jam5");
 // Bible
