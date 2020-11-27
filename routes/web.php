@@ -70,4 +70,8 @@ Route::get("/Bible/New/1Peter2",[Biblecontroller::class,"FirstPeter2"])->name("1
 Route::get("/Bible/New/1Peter3",[Biblecontroller::class,"FirstPeter3"])->name("1Pet3");
 Route::get("/Bible/New/1Peter4",[Biblecontroller::class,"FirstPeter4"])->name("1Pet4");
 Route::get("/Bible/New/1Peter5",[Biblecontroller::class,"FirstPeter5"])->name("1Pet5");
+// Second Peter
+Route::get("/Bible/New/2Peter1",[Biblecontroller::class,"SecondPeter1"])->name("2Pet1");
+Route::get("/Bible/New/2Peter2",[Biblecontroller::class,"SecondPeter2"])->name("2Pet2");
+Route::get("/Bible/New/2Peter3",[Biblecontroller::class,"SecondPeter3"])->name("2Pet3");
 // Bible
