@@ -26,7 +26,7 @@
           <div class="row">
             <div class="col-md-5" id="Prayform">
               <!-- prayform -->
-                <form class="prayform red lighten-5" action="" method="POST">
+                <form class="prayform teal lighten-4" action="" method="POST">
                 @csrf
                     <h4 class="h mb-2 ">ဆုတောင်းချက်တင်ရန်</h4><hr>
                     <p>ကျေးဇူးပြု၍ ဇယားကွက်တွင် ဆုတောင်းချက် သို့မဟုတ် ကျေးဇူးတော်ချီးမွမ်းခြင်းကို တစ်ခုသာ ရေးပေးပါ။</p>
@@ -136,7 +136,7 @@
   </div>
 
   <!--Card content-->
-  <div class="card-body">
+  <div class="card-body teal lighten-4">
 
     <!--Title-->
     <h4 class="card-title font-weight-bold pink-lighter-hover">Books</h4>
@@ -144,7 +144,7 @@
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
       content.</p>
     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-    <a href="{{route('book')}}" type="submit" class="btn-card" >Read more</a>
+    <a href="{{route('book')}}" type="button" class="btn-card" >Read more</a>
 
   </div>
 
@@ -164,14 +164,14 @@
   </div>
 
   <!--Card content-->
-  <div class="card-body" action="{{route('bible')}}">
+  <div class="card-body teal lighten-4" >
 
     <!--Title-->
     <h4 class="card-title font-weight-bold pink-lighter-hover">Bible</h4>
     <!--Text-->
     <p class="card-text">ဟေဗြဲ၊ဟေလသပါဠိတော်မှ၊မြန်မာဘာသာအားဖြင့်၊ဆရာယုဒသန်အနက်ပြန်သောဓမ္မဟောင်းကျမ်းနှင့်ဓမ္မသစ်ကျမ်း</p>
     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-    <a href="{{route('bible')}}" type="submit" class="btn-card" >Read more</a>
+    <a href="{{route('bible')}}" type="button" class="btn-card" >Read more</a>
 
   </div>
 
@@ -191,7 +191,7 @@
   </div>
 
   <!--Card content-->
-  <div class="card-body">
+  <div class="card-body teal lighten-4">
 
     <!--Title-->
     <h4 class="card-title font-weight-bold pink-lighter-hover">Activities</h4>
@@ -199,7 +199,7 @@
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
       content.</p>
     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-    <a href="" type="submit" class="btn-card" >Read more</a>
+    <a href="" type="button" class="btn-card" >Read more</a>
 
   </div>
 

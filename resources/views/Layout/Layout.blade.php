@@ -14,9 +14,9 @@
 <!-- Material Design Bootstrap -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
 </head>
-<body class="rgba-cyan-strong">
+<body class="teal lighten-5">
 <!--Navbar -->
-<nav class="mb-1 navbar navbar-expand-lg navbar-dark fixed-top blue-grey darken-4 scrolling-navbar">
+<nav class="mb-1 navbar navbar-expand-lg navbar-dark fixed-top teal lighten-4 scrolling-navbar">
   
     <div class="container">
     <a class="navbar-brand " href="#"><img src="{{asset('Image/loyallogo4.png')}}" height="50" alt=""></a>
@@ -108,17 +108,11 @@
                   <button class="btn btn-sm btn-outline-white my-0" type="submit">Subscribe</button>
                 </div>
               </form>
-              
-                @if (session('status'))
-                    <div class="alert alert-success">
-                        {{ session('status') }}
-                    </div>
-              @endif
                   @error("userName")
-                      <p class="text-danger">{{$message}}</p>
+                      <p class="text-danger d-inline mr-4">{{$message}}</p>
                   @enderror
                   @error("userEmail")
-                      <p class="text-danger">{{$message}}</p>
+                      <p class="text-danger d-inline ">{{$message}}</p>
                   @enderror
               <!-- Social -->
         <ul class="list-unstyled list-inline text-center mt-5">

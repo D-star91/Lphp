@@ -1,25 +1,53 @@
 /* contact */
 .bg-cont{
     /* The image used */
-    background-image: url("Image/contact.png");
+    background-image: url("Image/about_us.png");
     /* Full height */
     height: 100%;
-    padding-top: 15%;
+    padding-top: 10%;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
  }
+ .content-form{
+  background-image: url("Image/about_us.png");
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
  .con-for ul{
    list-style: none;
+   text-align: center;
  }
  .con-for li{
    padding: 5px;
-   margin: 10PX;
+   margin: 10pX;
+   margin-left: 60px;
    font-weight: bold;
+   display: inline-block;
+   color: white;
  }
  .con-for i{
-   color: crimson;
-   padding-right: 10px;
+   color: rgb(255, 255, 255);
+   padding: 10px;
+   margin: 10px;
+   margin-bottom: 20px;
+   font-size: 50px;
+   display: block;
+
+ }
+ .h1-font-con{
+  letter-spacing: 8px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: "Merienda", cursive;
+  font-size: 70px;
+ }
+ .h4-font{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: "Merienda", cursive;
+  font-size: 35px;
  }
  /* contact */

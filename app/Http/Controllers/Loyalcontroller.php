@@ -21,7 +21,7 @@ class Loyalcontroller extends Controller
                 $usermail->username=$req->userName;
                 $usermail->useremail=$req->userEmail;
                 $usermail->save();
-                return back()->with('success','Thank You for Joining the Cause!');
+                return redirect("Registered");
             }else{
                 return back()->withErrors($validation);
             }
@@ -37,6 +37,9 @@ class Loyalcontroller extends Controller
         }
         function About(){
             return view("About");
+        }
+        function Registe(){
+            return view("Registered");
         }
         
 }

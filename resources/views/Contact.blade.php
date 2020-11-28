@@ -4,13 +4,28 @@
     <div class="bg-cont">
               <!-- Content -->
           <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4 class="h4-font">Loyal Land</h4>
+                    </div>
+                </div>
                 <!--Grid row-->
               <div class="row">
                   <!--Grid column-->
-                <div class="col-md-12 mb-4 white-text text-right">
-                    <h1 class="h1-font mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Contact_us</strong></h1>
+                <div class="col-md-12 mb-4 white-text text-center">
+                    <h1 class="h1-font-con mb-0 pt-md-5 pt-5 mt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Contact_us</strong></h1>
                 </div>
                   <!--Grid column-->
+              </div>
+              <div class="row justify-content-center">
+              <div class="con-for mb-5 mt-5">
+                    <ul>
+                    <li><i class="fas fa-envelope-open-text "></i>loyalland976@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i></i>174(B), U Aung Min St, (2)Qtr, Mayangon Township, Yangon. </li>
+                        <li><i class="fas fa-phone "></i></i>+95 9790000000</li>
+                        <li></li>
+                    </ul>
+                </div>
               </div>
                 <!--Grid row-->
           </div>
@@ -19,9 +34,10 @@
 <!-- contact main -->
 
 <!-- contact form -->
+    <div class="content-form">
     <div class="container">
-        <div class="row">
-            <div class="col-6">
+        <div class="row justify-content-center">
+            <div class="col-8">
                 <!-- Material form contact -->
                 <div class="card mt-5 mb-5">
                     <h5 class="card-header info-color white-text text-center py-4">
@@ -88,19 +104,9 @@
                 <!-- Material form contact -->
 
             </div>
-            <div class="col-6">
-                <div class="con-for mb-5 mt-5">
-                    <h3>Contact</h3>
-                    <ul>
-                        <li><i class="fas fa-map-marked-alt fa-lg"></i>1111111</li>
-                        <li><i class="fas fa-envelope-open-text fa-lg"></i>loyalland976@gmail.com</li>
-                        <li><i class="fas fa-phone fa-lg"></i></i>+95 9790000000</li>
-                        <li></li>
-                    </ul>
-                </div>
-            </div>
         </div>
 <!-- contact form -->
         <div class="row"></div>
+    </div>
     </div>
 @endsection

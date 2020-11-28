@@ -27,7 +27,7 @@
           <div class="row ">
             <div class="col-md-5" id="Prayform">
               <!-- prayform -->
-                <form class="prayform red lighten-5" action="" method="POST">
+                <form class="prayform teal lighten-4" action="" method="POST">
                 @csrf
                     <h4 class="h mb-2 ">ဆုတောင်းချက်တင်ရန်</h4><hr>
                     <p>ကျေးဇူးပြု၍ ဇယားကွက်တွင် ဆုတောင်းချက် သို့မဟုတ် ကျေးဇူးတော်ချီးမွမ်းခြင်းကို တစ်ခုသာ ရေးပေးပါ။</p>
@@ -81,7 +81,7 @@
   </div>
 
   <!--Card content-->
-  <div class="card-body">
+  <div class="card-body teal lighten-4">
 
     <!--Title-->
     <h4 class="card-title font-weight-bold pink-lighter-hover">Books</h4>
@@ -109,7 +109,7 @@
   </div>
 
   <!--Card content-->
-  <div class="card-body" action="{{route('bible')}}">
+  <div class="card-body teal lighten-4" action="{{route('bible')}}">
 
     <!--Title-->
     <h4 class="card-title font-weight-bold pink-lighter-hover">Bible</h4>
@@ -136,7 +136,7 @@
   </div>
 
   <!--Card content-->
-  <div class="card-body">
+  <div class="card-body teal lighten-4">
 
     <!--Title-->
     <h4 class="card-title font-weight-bold pink-lighter-hover">About</h4>
