@@ -2657,10 +2657,10 @@
                                   <div class="modal-body">
                                     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="/Bible/new/2Tim/2Tim1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
-                                        <a href="/Bible/new/2Tim/2Tim2.html" class="btn-g" role="button" aria-pressed="true">၂</a>
-                                        <a href="/Bible/new/2Tim/2Tim3.html" class="btn-g" role="button" aria-pressed="true">၃</a>
-                                        <a href="/Bible/new/2Tim/2Tim4.html" class="btn-g" role="button" aria-pressed="true">၄</a>
+                                        <a href="{{route('2Tim1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                        <a href="{{route('2Tim2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
+                                        <a href="{{route('2Tim3')}}" class="btn-g" role="button" aria-pressed="true">၃</a>
+                                        <a href="{{route('2Tim4')}}" class="btn-g" role="button" aria-pressed="true">၄</a>
                                       </div>
                                     </div>
                                   </div>
