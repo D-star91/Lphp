@@ -90,4 +90,6 @@ Route::get("/Bible/New/2John1",[Biblecontroller::class,"SecondJohn1"])->name("2J
 Route::get("/Bible/New/3John1",[Biblecontroller::class,"ThirdJohn1"])->name("3Joh1");
 // Jude
 Route::get("/Bible/New/Jude1",[Biblecontroller::class,"Jude1"])->name("Jud1");
+// Revelation
+Route::get("/Bible/New/Revelation1",[Biblecontroller::class,"Revelation1"])->name("Rev1");
 // Bible

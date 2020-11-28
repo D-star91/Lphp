@@ -193,6 +193,10 @@ class Biblecontroller extends Controller
     function Jude1(){
         return view("Bible.new.Jude.Jud1");
     }
+    // Revelation
+    function Revelation1(){
+        return view("Bible.new.Revelation.Rev1");
+    }
     // main
     function Bible(){
         return view("Bible");
