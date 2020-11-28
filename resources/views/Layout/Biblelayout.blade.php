@@ -2040,14 +2040,14 @@
                                     <div class="tab-pane fade" id="list-1Timothy" role="tabpanel" aria-labelledby="list-1Timothy-list">
                                     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/1Tim/1Tim1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
-                                          <a href="/Bible/new/1Tim/1Tim2.html" class="btn-g" role="button" aria-pressed="true">၂</a>
-                                          <a href="/Bible/new/1Tim/1Tim3.html" class="btn-g" role="button" aria-pressed="true">၃</a>
-                                          <a href="/Bible/new/1Tim/1Tim4.html" class="btn-g" role="button" aria-pressed="true">၄</a>
-                                          <a href="/Bible/new/1Tim/1Tim5.html" class="btn-g" role="button" aria-pressed="true">၅</a>
+                                          <a href="{{route('1Tim1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                          <a href="{{route('1Tim2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
+                                          <a href="{{route('1Tim3')}}" class="btn-g" role="button" aria-pressed="true">၃</a>
+                                          <a href="{{route('1Tim4')}}" class="btn-g" role="button" aria-pressed="true">၄</a>
+                                          <a href="{{route('1Tim5')}}" class="btn-g" role="button" aria-pressed="true">၅</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/1Tim/1Tim6.html" class="btn-g" role="button" aria-pressed="true">၆</a>
+                                          <a href="{{route('1Tim6')}}" class="btn-g" role="button" aria-pressed="true">၆</a>
                                         </div>
                                       </div>  
                                     </div>
