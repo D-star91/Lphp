@@ -96,6 +96,16 @@ class Biblecontroller extends Controller
     function Mark1(){
         return view("Bible.new.Mark.Mark1");
     }
+    // Second Thessalonians
+    function SecondThessalonians1(){
+        return view("Bible.new.SecondThessalonians.2The1");
+    }
+    function SecondThessalonians2(){
+        return view("Bible.new.SecondThessalonians.2The2");
+    }
+    function SecondThessalonians3(){
+        return view("Bible.new.SecondThessalonians.2The3");
+    }
     // First Timothy
     function FirstTimothy1(){
         return view("Bible.new.FirstTimonthy.1Tim1");
