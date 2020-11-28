@@ -52,6 +52,13 @@ Route::get("/Bible/New/Matthew27",[Biblecontroller::class,"Matthew27"])->name("m
 Route::get("/Bible/New/Matthew28",[Biblecontroller::class,"Matthew28"])->name("mat28");
 // Mark
 Route::get("/Bible/New/Mark1",[Biblecontroller::class,"Mark1"])->name("mark1");
+// First Timothy
+Route::get("/Bible/New/1Timothy1",[Biblecontroller::class,"FirstTimothy1"])->name("1Tim1");
+Route::get("/Bible/New/1Timothy2",[Biblecontroller::class,"FirstTimothy2"])->name("1Tim2");
+Route::get("/Bible/New/1Timothy3",[Biblecontroller::class,"FirstTimothy3"])->name("1Tim3");
+Route::get("/Bible/New/1Timothy4",[Biblecontroller::class,"FirstTimothy4"])->name("1Tim4");
+Route::get("/Bible/New/1Timothy5",[Biblecontroller::class,"FirstTimothy5"])->name("1Tim5");
+Route::get("/Bible/New/1Timothy6",[Biblecontroller::class,"FirstTimothy6"])->name("1Tim6");
 // Second Timothy
 Route::get("/Bible/New/2Timothy1",[Biblecontroller::class,"SecTimothy1"])->name("2Tim1");
 Route::get("/Bible/New/2Timothy2",[Biblecontroller::class,"SecTimothy2"])->name("2Tim2");
