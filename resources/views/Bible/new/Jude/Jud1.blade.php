@@ -10,7 +10,7 @@
             <div class="col-md-4 ">
               <div class="dropdown">
                 <button class="btn btn-outline-danger dropdown-toggle mt-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  ရှင်ယောဟန်ဩဝါဒစာ ဒုတိယစောင် အခန်းကြီး
+                  ရှင်ယုဒဩဝါဒစာ အခန်းကြီး
                 </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                       <div class="card-body">
@@ -23,9 +23,9 @@
                     </div>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
               <div class="new-title">
-              <h3>ရှင်ယောဟန်ဩဝါဒစာ ဒုတိယစောင် - ၁<h3>
+              <h3>ရှင်ယုဒဩဝါဒစာ - ၁<h3>
               </div>
             </div>
           </div>
