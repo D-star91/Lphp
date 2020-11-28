@@ -14,7 +14,7 @@
 <!-- Material Design Bootstrap -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="rgba-cyan-strong">
 <!--Navbar -->
 <nav class="mb-1 navbar navbar-expand-lg navbar-dark fixed-top blue-grey darken-4 scrolling-navbar">
   

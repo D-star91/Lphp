@@ -27,7 +27,7 @@
           <div class="row ">
             <div class="col-md-5" id="Prayform">
               <!-- prayform -->
-                <form class="prayform" action="" method="POST">
+                <form class="prayform red lighten-5" action="" method="POST">
                 @csrf
                     <h4 class="h mb-2 ">ဆုတောင်းချက်တင်ရန်</h4><hr>
                     <p>ကျေးဇူးပြု၍ ဇယားကွက်တွင် ဆုတောင်းချက် သို့မဟုတ် ကျေးဇူးတော်ချီးမွမ်းခြင်းကို တစ်ခုသာ ရေးပေးပါ။</p>
@@ -51,10 +51,12 @@
                   <button class="btn-pray" type="submit">Save</button>
                 </form>
             </div>
-            <div class="col-md-7 align-self-center">
-              <div class="mt-5 text-center">
+            <div class="col-7">
+              <div class="mt-5 text-center ">
                 <h3 class="h mb-4">နေ့စဉ်ကျမ်းပိုဒ်</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fuga explicabo aspernatur! Accusantium, sed omnis quam inventore dignissimos labore accusamus corrupti consequatur sit iusto vitae saepe aut eos quaerat repudiandae?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fuga explicabo aspernatur! Accusantium, sed omnis quam inventore dignissimos labore accusamus corrupti consequatur sit iusto vitae saepe aut eos quaerat repudiandae?</p><hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fuga explicabo aspernatur! Accusantium, sed omnis quam inventore dignissimos labore accusamus corrupti consequatur sit iusto vitae saepe aut eos quaerat repudiandae?</p><hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fuga explicabo aspernatur! Accusantium, sed omnis quam inventore dignissimos labore accusamus corrupti consequatur sit iusto vitae saepe aut eos quaerat repudiandae?</p><hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
               </div>
             </div>
             </div><hr>
