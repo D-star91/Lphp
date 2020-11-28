@@ -2093,7 +2093,7 @@
                                 <li type="button" class="btn-menu text-center pt-2" data-toggle="modal" data-target="#Thessalonians1">သက်သာလောနိတ်ဩဝါဒစာပဌမစောင်</li>
                                 <li type="button" class="btn-menu text-center pt-2" data-toggle="modal" data-target="#Thessalonians2">သက်သာလောနိတ်ဩဝါဒစာဒုတိယစောင်</li>
                                 <li type="button" class="btn-menu text-center pt-2" data-toggle="modal" data-target="#Timothy1">တိမောသေဩဝါဒစာပဌမစောင်</li>
-                                <li type="button" class="btn-menu text-center pt-2" data-toggle="modal" data-target="#Timothy2">တိမောသေဩဝါဒစာဒုတိယစာ</li>
+                                <li type="button" class="btn-menu text-center pt-2" data-toggle="modal" data-target="#Timothy2">တိမောသေဩဝါဒစာဒုတိယစောင်</li>
                               </ul>
                               <ul class="list-group list-group-horizontal-md">
                                 <li type="button" class="btn-menu text-center pt-2" data-toggle="modal" data-target="#Titus">တိတုဩဝါဒစာ</li>
@@ -2649,7 +2649,7 @@
                               <div class="modal-dialog modal-lg">
                                 <div class="modal-content">
                                   <div class="modal-header">
-                                    <h5 class="modal-title text-default" id="Timothy2Label">တိမောသေဩဝါဒစာဒုတိယစာ/h5>
+                                    <h5 class="modal-title text-default" id="Timothy2Label">တိမောသေဩဝါဒစာဒုတိယစောင်</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                       <span aria-hidden="true">&times;</span>
                                     </button>
