@@ -12,7 +12,7 @@
                     <h1 class="h1-font mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Loyal Land</strong></h1>
                     <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
                     <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Ministry</strong></h5>
-                    <a class="btn-in wow fadeInDown" data-wow-delay="0.4s" href="{{route('prayer')}}">Prayer</a>
+                    
                 </div>
                   <!--Grid column-->
               </div>
@@ -128,7 +128,7 @@
 
   <!--Card image-->
   <div class="view overlay">
-    <img class="card-img-top" src="{{asset('Image/donate.png')}}"
+    <img class="card-img-top" src="{{asset('Image/Pray (1).png')}}"
       alt="Card image cap">
     <a href="#!">
       <div class="mask rgba-white-slight"></div>
@@ -139,7 +139,7 @@
   <div class="card-body teal lighten-4">
 
     <!--Title-->
-    <h4 class="card-title font-weight-bold pink-lighter-hover">About</h4>
+    <h4 class="card-title font-weight-bold pink-lighter-hover">Prayer</h4>
     <!--Text-->
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
       content.</p>
@@ -166,7 +166,7 @@
 
       <!-- Featured image -->
       <div class="view overlay">
-        <img src="{{asset('Image/Lesson.png')}}" class="img-fluid" alt="Sample image for first version of blog listing">
+        <img src="{{asset('Image/Bible study.png')}}" class="img-fluid" alt="Sample image for first version of blog listing">
         <a>
           <div class="mask rgba-white-slight"></div>
         </a>

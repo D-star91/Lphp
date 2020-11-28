@@ -183,9 +183,9 @@
 
   <!--Card image-->
   <div class="view overlay">
-    <img class="card-img-top" src="{{asset('Image/donate.png')}}"
+    <img class="card-img-top" src="{{asset('Image/Bible study.png')}}"
       alt="Card image cap">
-    <a href="#!">
+    <a href="">
       <div class="mask rgba-white-slight"></div>
     </a>
   </div>
@@ -194,7 +194,7 @@
   <div class="card-body teal lighten-4">
 
     <!--Title-->
-    <h4 class="card-title font-weight-bold pink-lighter-hover">Activities</h4>
+    <h4 class="card-title font-weight-bold pink-lighter-hover">Bible Study</h4>
     <!--Text-->
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
       content.</p>

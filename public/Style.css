@@ -223,7 +223,7 @@ h5 {
   background: #80e1ff;
   border-radius: 3px;
   font-family: 'Lobster', cursive;
-  box-shadow: 2px 5px 8px 5px #eeecec;
+  box-shadow: 2px 2px 5px  rgba(248, 248, 248, 0.267);
 }
 
 .btn-card:hover {
@@ -232,7 +232,7 @@ h5 {
   padding: 6.200px 25.600px;
   margin: 6px;
   color: #ec407a;
-  box-shadow: 2px 5px 15px 5px #cccaca;
+  box-shadow: 2px 2px 15px  #a8a7a7ab;
 }
 .card-body a{
   color: #ec407a;
