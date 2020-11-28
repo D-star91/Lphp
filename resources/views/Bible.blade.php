@@ -2821,11 +2821,11 @@
                                   <div class="modal-body">
                                     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="/Bible/new/1Joh/1Joh1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
-                                        <a href="/Bible/new/1Joh/1Joh2.html" class="btn-g" role="button" aria-pressed="true">၂</a>
-                                        <a href="/Bible/new/1Joh/1Joh3.html" class="btn-g" role="button" aria-pressed="true">၃</a>
-                                        <a href="/Bible/new/1Joh/1Joh4.html" class="btn-g" role="button" aria-pressed="true">၄</a>
-                                        <a href="/Bible/new/1Joh/1Joh5.html" class="btn-g" role="button" aria-pressed="true">၅</a>
+                                        <a href="{{route('1Joh1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                        <a href="{{route('1Joh2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
+                                        <a href="{{route('1Joh3')}}" class="btn-g" role="button" aria-pressed="true">၃</a>
+                                        <a href="{{route('1Joh4')}}" class="btn-g" role="button" aria-pressed="true">၄</a>
+                                        <a href="{{route('1Joh5')}}" class="btn-g" role="button" aria-pressed="true">၅</a>
                                       </div>
                                     </div>
                                   </div>
