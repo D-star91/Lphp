@@ -139,7 +139,7 @@
   <div class="card-body">
 
     <!--Title-->
-    <h4 class="card-title font-weight-bold pink-lighter-hover">Activities</h4>
+    <h4 class="card-title font-weight-bold pink-lighter-hover">About</h4>
     <!--Text-->
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
       content.</p>

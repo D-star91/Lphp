@@ -26,7 +26,7 @@
           <div class="row">
             <div class="col-md-5" id="Prayform">
               <!-- prayform -->
-                <form class="prayform" action="" method="POST">
+                <form class="prayform red lighten-5" action="" method="POST">
                 @csrf
                     <h4 class="h mb-2 ">ဆုတောင်းချက်တင်ရန်</h4><hr>
                     <p>ကျေးဇူးပြု၍ ဇယားကွက်တွင် ဆုတောင်းချက် သို့မဟုတ် ကျေးဇူးတော်ချီးမွမ်းခြင်းကို တစ်ခုသာ ရေးပေးပါ။</p>
