@@ -10,13 +10,13 @@
             <div class="col-md-4 ">
               <div class="dropdown">
                 <button class="btn btn-outline-danger dropdown-toggle mt-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  ရှင်ယောဟန်ဩဝါဒစာ ဒုတိယစောင် အခန်းကြီး
+                  ရှင်ယောဟန်ဩဝါဒစာ တတိယစောင် အခန်းကြီး
                 </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                       <div class="card-body">
                         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                           <div class="btn-group mr-2" role="group" aria-label="First group">
-                            <a href="{{route('2Joh1')}}" class="btn-g2" role="button" aria-pressed="true">၁</a>
+                            <a href="{{route('3Joh1')}}" class="btn-g2" role="button" aria-pressed="true">၁</a>
                           </div>
                         </div>
                       </div>
@@ -25,7 +25,7 @@
             </div>
             <div class="col-md-6">
               <div class="new-title">
-              <h3>ရှင်ယောဟန်ဩဝါဒစာ ဒုတိယစောင် - ၁<h3>
+              <h3>ရှင်ယောဟန်ဩဝါဒစာ တတိယစောင် - ၁<h3>
               </div>
             </div>
           </div>
