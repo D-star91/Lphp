@@ -2844,7 +2844,7 @@
                                   <div class="modal-body">
                                     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="/Bible/new/2Joh/2Joh1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                        <a href="{{route('2Joh1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
                                       </div>
                                     </div>
                                   </div>
@@ -2863,7 +2863,7 @@
                                   <div class="modal-body">
                                     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="/Bible/new/3Joh/3Joh1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                        <a href="{{route('3Joh1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
                                       </div>
                                     </div>
                                   </div>
@@ -2882,7 +2882,7 @@
                                   <div class="modal-body">
                                     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="/Bible/new/Jud/jud1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                        <a href="{{route('Jud1')}}class="btn-g" role="button" aria-pressed="true">၁</a>
                                       </div>
                                     </div>
                                   </div>

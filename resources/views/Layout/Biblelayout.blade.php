@@ -2145,21 +2145,21 @@
                                     <div class="tab-pane fade" id="list-2John" role="tabpanel" aria-labelledby="list-2John-list">
                                     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/2Joh/2Joh1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                          <a href="{{route('2Joh1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
                                         </div>
                                       </div>  
                                     </div>
                                     <div class="tab-pane fade" id="list-3John" role="tabpanel" aria-labelledby="list-3John-list">
                                     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/3Joh/3Joh1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                          <a href="{{route('3Joh1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
                                         </div>
                                       </div>  
                                     </div>
                                     <div class="tab-pane fade" id="list-Jude" role="tabpanel" aria-labelledby="list-Jude-list">
                                     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/Jud/jud1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                          <a href="{{route('Jud1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
                                         </div>
                                       </div>  
                                     </div>
