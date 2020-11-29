@@ -96,6 +96,25 @@ class Biblecontroller extends Controller
     function Mark1(){
         return view("Bible.new.Mark.Mark1");
     }
+    // Ephesians
+    function Ephesians1(){
+        return view("Bible.new.Ephesians.eph1");
+    }
+    function Ephesians2(){
+        return view("Bible.new.Ephesians.eph2");
+    }
+    function Ephesians3(){
+        return view("Bible.new.Ephesians.eph3");
+    }
+    function Ephesians4(){
+        return view("Bible.new.Ephesians.eph4");
+    }
+    function Ephesians5(){
+        return view("Bible.new.Ephesians.eph5");
+    }
+    function Ephesians6(){
+        return view("Bible.new.Ephesians.eph6");
+    }
     // Philippians
     function Philippians1(){
         return view("Bible.new.Philippians.php1");
