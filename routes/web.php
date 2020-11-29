@@ -52,6 +52,11 @@ Route::get("/Bible/New/Matthew27",[Biblecontroller::class,"Matthew27"])->name("m
 Route::get("/Bible/New/Matthew28",[Biblecontroller::class,"Matthew28"])->name("mat28");
 // Mark
 Route::get("/Bible/New/Mark1",[Biblecontroller::class,"Mark1"])->name("mark1");
+// Colossians
+Route::get("/Bible/New/Colossians1",[Biblecontroller::class,"Colossians1"])->name("col1");
+Route::get("/Bible/New/Colossians2",[Biblecontroller::class,"Colossians2"])->name("col2");
+Route::get("/Bible/New/Colossians3",[Biblecontroller::class,"Colossians3"])->name("col3");
+Route::get("/Bible/New/Colossians4",[Biblecontroller::class,"Colossians4"])->name("col4");
 // First Thessalonians
 Route::get("/Bible/New/1Thessalonians1",[Biblecontroller::class,"FirstThessalonians1"])->name("1The1");
 Route::get("/Bible/New/1Thessalonians2",[Biblecontroller::class,"FirstThessalonians2"])->name("1The2");
