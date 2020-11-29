@@ -96,6 +96,46 @@ class Biblecontroller extends Controller
     function Mark1(){
         return view("Bible.new.Mark.Mark1");
     }
+    // Second Corinthians
+    function SecondCorinthians1(){
+        return view("Bible.new.SecondCorinthians.2cor1");
+    }
+    function SecondCorinthians2(){
+        return view("Bible.new.SecondCorinthians.2cor2");
+    }
+    function SecondCorinthians3(){
+        return view("Bible.new.SecondCorinthians.2cor3");
+    }
+    function SecondCorinthians4(){
+        return view("Bible.new.SecondCorinthians.2cor4");
+    }
+    function SecondCorinthians5(){
+        return view("Bible.new.SecondCorinthians.2cor5");
+    }
+    function SecondCorinthians6(){
+        return view("Bible.new.SecondCorinthians.2cor6");
+    }
+    function SecondCorinthians7(){
+        return view("Bible.new.SecondCorinthians.2cor7");
+    }
+    function SecondCorinthians8(){
+        return view("Bible.new.SecondCorinthians.2cor8");
+    }
+    function SecondCorinthians9(){
+        return view("Bible.new.SecondCorinthians.2cor9");
+    }
+    function SecondCorinthians10(){
+        return view("Bible.new.SecondCorinthians.2cor10");
+    }
+    function SecondCorinthians11(){
+        return view("Bible.new.SecondCorinthians.2cor11");
+    }
+    function SecondCorinthians12(){
+        return view("Bible.new.SecondCorinthians.2cor12");
+    }
+    function SecondCorinthians13(){
+        return view("Bible.new.SecondCorinthians.2cor13");
+    }
     // Galatians
     function Galatians1(){
         return view("Bible.new.Galatians.gal1");
