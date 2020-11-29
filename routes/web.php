@@ -53,19 +53,19 @@ Route::get("/Bible/New/Matthew28",[Biblecontroller::class,"Matthew28"])->name("m
 // Mark
 Route::get("/Bible/New/Mark1",[Biblecontroller::class,"Mark1"])->name("mark1");
 // Second Corinthians
-Route::get("/Bible/New/2Corinthians1",[Biblecontroller::class,"SecondCorinthians1"])->name("gal1");
-Route::get("/Bible/New/2Corinthians2",[Biblecontroller::class,"SecondCorinthians2"])->name("gal2");
-Route::get("/Bible/New/2Corinthians3",[Biblecontroller::class,"SecondCorinthians3"])->name("gal3");
-Route::get("/Bible/New/2Corinthians4",[Biblecontroller::class,"SecondCorinthians4"])->name("gal4");
-Route::get("/Bible/New/2Corinthians5",[Biblecontroller::class,"SecondCorinthians5"])->name("gal5");
-Route::get("/Bible/New/2Corinthians6",[Biblecontroller::class,"SecondCorinthians6"])->name("gal6");
-Route::get("/Bible/New/2Corinthians7",[Biblecontroller::class,"SecondCorinthians7"])->name("gal7");
-Route::get("/Bible/New/2Corinthians8",[Biblecontroller::class,"SecondCorinthians8"])->name("gal8");
-Route::get("/Bible/New/2Corinthians9",[Biblecontroller::class,"SecondCorinthians9"])->name("gal9");
-Route::get("/Bible/New/2Corinthians10",[Biblecontroller::class,"SecondCorinthians10"])->name("gal10");
-Route::get("/Bible/New/2Corinthians11",[Biblecontroller::class,"SecondCorinthians11"])->name("gal11");
-Route::get("/Bible/New/2Corinthians12",[Biblecontroller::class,"SecondCorinthians12"])->name("gal12");
-Route::get("/Bible/New/2Corinthians13",[Biblecontroller::class,"SecondCorinthians13"])->name("gal13");
+Route::get("/Bible/New/2Corinthians1",[Biblecontroller::class,"SecondCorinthians1"])->name("2cor1");
+Route::get("/Bible/New/2Corinthians2",[Biblecontroller::class,"SecondCorinthians2"])->name("2cor2");
+Route::get("/Bible/New/2Corinthians3",[Biblecontroller::class,"SecondCorinthians3"])->name("2cor3");
+Route::get("/Bible/New/2Corinthians4",[Biblecontroller::class,"SecondCorinthians4"])->name("2cor4");
+Route::get("/Bible/New/2Corinthians5",[Biblecontroller::class,"SecondCorinthians5"])->name("2cor5");
+Route::get("/Bible/New/2Corinthians6",[Biblecontroller::class,"SecondCorinthians6"])->name("2cor6");
+Route::get("/Bible/New/2Corinthians7",[Biblecontroller::class,"SecondCorinthians7"])->name("2cor7");
+Route::get("/Bible/New/2Corinthians8",[Biblecontroller::class,"SecondCorinthians8"])->name("2cor8");
+Route::get("/Bible/New/2Corinthians9",[Biblecontroller::class,"SecondCorinthians9"])->name("2cor9");
+Route::get("/Bible/New/2Corinthians10",[Biblecontroller::class,"SecondCorinthians10"])->name("2cor10");
+Route::get("/Bible/New/2Corinthians11",[Biblecontroller::class,"SecondCorinthians11"])->name("2cor11");
+Route::get("/Bible/New/2Corinthians12",[Biblecontroller::class,"SecondCorinthians12"])->name("2cor12");
+Route::get("/Bible/New/2Corinthians13",[Biblecontroller::class,"SecondCorinthians13"])->name("2cor13");
 // Galatians
 Route::get("/Bible/New/Galatians1",[Biblecontroller::class,"Galatians1"])->name("gal1");
 Route::get("/Bible/New/Galatians2",[Biblecontroller::class,"Galatians2"])->name("gal2");
