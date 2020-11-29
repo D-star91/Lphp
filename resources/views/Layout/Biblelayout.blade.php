@@ -2000,10 +2000,10 @@
                                     <div class="tab-pane fade" id="list-Philippians" role="tabpanel" aria-labelledby="list-Philippians-list">
                                       <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                           <div class="btn-group" role="group" aria-label="First group">
-                                            <a href="/Bible/new/Php/Php1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
-                                            <a href="/Bible/new/Php/Php2.html" class="btn-g" role="button" aria-pressed="true">၂</a>
-                                            <a href="/Bible/new/Php/Php3.html" class="btn-g" role="button" aria-pressed="true">၃</a>
-                                            <a href="/Bible/new/Php/Php4.html" class="btn-g" role="button" aria-pressed="true">၄</a>
+                                            <a href="{{route('php1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                            <a href="{{route('php2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
+                                            <a href="{{route('php3')}}" class="btn-g" role="button" aria-pressed="true">၃</a>
+                                            <a href="{{route('php4')}}" class="btn-g" role="button" aria-pressed="true">၄</a>
                                           </div>
                                       </div>
                                     </div>
