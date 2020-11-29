@@ -120,6 +120,17 @@ Route::get("/Bible/New/Titus3",[Biblecontroller::class,"Titus3"])->name("tit3");
 Route::get("/Bible/New/Philemon1",[Biblecontroller::class,"Philemon1"])->name("Phm1");
 // Hebrews
 Route::get("/Bible/New/Hebrews1",[Biblecontroller::class,"Hebrews1"])->name("heb1");
+Route::get("/Bible/New/Hebrews2",[Biblecontroller::class,"Hebrews2"])->name("heb2");
+Route::get("/Bible/New/Hebrews3",[Biblecontroller::class,"Hebrews3"])->name("heb3");
+Route::get("/Bible/New/Hebrews4",[Biblecontroller::class,"Hebrews4"])->name("heb4");
+Route::get("/Bible/New/Hebrews5",[Biblecontroller::class,"Hebrews5"])->name("heb5");
+Route::get("/Bible/New/Hebrews6",[Biblecontroller::class,"Hebrews6"])->name("heb6");
+Route::get("/Bible/New/Hebrews7",[Biblecontroller::class,"Hebrews7"])->name("heb7");
+Route::get("/Bible/New/Hebrews8",[Biblecontroller::class,"Hebrews8"])->name("heb8");
+Route::get("/Bible/New/Hebrews9",[Biblecontroller::class,"Hebrews9"])->name("heb9");
+Route::get("/Bible/New/Hebrews10",[Biblecontroller::class,"Hebrews10"])->name("heb10");
+Route::get("/Bible/New/Hebrews11",[Biblecontroller::class,"Hebrews11"])->name("heb11");
+Route::get("/Bible/New/Hebrews12",[Biblecontroller::class,"Hebrews12"])->name("heb12");
 Route::get("/Bible/New/Hebrews13",[Biblecontroller::class,"Hebrews13"])->name("heb13");
 // Jame
 Route::get("/Bible/New/Jame1",[Biblecontroller::class,"Jame1"])->name("Jam1");

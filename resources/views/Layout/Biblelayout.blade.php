@@ -1947,25 +1947,25 @@
                                       </div>  
                                     </div>
                                     <div class="tab-pane fade" id="list-2Corinthians" role="tabpanel" aria-labelledby="list-2Corinthians-list">
-                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/2Cor/2Cor1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
-                                          <a href="/Bible/new/2Cor/2Cor2.html" class="btn-g" role="button" aria-pressed="true">၂</a>
-                                          <a href="/Bible/new/2Cor/2Cor3.html" class="btn-g" role="button" aria-pressed="true">၃</a>
-                                          <a href="/Bible/new/2Cor/2Cor4.html" class="btn-g" role="button" aria-pressed="true">၄</a>
-                                          <a href="/Bible/new/2Cor/2Cor5.html" class="btn-g" role="button" aria-pressed="true">၅</a>
+                                          <a href="{{route('2cor1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                          <a href="{{route('2cor2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
+                                          <a href="{{route('2cor3')}}" class="btn-g" role="button" aria-pressed="true">၃</a>
+                                          <a href="{{route('2cor4')}}" class="btn-g" role="button" aria-pressed="true">၄</a>
+                                          <a href="{{route('2cor5')}}" class="btn-g" role="button" aria-pressed="true">၅</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/2Cor/2Cor6.html" class="btn-g" role="button" aria-pressed="true">၆</a>
-                                          <a href="/Bible/new/2Cor/2Cor7.html" class="btn-g" role="button" aria-pressed="true">၇</a>
-                                          <a href="/Bible/new/2Cor/2Cor8.html" class="btn-g" role="button" aria-pressed="true">၈</a>
-                                          <a href="/Bible/new/2Cor/2Cor9.html" class="btn-g" role="button" aria-pressed="true">၉</a>
-                                          <a href="/Bible/new/2Cor/2Cor10.html" class="btn-g" role="button" aria-pressed="true">၁၀</a>
+                                          <a href="{{route('2cor6')}}" class="btn-g" role="button" aria-pressed="true">၆</a>
+                                          <a href="{{route('2cor7')}}" class="btn-g" role="button" aria-pressed="true">၇</a>
+                                          <a href="{{route('2cor8')}}" class="btn-g" role="button" aria-pressed="true">၈</a>
+                                          <a href="{{route('2cor9')}}" class="btn-g" role="button" aria-pressed="true">၉</a>
+                                          <a href="{{route('2cor10')}}" class="btn-g" role="button" aria-pressed="true">၁၀</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/2Cor/2Cor11.html" class="btn-g" role="button" aria-pressed="true">၁၁</a>
-                                          <a href="/Bible/new/2Cor/2Cor12.html" class="btn-g" role="button" aria-pressed="true">၁၂</a>
-                                          <a href="/Bible/new/2Cor/2Cor13.html" class="btn-g" role="button" aria-pressed="true">၁၃</a>
+                                          <a href="{{route('2cor11')}}" class="btn-g" role="button" aria-pressed="true">၁၁</a>
+                                          <a href="{{route('2cor12')}}" class="btn-g" role="button" aria-pressed="true">၁၂</a>
+                                          <a href="{{route('2cor13')}}" class="btn-g" role="button" aria-pressed="true">၁၃</a>
                                         </div>
                                       </div>  
                                     </div>
@@ -2080,23 +2080,23 @@
                                     <div class="tab-pane fade" id="list-Hebrews" role="tabpanel" aria-labelledby="list-Hebrews-list">
                                       <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/Heb/Heb1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
-                                          <a href="/Bible/new/Heb/Heb2.html" class="btn-g" role="button" aria-pressed="true">၂</a>
-                                          <a href="/Bible/new/Heb/Heb3.html" class="btn-g" role="button" aria-pressed="true">၃</a>
-                                          <a href="/Bible/new/Heb/Heb4.html" class="btn-g" role="button" aria-pressed="true">၄</a>
-                                          <a href="/Bible/new/Heb/Heb5.html" class="btn-g" role="button" aria-pressed="true">၅</a>
+                                          <a href="{{route('heb1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                          <a href="{{route('heb2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
+                                          <a href="{{route('heb3')}}" class="btn-g" role="button" aria-pressed="true">၃</a>
+                                          <a href="{{route('heb4')}}" class="btn-g" role="button" aria-pressed="true">၄</a>
+                                          <a href="{{route('heb5')}}" class="btn-g" role="button" aria-pressed="true">၅</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/Heb/Heb6.html" class="btn-g" role="button" aria-pressed="true">၆</a>
-                                          <a href="/Bible/new/Heb/Heb7.html" class="btn-g" role="button" aria-pressed="true">၇</a>
-                                          <a href="/Bible/new/Heb/Heb8.html" class="btn-g" role="button" aria-pressed="true">၈</a>
-                                          <a href="/Bible/new/Heb/Heb9.html" class="btn-g" role="button" aria-pressed="true">၉</a>
-                                          <a href="/Bible/new/Heb/Heb10.html" class="btn-g" role="button" aria-pressed="true">၁၀</a>
+                                          <a href="{{route('heb6')}}" class="btn-g" role="button" aria-pressed="true">၆</a>
+                                          <a href="{{route('heb7')}}" class="btn-g" role="button" aria-pressed="true">၇</a>
+                                          <a href="{{route('heb8')}}" class="btn-g" role="button" aria-pressed="true">၈</a>
+                                          <a href="{{route('heb9')}}" class="btn-g" role="button" aria-pressed="true">၉</a>
+                                          <a href="{{route('heb10')}}" class="btn-g" role="button" aria-pressed="true">၁၀</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/Heb/Heb11.html" class="btn-g" role="button" aria-pressed="true">၁၁</a>
-                                          <a href="/Bible/new/Heb/Heb12.html" class="btn-g" role="button" aria-pressed="true">၁၂</a>
-                                          <a href="/Bible/new/Heb/Heb13.html" class="btn-g" role="button" aria-pressed="true">၁၃</a>
+                                          <a href="{{route('heb11')}}" class="btn-g" role="button" aria-pressed="true">၁၁</a>
+                                          <a href="{{route('heb12')}}" class="btn-g" role="button" aria-pressed="true">၁၂</a>
+                                          <a href="{{route('heb13')}}" class="btn-g" role="button" aria-pressed="true">၁၃</a>
                                         </div>
                                     </div>  
                                     </div>
