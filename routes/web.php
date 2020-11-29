@@ -52,6 +52,13 @@ Route::get("/Bible/New/Matthew27",[Biblecontroller::class,"Matthew27"])->name("m
 Route::get("/Bible/New/Matthew28",[Biblecontroller::class,"Matthew28"])->name("mat28");
 // Mark
 Route::get("/Bible/New/Mark1",[Biblecontroller::class,"Mark1"])->name("mark1");
+// Galatians
+Route::get("/Bible/New/Galatians1",[Biblecontroller::class,"Galatians1"])->name("gal1");
+Route::get("/Bible/New/Galatians2",[Biblecontroller::class,"Galatians2"])->name("gal2");
+Route::get("/Bible/New/Galatians3",[Biblecontroller::class,"Galatians3"])->name("gal3");
+Route::get("/Bible/New/Galatians4",[Biblecontroller::class,"Galatians4"])->name("gal4");
+Route::get("/Bible/New/Galatians5",[Biblecontroller::class,"Galatians5"])->name("gal5");
+Route::get("/Bible/New/Galatians6",[Biblecontroller::class,"Galatians6"])->name("gal6");
 // Ephesians
 Route::get("/Bible/New/Ephesians1",[Biblecontroller::class,"Ephesians1"])->name("eph1");
 Route::get("/Bible/New/Ephesians2",[Biblecontroller::class,"Ephesians2"])->name("eph2");
@@ -130,4 +137,5 @@ Route::get("/Bible/New/3John1",[Biblecontroller::class,"ThirdJohn1"])->name("3Jo
 Route::get("/Bible/New/Jude1",[Biblecontroller::class,"Jude1"])->name("Jud1");
 // Revelation
 Route::get("/Bible/New/Revelation1",[Biblecontroller::class,"Revelation1"])->name("Rev1");
+// New
 // Bible

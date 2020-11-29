@@ -1970,21 +1970,21 @@
                                       </div>  
                                     </div>
                                     <div class="tab-pane fade" id="list-Galatians" role="tabpanel" aria-labelledby="list-Galatians-list">
-                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/Gla/Gla1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
-                                          <a href="/Bible/new/Gla/Gla2.html" class="btn-g" role="button" aria-pressed="true">၂</a>
-                                          <a href="/Bible/new/Gla/Gla3.html" class="btn-g" role="button" aria-pressed="true">၃</a>
-                                          <a href="/Bible/new/Gla/Gla4.html" class="btn-g" role="button" aria-pressed="true">၄</a>
-                                          <a href="/Bible/new/Gla/Gla5.html" class="btn-g" role="button" aria-pressed="true">၅</a>
+                                          <a href="{{route('gal1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                          <a href="{{route('gal2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
+                                          <a href="{{route('gal3')}}" class="btn-g" role="button" aria-pressed="true">၃</a>
+                                          <a href="{{route('gal4')}}" class="btn-g" role="button" aria-pressed="true">၄</a>
+                                          <a href="{{route('gal5')}}" class="btn-g" role="button" aria-pressed="true">၅</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/Gla/Gla6.html" class="btn-g" role="button" aria-pressed="true">၆</a>
+                                          <a href="{{route('gal6')}}" class="btn-g" role="button" aria-pressed="true">၆</a>
                                         </div>
                                       </div>  
                                     </div> 
                                     <div class="tab-pane fade" id="list-Ephesians" role="tabpanel" aria-labelledby="list-Ephesians-list">
-                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
                                           <a href="{{route('eph1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
                                           <a href="{{route('eph2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
@@ -2008,7 +2008,7 @@
                                       </div>
                                     </div>
                                     <div class="tab-pane fade" id="list-Colossians" role="tabpanel" aria-labelledby="list-Colossians-list">
-                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
                                           <a href="{{route('col1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
                                           <a href="{{route('col2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
@@ -2018,7 +2018,7 @@
                                     </div>  
                                     </div>
                                     <div class="tab-pane fade" id="list-1Thessalonians" role="tabpanel" aria-labelledby="list-1Thessalonians-list">
-                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
                                           <a href="{{route('1The1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
                                           <a href="{{route('1The2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
@@ -2029,7 +2029,7 @@
                                     </div>  
                                     </div>
                                     <div class="tab-pane fade" id="list-2Thessalonians" role="tabpanel" aria-labelledby="list-2Thessalonians-list">
-                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
                                           <a href="{{route('2The1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
                                           <a href="{{route('2The2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
@@ -2038,7 +2038,7 @@
                                       </div>  
                                     </div>
                                     <div class="tab-pane fade" id="list-1Timothy" role="tabpanel" aria-labelledby="list-1Timothy-list">
-                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
                                           <a href="{{route('1Tim1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
                                           <a href="{{route('1Tim2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
@@ -2052,7 +2052,7 @@
                                       </div>  
                                     </div>
                                     <div class="tab-pane fade" id="list-2Timothy" role="tabpanel" aria-labelledby="list-2Timothy-list">
-                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
                                           <a href="{{route('2Tim1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
                                           <a href="{{route('2Tim2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
@@ -2069,7 +2069,7 @@
                                             <a href="{{route('tit3')}}" class="btn-g" role="button" aria-pressed="true">၃</a>
                                           </div>
                                         </div>  
-                                      </div>
+                                    </div>
                                     <div class="tab-pane fade" id="list-Philemon" role="tabpanel" aria-labelledby="list-Philemon-list">
                                       <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
@@ -2078,7 +2078,7 @@
                                       </div>  
                                     </div>
                                     <div class="tab-pane fade" id="list-Hebrews" role="tabpanel" aria-labelledby="list-Hebrews-list">
-                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
                                           <a href="/Bible/new/Heb/Heb1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
                                           <a href="/Bible/new/Heb/Heb2.html" class="btn-g" role="button" aria-pressed="true">၂</a>
@@ -2112,7 +2112,7 @@
                                       </div>
                                     </div>
                                     <div class="tab-pane fade" id="list-1Peter" role="tabpanel" aria-labelledby="list-1Peter-list">
-                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
                                           <a href="{{route('1Pet1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
                                           <a href="{{route('1Pet2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
@@ -2123,7 +2123,7 @@
                                       </div>  
                                     </div>
                                     <div class="tab-pane fade" id="list-2Peter" role="tabpanel" aria-labelledby="list-2Peter-list">
-                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
                                           <a href="{{route('2Pet1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
                                           <a href="{{route('2Pet2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
@@ -2132,7 +2132,7 @@
                                       </div>  
                                     </div>
                                     <div class="tab-pane fade" id="list-1John" role="tabpanel" aria-labelledby="list-1John-list">
-                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
                                           <a href="{{route('1Joh1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
                                           <a href="{{route('1Joh2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
@@ -2143,21 +2143,21 @@
                                       </div>  
                                     </div>
                                     <div class="tab-pane fade" id="list-2John" role="tabpanel" aria-labelledby="list-2John-list">
-                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
                                           <a href="{{route('2Joh1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
                                         </div>
                                       </div>  
                                     </div>
                                     <div class="tab-pane fade" id="list-3John" role="tabpanel" aria-labelledby="list-3John-list">
-                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
                                           <a href="{{route('3Joh1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
                                         </div>
                                       </div>  
                                     </div>
                                     <div class="tab-pane fade" id="list-Jude" role="tabpanel" aria-labelledby="list-Jude-list">
-                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
                                           <a href="{{route('Jud1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
                                         </div>
