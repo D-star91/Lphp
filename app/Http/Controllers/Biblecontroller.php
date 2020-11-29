@@ -96,6 +96,19 @@ class Biblecontroller extends Controller
     function Mark1(){
         return view("Bible.new.Mark.Mark1");
     }
+    // Philippians
+    function Philippians1(){
+        return view("Bible.new.Philippians.php1");
+    }
+    function Philippians2(){
+        return view("Bible.new.Philippians.php2");
+    }
+    function Philippians3(){
+        return view("Bible.new.Philippians.php3");
+    }
+    function Philippians4(){
+        return view("Bible.new.Philippians.php4");
+    }
     // Colossians
     function Colossians1(){
         return view("Bible.new.Colossians.col1");
