@@ -16,26 +16,26 @@
                       <div class="card-body">
                         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                           <div class="btn-group mr-2" role="group" aria-label="First group">
-                            <a href="{{route('mat1')}}" class="btn-g2" role="button" aria-pressed="true">၁</a>
-                            <a href="{{route('mat2')}}" class="btn-g2" role="button" aria-pressed="true">၂</a>
-                            <a href="{{route('mat3')}}" class="btn-g2" role="button" aria-pressed="true">၃</a>
-                            <a href="{{route('mat4')}}" class="btn-g2" role="button" aria-pressed="true">၄</a>
-                            <a href="{{route('mat5')}}" class="btn-g2" role="button" aria-pressed="true">၅</a>
-                            <a href="{{route('mat6')}}" class="btn-g2" role="button" aria-pressed="true">၆</a>
-                            <a href="{{route('mat7')}}" class="btn-g2" role="button" aria-pressed="true">၇</a>
-                            <a href="{{route('mat8')}}" class="btn-g2" role="button" aria-pressed="true">၈</a>
-                            <a href="{{route('mat9')}}" class="btn-g2" role="button" aria-pressed="true">၉</a>
-                            <a href="{{route('mat10')}}" class="btn-g2" role="button" aria-pressed="true">၁၀</a>
+                            <a href="{{route('mark1')}}" class="btn-g2" role="button" aria-pressed="true">၁</a>
+                            <a href="{{route('mark2')}}" class="btn-g2" role="button" aria-pressed="true">၂</a>
+                            <a href="{{route('mark3')}}" class="btn-g2" role="button" aria-pressed="true">၃</a>
+                            <a href="{{route('mark4')}}" class="btn-g2" role="button" aria-pressed="true">၄</a>
+                            <a href="{{route('mark5')}}" class="btn-g2" role="button" aria-pressed="true">၅</a>
+                            <a href="{{route('mark6')}}" class="btn-g2" role="button" aria-pressed="true">၆</a>
+                            <a href="{{route('mark7')}}" class="btn-g2" role="button" aria-pressed="true">၇</a>
+                            <a href="{{route('mark8')}}" class="btn-g2" role="button" aria-pressed="true">၈</a>
+                            <a href="{{route('mark9')}}" class="btn-g2" role="button" aria-pressed="true">၉</a>
+                            <a href="{{route('mark10')}}" class="btn-g2" role="button" aria-pressed="true">၁၀</a>
                           </div>
                         </div>
                         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                           <div class="btn-group mr-2" role="group" aria-label="First group">
-                            <a href="{{route('mat11')}}" class="btn-g2" role="button" aria-pressed="true">၁၁</a>
-                            <a href="{{route('mat12')}}" class="btn-g2" role="button" aria-pressed="true">၁၂</a>
-                            <a href="{{route('mat13')}}" class="btn-g2" role="button" aria-pressed="true">၁၃</a>
-                            <a href="{{route('mat14')}}" class="btn-g2" role="button" aria-pressed="true">၁၄</a>
-                            <a href="{{route('mat15')}}" class="btn-g2" role="button" aria-pressed="true">၁၅</a>
-                            <a href="{{route('mat16')}}" class="btn-g2" role="button" aria-pressed="true">၁၆</a>
+                            <a href="{{route('mark11')}}" class="btn-g2" role="button" aria-pressed="true">၁၁</a>
+                            <a href="{{route('mark12')}}" class="btn-g2" role="button" aria-pressed="true">၁၂</a>
+                            <a href="{{route('mark13')}}" class="btn-g2" role="button" aria-pressed="true">၁၃</a>
+                            <a href="{{route('mark14')}}" class="btn-g2" role="button" aria-pressed="true">၁၄</a>
+                            <a href="{{route('mark15')}}" class="btn-g2" role="button" aria-pressed="true">၁၅</a>
+                            <a href="{{route('mark16')}}" class="btn-g2" role="button" aria-pressed="true">၁၆</a>
                           </div>
                         </div>
                       </div>
