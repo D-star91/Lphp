@@ -67,7 +67,32 @@ Route::get("/Bible/New/Mark13",[Biblecontroller::class,"Mark13"])->name("mark13"
 Route::get("/Bible/New/Mark14",[Biblecontroller::class,"Mark14"])->name("mark14");
 Route::get("/Bible/New/Mark15",[Biblecontroller::class,"Mark15"])->name("mark15");
 Route::get("/Bible/New/Mark16",[Biblecontroller::class,"Mark16"])->name("mark16");
-//Mark Corinthians
+// Lucke
+Route::get("/Bible/New/Luke1",[Biblecontroller::class,"Luke1"])->name("luke1");
+Route::get("/Bible/New/Luke2",[Biblecontroller::class,"Luke2"])->name("luke2");
+Route::get("/Bible/New/Luke3",[Biblecontroller::class,"Luke3"])->name("luke3");
+Route::get("/Bible/New/Luke4",[Biblecontroller::class,"Luke4"])->name("luke4");
+Route::get("/Bible/New/Luke5",[Biblecontroller::class,"Luke5"])->name("luke5");
+Route::get("/Bible/New/Luke6",[Biblecontroller::class,"Luke6"])->name("luke6");
+Route::get("/Bible/New/Luke7",[Biblecontroller::class,"Luke7"])->name("luke7");
+Route::get("/Bible/New/Luke8",[Biblecontroller::class,"Luke8"])->name("luke8");
+Route::get("/Bible/New/Luke9",[Biblecontroller::class,"Luke9"])->name("luke9");
+Route::get("/Bible/New/Luke10",[Biblecontroller::class,"Luke10"])->name("luke10");
+Route::get("/Bible/New/Luke11",[Biblecontroller::class,"Luke11"])->name("luke11");
+Route::get("/Bible/New/Luke12",[Biblecontroller::class,"Luke12"])->name("luke12");
+Route::get("/Bible/New/Luke13",[Biblecontroller::class,"Luke13"])->name("luke13");
+Route::get("/Bible/New/Luke14",[Biblecontroller::class,"Luke14"])->name("luke14");
+Route::get("/Bible/New/Luke15",[Biblecontroller::class,"Luke15"])->name("luke15");
+Route::get("/Bible/New/Luke16",[Biblecontroller::class,"Luke16"])->name("luke16");
+Route::get("/Bible/New/Luke17",[Biblecontroller::class,"Luke17"])->name("luke17");
+Route::get("/Bible/New/Luke18",[Biblecontroller::class,"Luke18"])->name("luke18");
+Route::get("/Bible/New/Luke19",[Biblecontroller::class,"Luke19"])->name("luke19");
+Route::get("/Bible/New/Luke20",[Biblecontroller::class,"Luke20"])->name("luke20");
+Route::get("/Bible/New/Luke21",[Biblecontroller::class,"Luke21"])->name("luke21");
+Route::get("/Bible/New/Luke22",[Biblecontroller::class,"Luke22"])->name("luke22");
+Route::get("/Bible/New/Luke23",[Biblecontroller::class,"Luke23"])->name("luke23");
+Route::get("/Bible/New/Luke24",[Biblecontroller::class,"Luke24"])->name("luke24");
+//Second Corinthians
 Route::get("/Bible/New/2Corinthians1",[Biblecontroller::class,"SecondCorinthians1"])->name("2cor1");
 Route::get("/Bible/New/2Corinthians2",[Biblecontroller::class,"SecondCorinthians2"])->name("2cor2");
 Route::get("/Bible/New/2Corinthians3",[Biblecontroller::class,"SecondCorinthians3"])->name("2cor3");

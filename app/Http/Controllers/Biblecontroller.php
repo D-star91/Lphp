@@ -141,6 +141,79 @@ class Biblecontroller extends Controller
     function Mark16(){
         return view("Bible.new.Mark.mark16");
     }
+    // Luke
+    function Luke1(){
+        return view("Bible.new.Luke.luke1");
+    }
+    function Luke2(){
+        return view("Bible.new.Luke.luke2");
+    }
+    function Luke3(){
+        return view("Bible.new.Luke.luke3");
+    }
+    function Luke4(){
+        return view("Bible.new.Luke.luke4");
+    }
+    function Luke5(){
+        return view("Bible.new.Luke.luke5");
+    }
+    function Luke6(){
+        return view("Bible.new.Luke.luke6");
+    }
+    function Luke7(){
+        return view("Bible.new.Luke.luke7");
+    }
+    function Luke8(){
+        return view("Bible.new.Luke.luke8");
+    }
+    function Luke9(){
+        return view("Bible.new.Luke.luke9");
+    }
+    function Luke10(){
+        return view("Bible.new.Luke.luke10");
+    }
+    function Luke11(){
+        return view("Bible.new.Luke.luke11");
+    }
+    function Luke12(){
+        return view("Bible.new.Luke.luke12");
+    }
+    function Luke13(){
+        return view("Bible.new.Luke.luke13");
+    }
+    function Luke14(){
+        return view("Bible.new.Luke.luke14");
+    }
+    function Luke15(){
+        return view("Bible.new.Luke.luke15");
+    }
+    function Luke16(){
+        return view("Bible.new.Luke.luke16");
+    }
+    function Luke17(){
+        return view("Bible.new.Luke.luke17");
+    }
+    function Luke18(){
+        return view("Bible.new.Luke.luke18");
+    }
+    function Luke19(){
+        return view("Bible.new.Luke.luke19");
+    }
+    function Luke20(){
+        return view("Bible.new.Luke.luke20");
+    }
+    function Luke21(){
+        return view("Bible.new.Luke.luke21");
+    }
+    function Luke22(){
+        return view("Bible.new.Luke.luke22");
+    }
+    function Luke23(){
+        return view("Bible.new.Luke.luke23");
+    }
+    function Luke24(){
+        return view("Bible.new.Luke.luke24");
+    }
     // Second Corinthians
     function SecondCorinthians1(){
         return view("Bible.new.SecondCorinthians.2cor1");

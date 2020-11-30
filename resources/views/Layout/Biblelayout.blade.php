@@ -1775,38 +1775,38 @@
                                     <div class="tab-pane fade" id="list-Luke" role="tabpanel" aria-labelledby="list-Luke-list">
                                       <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/Luk/Luk1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
-                                          <a href="/Bible/new/Luk/Luk2.html" class="btn-g" role="button" aria-pressed="true">၂</a>
-                                          <a href="/Bible/new/Luk/Luk3.html" class="btn-g" role="button" aria-pressed="true">၃</a>
-                                          <a href="/Bible/new/Luk/Luk4.html" class="btn-g" role="button" aria-pressed="true">၄</a>
-                                          <a href="/Bible/new/Luk/Luk5.html" class="btn-g" role="button" aria-pressed="true">၅</a>
+                                          <a href="{{route('luke1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                          <a href="{{route('luke2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
+                                          <a href="{{route('luke3')}}" class="btn-g" role="button" aria-pressed="true">၃</a>
+                                          <a href="{{route('luke4')}}" class="btn-g" role="button" aria-pressed="true">၄</a>
+                                          <a href="{{route('luke5')}}" class="btn-g" role="button" aria-pressed="true">၅</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/Luk/Luk6.html" class="btn-g" role="button" aria-pressed="true">၆</a>
-                                          <a href="/Bible/new/Luk/Luk7.html" class="btn-g" role="button" aria-pressed="true">၇</a>
-                                          <a href="/Bible/new/Luk/Luk8.html" class="btn-g" role="button" aria-pressed="true">၈</a>
-                                          <a href="/Bible/new/Luk/Luk9.html" class="btn-g" role="button" aria-pressed="true">၉</a>
-                                          <a href="/Bible/new/Luk/Luk10.html" class="btn-g" role="button" aria-pressed="true">၁၀</a>
+                                          <a href="{{route('luke6')}}" class="btn-g" role="button" aria-pressed="true">၆</a>
+                                          <a href="{{route('luke7')}}" class="btn-g" role="button" aria-pressed="true">၇</a>
+                                          <a href="{{route('luke8')}}" class="btn-g" role="button" aria-pressed="true">၈</a>
+                                          <a href="{{route('luke9')}}" class="btn-g" role="button" aria-pressed="true">၉</a>
+                                          <a href="{{route('luke10')}}" class="btn-g" role="button" aria-pressed="true">၁၀</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/Luk/Luk11.html" class="btn-g" role="button" aria-pressed="true">၁၁</a>
-                                          <a href="/Bible/new/Luk/Luk12.html" class="btn-g" role="button" aria-pressed="true">၁၂</a>
-                                          <a href="/Bible/new/Luk/Luk13.html" class="btn-g" role="button" aria-pressed="true">၁၃</a>
-                                          <a href="/Bible/new/Luk/Luk14.html" class="btn-g" role="button" aria-pressed="true">၁၄</a>
-                                          <a href="/Bible/new/Luk/Luk15.html" class="btn-g" role="button" aria-pressed="true">၁၅</a>
+                                          <a href="{{route('luke11')}}" class="btn-g" role="button" aria-pressed="true">၁၁</a>
+                                          <a href="{{route('luke12')}}" class="btn-g" role="button" aria-pressed="true">၁၂</a>
+                                          <a href="{{route('luke13')}}" class="btn-g" role="button" aria-pressed="true">၁၃</a>
+                                          <a href="{{route('luke14')}}" class="btn-g" role="button" aria-pressed="true">၁၄</a>
+                                          <a href="{{route('luke15')}}" class="btn-g" role="button" aria-pressed="true">၁၅</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/Luk/Luk16.html" class="btn-g" role="button" aria-pressed="true">၁၆</a>
-                                          <a href="/Bible/new/Luk/Luk17.html" class="btn-g" role="button" aria-pressed="true">၁၇</a>
-                                          <a href="/Bible/new/Luk/Luk18.html" class="btn-g" role="button" aria-pressed="true">၁၈</a>
-                                          <a href="/Bible/new/Luk/Luk19.html" class="btn-g" role="button" aria-pressed="true">၁၉</a>
-                                          <a href="/Bible/new/Luk/Luk20.html" class="btn-g" role="button" aria-pressed="true">၂၀</a>
+                                          <a href="{{route('luke16')}}" class="btn-g" role="button" aria-pressed="true">၁၆</a>
+                                          <a href="{{route('luke17')}}" class="btn-g" role="button" aria-pressed="true">၁၇</a>
+                                          <a href="{{route('luke18')}}" class="btn-g" role="button" aria-pressed="true">၁၈</a>
+                                          <a href="{{route('luke19')}}" class="btn-g" role="button" aria-pressed="true">၁၉</a>
+                                          <a href="{{route('luke20')}}" class="btn-g" role="button" aria-pressed="true">၂၀</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/Luk/Luk21.html" class="btn-g" role="button" aria-pressed="true">၂၁</a>
-                                          <a href="/Bible/new/Luk/Luk22.html" class="btn-g" role="button" aria-pressed="true">၂၂</a>
-                                          <a href="/Bible/new/Luk/Luk23.html" class="btn-g" role="button" aria-pressed="true">၂၃</a>
-                                          <a href="/Bible/new/Luk/Luk24.html" class="btn-g" role="button" aria-pressed="true">၂၄</a>
+                                          <a href="{{route('luke21')}}" class="btn-g" role="button" aria-pressed="true">၂၁</a>
+                                          <a href="{{route('luke22')}}" class="btn-g" role="button" aria-pressed="true">၂၂</a>
+                                          <a href="{{route('luke23')}}" class="btn-g" role="button" aria-pressed="true">၂၃</a>
+                                          <a href="{{route('luke24')}}" class="btn-g" role="button" aria-pressed="true">၂၄</a>
                                         </div>
                                       </div>
                                     </div>
