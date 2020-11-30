@@ -2182,17 +2182,17 @@
                                   <div class="modal-body">
                                     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="{{route('mark1')}} class="btn-g" role="button" aria-pressed="true">၁</a>
-                                        <a href="{{route('mark2')}} class="btn-g" role="button" aria-pressed="true">၂</a>
-                                        <a href="{{route('mark3')}} class="btn-g" role="button" aria-pressed="true">၃</a>
-                                        <a href="{{route('mark4')}} class="btn-g" role="button" aria-pressed="true">၄</a>
-                                        <a href="{{route('mark5')}} class="btn-g" role="button" aria-pressed="true">၅</a>
+                                        <a href="{{route('mark1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                        <a href="{{route('mark2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
+                                        <a href="{{route('mark3')}}" class="btn-g" role="button" aria-pressed="true">၃</a>
+                                        <a href="{{route('mark4')}}" class="btn-g" role="button" aria-pressed="true">၄</a>
+                                        <a href="{{route('mark5')}}" class="btn-g" role="button" aria-pressed="true">၅</a>
                                       </div>
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="{{route('mark6')}} class="btn-g" role="button" aria-pressed="true">၆</a>
-                                        <a href="{{route('mark7')}} class="btn-g" role="button" aria-pressed="true">၇</a>
-                                        <a href="{{route('mark8')}} class="btn-g" role="button" aria-pressed="true">၈</a>
-                                        <a href="{{route('mark9')}} class="btn-g" role="button" aria-pressed="true">၉</a>
+                                        <a href="{{route('mark6')}}" class="btn-g" role="button" aria-pressed="true">၆</a>
+                                        <a href="{{route('mark7')}}" class="btn-g" role="button" aria-pressed="true">၇</a>
+                                        <a href="{{route('mark8')}}" class="btn-g" role="button" aria-pressed="true">၈</a>
+                                        <a href="{{route('mark9')}}" class="btn-g" role="button" aria-pressed="true">၉</a>
                                         <a href="{{route('mark10')}}" class="btn-g" role="button" aria-pressed="true">၁၀</a>
                                       </div>
                                       <div class="btn-group" role="group" aria-label="First group">

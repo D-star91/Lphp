@@ -94,7 +94,7 @@ class Biblecontroller extends Controller
 
     // Mark
     function Mark1(){
-        return view("Bible.new.Mark.Mark1");
+        return view("Bible.new.Mark.mark1");
     }
     function Mark2(){
         return view("Bible.new.Mark.mark2");

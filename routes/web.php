@@ -52,14 +52,14 @@ Route::get("/Bible/New/Matthew27",[Biblecontroller::class,"Matthew27"])->name("m
 Route::get("/Bible/New/Matthew28",[Biblecontroller::class,"Matthew28"])->name("mat28");
 // Mark
 Route::get("/Bible/New/Mark1",[Biblecontroller::class,"Mark1"])->name("mark1");
-Route::get("/Bible/New/Mark2",[Biblecontroller::class,"Mark2"])->name("mark");
-Route::get("/Bible/New/Mark3",[Biblecontroller::class,"Mark3"])->name("mark");
-Route::get("/Bible/New/Mark4",[Biblecontroller::class,"Mark4"])->name("mark");
-Route::get("/Bible/New/Mark5",[Biblecontroller::class,"Mark5"])->name("mark");
-Route::get("/Bible/New/Mark6",[Biblecontroller::class,"Mark6"])->name("mark");
-Route::get("/Bible/New/Mark7",[Biblecontroller::class,"Mark7"])->name("mark");
-Route::get("/Bible/New/Mark8",[Biblecontroller::class,"Mark8"])->name("mark");
-Route::get("/Bible/New/Mark9",[Biblecontroller::class,"Mark9"])->name("mark");
+Route::get("/Bible/New/Mark2",[Biblecontroller::class,"Mark2"])->name("mark2");
+Route::get("/Bible/New/Mark3",[Biblecontroller::class,"Mark3"])->name("mark3");
+Route::get("/Bible/New/Mark4",[Biblecontroller::class,"Mark4"])->name("mark4");
+Route::get("/Bible/New/Mark5",[Biblecontroller::class,"Mark5"])->name("mark5");
+Route::get("/Bible/New/Mark6",[Biblecontroller::class,"Mark6"])->name("mark6");
+Route::get("/Bible/New/Mark7",[Biblecontroller::class,"Mark7"])->name("mark7");
+Route::get("/Bible/New/Mark8",[Biblecontroller::class,"Mark8"])->name("mark8");
+Route::get("/Bible/New/Mark9",[Biblecontroller::class,"Mark9"])->name("mark9");
 Route::get("/Bible/New/Mark10",[Biblecontroller::class,"Mark10"])->name("mark10");
 Route::get("/Bible/New/Mark11",[Biblecontroller::class,"Mark11"])->name("mark11");
 Route::get("/Bible/New/Mark12",[Biblecontroller::class,"Mark12"])->name("mark12");
@@ -68,7 +68,7 @@ Route::get("/Bible/New/Mark14",[Biblecontroller::class,"Mark14"])->name("mark14"
 Route::get("/Bible/New/Mark15",[Biblecontroller::class,"Mark15"])->name("mark15");
 Route::get("/Bible/New/Mark16",[Biblecontroller::class,"Mark16"])->name("mark16");
 //Mark Corinthians
-markte::get("/Bible/New/2Corinthians1",[Biblecontroller::class,"SecondCorinthians1"])->name("2cor1");
+Route::get("/Bible/New/2Corinthians1",[Biblecontroller::class,"SecondCorinthians1"])->name("2cor1");
 Route::get("/Bible/New/2Corinthians2",[Biblecontroller::class,"SecondCorinthians2"])->name("2cor2");
 Route::get("/Bible/New/2Corinthians3",[Biblecontroller::class,"SecondCorinthians3"])->name("2cor3");
 Route::get("/Bible/New/2Corinthians4",[Biblecontroller::class,"SecondCorinthians4"])->name("2cor4");
