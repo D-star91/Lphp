@@ -1747,29 +1747,28 @@
                                     <div class="tab-pane fade" id="list-Mark" role="tabpanel" aria-labelledby="list-Mark-list">
                                       <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/Mark/Mak1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
-                                          <a href="/Bible/new/Mark/Mak2.html" class="btn-g" role="button" aria-pressed="true">၂</a>
-                                          <a href="/Bible/new/Mark/Mak3.html" class="btn-g" role="button" aria-pressed="true">၃</a>
-                                          <a href="/Bible/new/Mark/Mak4.html" class="btn-g" role="button" aria-pressed="true">၄</a>
-                                          <a href="/Bible/new/Mark/Mak5.html" class="btn-g" role="button" aria-pressed="true">၅</a>
+                                          <a href="{{route('mark1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                          <a href="{{route('mark2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
+                                          <a href="{{route('mark3')}}" class="btn-g" role="button" aria-pressed="true">၃</a>
+                                          <a href="{{route('mark4')}}" class="btn-g" role="button" aria-pressed="true">၄</a>
+                                          <a href="{{route('mark5')}}" class="btn-g" role="button" aria-pressed="true">၅</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/Mark/Mak6.html" class="btn-g" role="button" aria-pressed="true">၆</a>
-                                          <a href="/Bible/new/Mark/Mak7.html" class="btn-g" role="button" aria-pressed="true">၇</a>
-                                          <a href="/Bible/new/Mark/Mak8.html" class="btn-g" role="button" aria-pressed="true">၈</a>
-                                          <a href="/Bible/new/Mark/Mak9.html" class="btn-g" role="button" aria-pressed="true">၉</a>
-                                          <a href="/Bible/new/Mark/Mak10.html" class="btn-g" role="button" aria-pressed="true">၁၀</a>
+                                          <a href="{{route('mark6')}}" class="btn-g" role="button" aria-pressed="true">၆</a>
+                                          <a href="{{route('mark7')}}" class="btn-g" role="button" aria-pressed="true">၇</a>
+                                          <a href="{{route('mark8')}}" class="btn-g" role="button" aria-pressed="true">၈</a>
+                                          <a href="{{route('mark9')}}" class="btn-g" role="button" aria-pressed="true">၉</a>
+                                          <a href="{{route('mark10')}}" class="btn-g" role="button" aria-pressed="true">၁၀</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/Mark/Mak11.html" class="btn-g" role="button" aria-pressed="true">၁၁</a>
-                                          <a href="/Bible/new/Mark/Mak12.html" class="btn-g" role="button" aria-pressed="true">၁၂</a>
-                                          <a href="/Bible/new/Mark/Mak13.html" class="btn-g" role="button" aria-pressed="true">၁၃</a>
-                                          <a href="/Bible/new/Mark/Mak14.html" class="btn-g" role="button" aria-pressed="true">၁၄</a>
-                                          <a href="/Bible/new/Mark/Mak15.html" class="btn-g" role="button" aria-pressed="true">၁၅</a>
+                                          <a href="{{route('mark11')}}" class="btn-g" role="button" aria-pressed="true">၁၁</a>
+                                          <a href="{{route('mark12')}}" class="btn-g" role="button" aria-pressed="true">၁၂</a>
+                                          <a href="{{route('mark13')}}" class="btn-g" role="button" aria-pressed="true">၁၃</a>
+                                          <a href="{{route('mark14')}}" class="btn-g" role="button" aria-pressed="true">၁၄</a>
+                                          <a href="{{route('mark16')}}" class="btn-g" role="button" aria-pressed="true">၁၅</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/Mark/Mak16.html" class="btn-g" role="button" aria-pressed="true">၁၆</a>
-                                          <a href="/Bible/new/Mark/Mak17.html" class="btn-g" role="button" aria-pressed="true">၁၇</a>
+                                          <a href="{{route('mark16')}}" class="btn-g" role="button" aria-pressed="true">၁၆</a>
                                         </div>
                                       </div>
                                     </div>

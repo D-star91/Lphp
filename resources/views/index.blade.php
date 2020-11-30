@@ -144,7 +144,7 @@
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
       content.</p>
     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-    <a href="" type="submit" class="btn-card" >Read more</a>
+    <a href="{{route('prayer')}}" type="button" class="btn-card" >Read more</a>
 
   </div>
 

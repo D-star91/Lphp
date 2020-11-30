@@ -96,6 +96,51 @@ class Biblecontroller extends Controller
     function Mark1(){
         return view("Bible.new.Mark.Mark1");
     }
+    function Mark2(){
+        return view("Bible.new.Mark.mark2");
+    }
+    function Mark3(){
+        return view("Bible.new.Mark.mark3");
+    }
+    function Mark4(){
+        return view("Bible.new.Mark.mark4");
+    }
+    function Mark5(){
+        return view("Bible.new.Mark.mark5");
+    }
+    function Mark6(){
+        return view("Bible.new.Mark.mark6");
+    }
+    function Mark7(){
+        return view("Bible.new.Mark.mark7");
+    }
+    function Mark8(){
+        return view("Bible.new.Mark.mark8");
+    }
+    function Mark9(){
+        return view("Bible.new.Mark.mark9");
+    }
+    function Mark10(){
+        return view("Bible.new.Mark.mark10");
+    }
+    function Mark11(){
+        return view("Bible.new.Mark.mark11");
+    }
+    function Mark12(){
+        return view("Bible.new.Mark.mark12");
+    }
+    function Mark13(){
+        return view("Bible.new.Mark.mark13");
+    }
+    function Mark14(){
+        return view("Bible.new.Mark.mark14");
+    }
+    function Mark15(){
+        return view("Bible.new.Mark.mark15");
+    }
+    function Mark16(){
+        return view("Bible.new.Mark.mark16");
+    }
     // Second Corinthians
     function SecondCorinthians1(){
         return view("Bible.new.SecondCorinthians.2cor1");
