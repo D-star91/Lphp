@@ -12,7 +12,7 @@
                     <h1 class="h1-font mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Loyal Land</strong></h1>
                     <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
                     <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Ministry</strong></h5>
-                    
+                    <a href="{{route('bible')}}" type="submit" class="btn-in" >Bible</a>
                 </div>
                   <!--Grid column-->
               </div>
