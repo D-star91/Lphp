@@ -2221,30 +2221,36 @@
             </div>
             <!-- Social button -->
             <div class="col">
-              <h5 class="font-weight-bold text-uppercase mt-3 mb-2">Vision</h5>
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-2">Content</h5>
                 <ul class="list-unstyled">
                   <li>
-                    <a href="#!">Old Testaments</a>
+                    <a href="#!">Bible</a>
                   </li>
                   <li>
-                    <a href="#!">New Testaments</a>
+                    <a href="#!">Bible Study</a>
                   </li>
                   <li>
-                    <a href="#!">Verse</a>
+                    <a href="#!">Book</a>
+                  </li>
+                  <li>
+                    <a href="#!">Prayer</a>
                   </li>
                 </ul>
             </div>
             <div class="col">
-              <h5 class="font-weight-bold text-uppercase mt-3 mb-2">Mission</h5>
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-2">About</h5>
               <ul class="list-unstyled">
                 <li>
-                  <a href="#!">Old Testaments</a>
+                  <a href="#!">Our Vision</a>
                 </li>
                 <li>
-                  <a href="#!">New Testaments</a>
+                  <a href="#!">Our Mission</a>
                 </li>
                 <li>
-                  <a href="#!">Verse</a>
+                  <a href="#!">Contact</a>
+                </li>
+                <li>
+                  <a href="#!">About</a>
                 </li>
               </ul>
            </div>
