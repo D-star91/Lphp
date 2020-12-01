@@ -41,6 +41,9 @@
           <a class=" navbr-font" href="{{route('prayer')}}">Prayer</a>
           </li>
           <li class="nav-item">
+          <a class=" navbr-font" href="{{route('about')}}">Bible Study</a>
+          </li>
+          <li class="nav-item">
           <a class=" navbr-font" href="{{route('contact')}}">Contact</a>
           </li>
           <li class="nav-item">

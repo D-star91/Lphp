@@ -41,10 +41,10 @@
           <a class=" navbr-font" href="{{route('prayer')}}">Prayer</a>
           </li>
           <li class="nav-item">
-          <a class=" navbr-font" href="{{route('contact')}}">Contact</a>
+          <a class=" navbr-font" href="{{route('about')}}">Bible Study</a>
           </li>
           <li class="nav-item">
-          <a class=" navbr-font" href="{{route('about')}}">About</a>
+          <a class=" navbr-font" href="{{route('contact')}}">Contact</a>
           </li>
           </ul>
           <form class="form-inline my-2 my-lg-0 ml-auto">
