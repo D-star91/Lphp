@@ -56,7 +56,7 @@
             </div>
             <div class="col-md-4">
               <div class="new-title">
-                <h3>ရှင်လုကာခရစ်ဝင် - ၂၃</h3>
+                <h3>ရှင်လုကာခရစ်ဝင် - ၂၄</h3>
               </div>
           </div>
           </div>

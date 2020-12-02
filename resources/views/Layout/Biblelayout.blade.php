@@ -1813,35 +1813,35 @@
                                     <div class="tab-pane fade" id="list-John" role="tabpanel" aria-labelledby="list-John-list">
                                     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/Joh/Joh1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
-                                          <a href="/Bible/new/Joh/Joh2.html" class="btn-g" role="button" aria-pressed="true">၂</a>
-                                          <a href="/Bible/new/Joh/Joh3.html" class="btn-g" role="button" aria-pressed="true">၃</a>
-                                          <a href="/Bible/new/Joh/Joh4.html" class="btn-g" role="button" aria-pressed="true">၄</a>
-                                          <a href="/Bible/new/Joh/Joh5.html" class="btn-g" role="button" aria-pressed="true">၅</a>
+                                          <a href="{{route('john1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                          <a href="{{route('john2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
+                                          <a href="{{route('john3')}}" class="btn-g" role="button" aria-pressed="true">၃</a>
+                                          <a href="{{route('john4')}}" class="btn-g" role="button" aria-pressed="true">၄</a>
+                                          <a href="{{route('john5')}}" class="btn-g" role="button" aria-pressed="true">၅</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/Joh/Joh6.html" class="btn-g" role="button" aria-pressed="true">၆</a>
-                                          <a href="/Bible/new/Joh/Joh7.html" class="btn-g" role="button" aria-pressed="true">၇</a>
-                                          <a href="/Bible/new/Joh/Joh8.html" class="btn-g" role="button" aria-pressed="true">၈</a>
-                                          <a href="/Bible/new/Joh/Joh9.html" class="btn-g" role="button" aria-pressed="true">၉</a>
-                                          <a href="/Bible/new/Joh/Joh10.html" class="btn-g" role="button" aria-pressed="true">၁၀</a>
+                                          <a href="{{route('john6')}}" class="btn-g" role="button" aria-pressed="true">၆</a>
+                                          <a href="{{route('john7')}}" class="btn-g" role="button" aria-pressed="true">၇</a>
+                                          <a href="{{route('john8')}}" class="btn-g" role="button" aria-pressed="true">၈</a>
+                                          <a href="{{route('john9')}}" class="btn-g" role="button" aria-pressed="true">၉</a>
+                                          <a href="{{route('john10')}}" class="btn-g" role="button" aria-pressed="true">၁၀</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/Joh/Joh11.html" class="btn-g" role="button" aria-pressed="true">၁၁</a>
-                                          <a href="/Bible/new/Joh/Joh12.html" class="btn-g" role="button" aria-pressed="true">၁၂</a>
-                                          <a href="/Bible/new/Joh/Joh13.html" class="btn-g" role="button" aria-pressed="true">၁၃</a>
-                                          <a href="/Bible/new/Joh/Joh14.html" class="btn-g" role="button" aria-pressed="true">၁၄</a>
-                                          <a href="/Bible/new/Joh/Joh15.html" class="btn-g" role="button" aria-pressed="true">၁၅</a>
+                                          <a href="{{route('john11')}}" class="btn-g" role="button" aria-pressed="true">၁၁</a>
+                                          <a href="{{route('john12')}}" class="btn-g" role="button" aria-pressed="true">၁၂</a>
+                                          <a href="{{route('john13')}}" class="btn-g" role="button" aria-pressed="true">၁၃</a>
+                                          <a href="{{route('john14')}}" class="btn-g" role="button" aria-pressed="true">၁၄</a>
+                                          <a href="{{route('john15')}}" class="btn-g" role="button" aria-pressed="true">၁၅</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/Joh/Joh16.html" class="btn-g" role="button" aria-pressed="true">၁၆</a>
-                                          <a href="/Bible/new/Joh/Joh17.html" class="btn-g" role="button" aria-pressed="true">၁၇</a>
-                                          <a href="/Bible/new/Joh/Joh18.html" class="btn-g" role="button" aria-pressed="true">၁၈</a>
-                                          <a href="/Bible/new/Joh/Joh19.html" class="btn-g" role="button" aria-pressed="true">၁၉</a>
-                                          <a href="/Bible/new/Joh/Joh20.html" class="btn-g" role="button" aria-pressed="true">၂၀</a>
+                                          <a href="{{route('john16')}}" class="btn-g" role="button" aria-pressed="true">၁၆</a>
+                                          <a href="{{route('john17')}}" class="btn-g" role="button" aria-pressed="true">၁၇</a>
+                                          <a href="{{route('john18')}}" class="btn-g" role="button" aria-pressed="true">၁၈</a>
+                                          <a href="{{route('john19')}}" class="btn-g" role="button" aria-pressed="true">၁၉</a>
+                                          <a href="{{route('john20')}}" class="btn-g" role="button" aria-pressed="true">၂၀</a>
                                         </div>
                                         <div class="btn-group" role="group" aria-label="First group">
-                                          <a href="/Bible/new/Joh/Joh21.html" class="btn-g" role="button" aria-pressed="true">၂၁</a>
+                                          <a href="{{route('john21')}}" class="btn-g" role="button" aria-pressed="true">၂၁</a>
                                         </div>
                                       </div>  
                                     </div>

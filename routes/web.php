@@ -116,9 +116,9 @@ Route::get("/Bible/New/John15",[Biblecontroller::class,"John15"])->name("john15"
 Route::get("/Bible/New/John16",[Biblecontroller::class,"John16"])->name("john16");
 Route::get("/Bible/New/John17",[Biblecontroller::class,"John17"])->name("john17");
 Route::get("/Bible/New/John18",[Biblecontroller::class,"John18"])->name("john18");
-Route::get("/Bible/New/John19",[Biblecontroller::class,"John19"])->name("John19");
-Route::get("/Bible/New/John20",[Biblecontroller::class,"John20"])->name("John20");
-Route::get("/Bible/New/John21",[Biblecontroller::class,"John21"])->name("John21");
+Route::get("/Bible/New/John19",[Biblecontroller::class,"John19"])->name("john19");
+Route::get("/Bible/New/John20",[Biblecontroller::class,"John20"])->name("john20");
+Route::get("/Bible/New/John21",[Biblecontroller::class,"John21"])->name("john21");
 //Second Corinthians
 Route::get("/Bible/New/2Corinthians1",[Biblecontroller::class,"SecondCorinthians1"])->name("2cor1");
 Route::get("/Bible/New/2Corinthians2",[Biblecontroller::class,"SecondCorinthians2"])->name("2cor2");
