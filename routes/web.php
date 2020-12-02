@@ -17,7 +17,9 @@ Route::get("/Registered",[Loyalcontroller::class,"Registe"]) ->name("registe");
 // Prayer
 Route::get("/Prayer",[Loyalcontroller::class,"Prayer"]) ->name("prayer");
 // Prayer
-
+// Bible study
+Route::get("/BibleStudy",[Loyalcontroller::class,"Biblestudy"]) ->name("Biblestudy");
+// Bible study
 // Bible
 Route::get("/Bible",[Biblecontroller::class,"Bible"])->name("bible");
 // New

@@ -41,5 +41,7 @@ class Loyalcontroller extends Controller
         function Registe(){
             return view("Registered");
         }
-        
-}
+        function Biblestudy(){
+            return view("Biblestudy");
+        }
+}   

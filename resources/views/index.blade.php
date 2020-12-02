@@ -190,7 +190,7 @@
         dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
       <p class="font-weight-normal">by <a><strong>Carine Fox</strong></a>, 19/08/2016</p>
 
-      <a class="btn btn-success" href="">Read more</a>
+      <a class="btn btn-success" href="{{route('Biblestudy')}}">Read more</a>
 
     </div>
     <!-- Grid column -->

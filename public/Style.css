@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Merienda:wght@700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 @import url("bible.css");
 @import url('contact.css');
 @import url('pray.css');
@@ -15,6 +16,30 @@
 .navbr-font:hover{
   font-size: 20px;
   font-weight: bold;
+  color: rgb(252, 115, 142);
+}
+.navbr-font-sty{
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: crimson;
+  font-family: 'Lobster', cursive;
+}
+.navbr-font-sty:hover{
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(252, 115, 142);
+}
+.navbr-font-br{
+  padding: 2px;
+  margin-left: 10px;
+  font-size: 16px;
+  color: white;
+  font-family: 'Bree Serif', serif;
+  transition-duration: 1000ms;
+}
+.navbr-font-br:hover{
   color: rgb(252, 115, 142);
 }
 /* nav */
