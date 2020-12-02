@@ -97,6 +97,28 @@ Route::get("/Bible/New/Luke21",[Biblecontroller::class,"Luke21"])->name("luke21"
 Route::get("/Bible/New/Luke22",[Biblecontroller::class,"Luke22"])->name("luke22");
 Route::get("/Bible/New/Luke23",[Biblecontroller::class,"Luke23"])->name("luke23");
 Route::get("/Bible/New/Luke24",[Biblecontroller::class,"Luke24"])->name("luke24");
+// John
+Route::get("/Bible/New/John1",[Biblecontroller::class,"John1"])->name("john1");
+Route::get("/Bible/New/John2",[Biblecontroller::class,"John2"])->name("john2");
+Route::get("/Bible/New/John3",[Biblecontroller::class,"John3"])->name("john3");
+Route::get("/Bible/New/John4",[Biblecontroller::class,"John4"])->name("john4");
+Route::get("/Bible/New/John5",[Biblecontroller::class,"John5"])->name("john5");
+Route::get("/Bible/New/John6",[Biblecontroller::class,"John6"])->name("john6");
+Route::get("/Bible/New/John7",[Biblecontroller::class,"John7"])->name("john7");
+Route::get("/Bible/New/John8",[Biblecontroller::class,"John8"])->name("john8");
+Route::get("/Bible/New/John9",[Biblecontroller::class,"John9"])->name("john9");
+Route::get("/Bible/New/John10",[Biblecontroller::class,"John10"])->name("john10");
+Route::get("/Bible/New/John11",[Biblecontroller::class,"John11"])->name("john11");
+Route::get("/Bible/New/John12",[Biblecontroller::class,"John12"])->name("john12");
+Route::get("/Bible/New/John13",[Biblecontroller::class,"John13"])->name("john13");
+Route::get("/Bible/New/John14",[Biblecontroller::class,"John14"])->name("john14");
+Route::get("/Bible/New/John15",[Biblecontroller::class,"John15"])->name("john15");
+Route::get("/Bible/New/John16",[Biblecontroller::class,"John16"])->name("john16");
+Route::get("/Bible/New/John17",[Biblecontroller::class,"John17"])->name("john17");
+Route::get("/Bible/New/John18",[Biblecontroller::class,"John18"])->name("john18");
+Route::get("/Bible/New/John19",[Biblecontroller::class,"John19"])->name("John19");
+Route::get("/Bible/New/John20",[Biblecontroller::class,"John20"])->name("John20");
+Route::get("/Bible/New/John21",[Biblecontroller::class,"John21"])->name("John21");
 //Second Corinthians
 Route::get("/Bible/New/2Corinthians1",[Biblecontroller::class,"SecondCorinthians1"])->name("2cor1");
 Route::get("/Bible/New/2Corinthians2",[Biblecontroller::class,"SecondCorinthians2"])->name("2cor2");

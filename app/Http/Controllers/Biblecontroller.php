@@ -214,6 +214,70 @@ class Biblecontroller extends Controller
     function Luke24(){
         return view("Bible.new.Luke.luke24");
     }
+    // John
+    function John1(){
+        return view("Bible.new.John.john1");
+    }
+    function John2(){
+        return view("Bible.new.John.john2");
+    }
+    function John3(){
+        return view("Bible.new.John.john3");
+    }
+    function John4(){
+        return view("Bible.new.John.john4");
+    }
+    function John5(){
+        return view("Bible.new.John.john5");
+    }
+    function John6(){
+        return view("Bible.new.John.john6");
+    }
+    function John7(){
+        return view("Bible.new.John.john7");
+    }
+    function John8(){
+        return view("Bible.new.John.john8");
+    }
+    function John9(){
+        return view("Bible.new.John.john9");
+    }
+    function John10(){
+        return view("Bible.new.John.john10");
+    }
+    function John11(){
+        return view("Bible.new.John.john11");
+    }
+    function John12(){
+        return view("Bible.new.John.john12");
+    }
+    function John13(){
+        return view("Bible.new.John.john13");
+    }
+    function John14(){
+        return view("Bible.new.John.john14");
+    }
+    function John15(){
+        return view("Bible.new.John.john15");
+    }
+    function John16(){
+        return view("Bible.new.John.john16");
+    }
+    function John17(){
+        return view("Bible.new.John.john17");
+    }
+    function John18(){
+        return view("Bible.new.John.john18");
+    }
+    function John19(){
+        return view("Bible.new.John.john19");
+    }
+    function John20(){
+        return view("Bible.new.John.john20");
+    }
+    function John21(){
+        return view("Bible.new.John.john21");
+    }
     // Second Corinthians
     function SecondCorinthians1(){
         return view("Bible.new.SecondCorinthians.2cor1");
