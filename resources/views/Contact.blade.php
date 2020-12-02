@@ -46,11 +46,11 @@
 
             <!--Card content-->
                 <div class="card-body px-lg-5 pt-0">
-                     @if(Session('consuccess'))
+                    @if(Session('consuccess'))
                     <div class="text-center mt-2">
                       {{Session('consuccess')}}
                     </div>   
-                  @endif
+                    @endif
                     <!-- Form -->
                     <form class="text-center" style="color: #757575;" action="{{route('usercontact')}}" method="post">
                     @csrf

@@ -1,0 +1,23 @@
+.Bible-bg{
+  background-image: url("Image/Bible\ study.png");
+  height: 80%;
+  padding-top: 10%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Log-bg{
+  height: 100%;
+  padding-top: 8%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e0f7fa;
+}
+.log-form{
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.548);
+  box-shadow: 8px 8px 20px rgba(233, 232, 232, 0.356);
+}

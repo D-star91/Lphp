@@ -19,6 +19,9 @@ Route::get("/Prayer",[Loyalcontroller::class,"Prayer"]) ->name("prayer");
 // Prayer
 // Bible study
 Route::get("/BibleStudy",[Loyalcontroller::class,"Biblestudy"]) ->name("Biblestudy");
+Route::post("/BibleStudy",[Loyalcontroller::class,"StudyAcc"]) ->name("studyacc");
+Route::get("/BibleStudy/Login",[Loyalcontroller::class,"BibleLogin"]) ->name("Biblelogin");
+Route::get("/BibleStudy/Signup",[Loyalcontroller::class,"BibleSignup"]) ->name("Biblesignup");
 // Bible study
 // Bible
 Route::get("/Bible",[Biblecontroller::class,"Bible"])->name("bible");

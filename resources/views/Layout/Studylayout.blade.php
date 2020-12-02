@@ -30,15 +30,24 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="navbr-font-br mr-2" href="#">Home
+                <a class="navbr-font-br mr-3" href="{{route('Biblestudy')}}">HOME
                   <span class="sr-only">(current)</span>
                 </a>
             </li>
           <li class="nav-item">
-            <a class="navbr-font-br mr-2" href="#">Features</a>
+            <a class="navbr-font-br mr-3" href="#">LESSON</a>
           </li>
           <li class="nav-item">
-            <a class="navbr-font-br" href="#">Pricing</a>
+            <a class="navbr-font-br mr-3" href="#">CATALOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="navbr-font-br mr-3" href="#">FAQS</a>
+          </li>
+          <li class="nav-item">
+            <a class="navbr-font-br mr-3" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="navbr-font-br mr-3" href="#">CONTACT US</a>
           </li>
         </ul>
         <ul class="navbar-nav ml-auto nav-flex-icons">
@@ -46,12 +55,12 @@
                 <i class="fas fa-sign-in-alt"></i>
               </a>
             <li class="nav-item">
-              <a class="navbr-font-br waves-effect mt-1" href="">
+              <a class="navbr-font-br waves-effect mt-1 mr-2" href="{{route('Biblesignup')}}">
                 SIGN UP
               </a>
             </li>
             <li class="nav-item">
-              <a class="navbr-font-br waves-effect mt-1" href="">
+              <a class="navbr-font-br waves-effect mt-1" href="{{route('Biblelogin')}}">
                 LOG IN
               </a>
             </li>
@@ -63,5 +72,14 @@
 
 
     @yield("content")
+       <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+<script  src="study.js"></script>
 </body>
 </html>
