@@ -16,16 +16,16 @@
 </head>
 <body class="teal lighten-5">
 <!--Navbar -->
-<nav class="mb-1 navbar navbar-expand-lg navbar-dark fixed-top teal lighten-4 scrolling-navbar">
+<nav class="mb-0 navbar navbar-expand-lg navbar-dark fixed-top teal lighten-4 scrolling-navbar">
   
     <div class="container">
-    <a class="navbar-brand " href="#"><img src="{{asset('Image/loyallogo4.png')}}" height="50" alt=""></a>
+    <a class="navbar-brand " href="#"><img src="{{asset('Image/loyallogo4.png')}}" height="35" alt=""></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
     aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
-        <ul class="navbar-nav mr-auto ml-5">
+        <ul class="navbar-nav mr-auto ml-5 pt-2">
           <li class="nav-item">
           <a class="navbr-font" href="{{route('home')}}">Home
             <span class="sr-only">(current)</span>

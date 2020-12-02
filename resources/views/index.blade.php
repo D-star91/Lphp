@@ -328,7 +328,7 @@
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
                           optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
                           Odit sed qui, dolorum!.</p>
-                      <a class="btn btn-pink"><i class="fas fa-clone left"></i> Join</a>
+                      <a class="btn btn-pink" href="{{route('contact')}}"><i class="fas fa-clone left"></i> Join</a>
                     </div>
                   </div>
 
