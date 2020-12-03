@@ -278,6 +278,91 @@ class Biblecontroller extends Controller
     function John21(){
         return view("Bible.new.John.john21");
     }
+    // Acts
+    function Acts1(){
+        return view("Bible.new.Acts.acts1");
+    }
+    function Acts2(){
+        return view("Bible.new.Acts.acts2");
+    }
+    function Acts3(){
+        return view("Bible.new.Acts.acts3");
+    }
+    function Acts4(){
+        return view("Bible.new.Acts.acts4");
+    }
+    function Acts5(){
+        return view("Bible.new.Acts.acts5");
+    }
+    function Acts6(){
+        return view("Bible.new.Acts.acts6");
+    }
+    function Acts7(){
+        return view("Bible.new.Acts.acts7");
+    }
+    function Acts8(){
+        return view("Bible.new.Acts.acts8");
+    }
+    function Acts9(){
+        return view("Bible.new.Acts.acts9");
+    }
+    function Acts10(){
+        return view("Bible.new.Acts.acts10");
+    }
+    function Acts11(){
+        return view("Bible.new.Acts.acts11");
+    }
+    function Acts12(){
+        return view("Bible.new.Acts.acts12");
+    }
+    function Acts13(){
+        return view("Bible.new.Acts.acts13");
+    }
+    function Acts14(){
+        return view("Bible.new.Acts.acts14");
+    }
+    function Acts15(){
+        return view("Bible.new.Acts.acts15");
+    }
+    function Acts16(){
+        return view("Bible.new.Acts.acts16");
+    }
+    function Acts17(){
+        return view("Bible.new.Acts.acts17");
+    }
+    function Acts18(){
+        return view("Bible.new.Acts.acts18");
+    }
+    function Acts19(){
+        return view("Bible.new.Acts.acts19");
+    }
+    function Acts20(){
+        return view("Bible.new.Acts.acts20");
+    }
+    function Acts21(){
+        return view("Bible.new.Acts.acts21");
+    }
+    function Acts22(){
+        return view("Bible.new.Acts.acts22");
+    }
+    function Acts23(){
+        return view("Bible.new.Acts.acts23");
+    }
+    function Acts24(){
+        return view("Bible.new.Acts.acts24");
+    }
+    function Acts25(){
+        return view("Bible.new.Acts.acts25");
+    }
+    function Acts26(){
+        return view("Bible.new.Acts.acts26");
+    }
+    function Acts27(){
+        return view("Bible.new.Acts.acts27");
+    }
+    function Acts28(){
+        return view("Bible.new.Acts.acts28");
+    }
     // Second Corinthians
     function SecondCorinthians1(){
         return view("Bible.new.SecondCorinthians.2cor1");

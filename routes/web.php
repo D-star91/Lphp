@@ -120,6 +120,35 @@ Route::get("/Bible/New/John18",[Biblecontroller::class,"John18"])->name("john18"
 Route::get("/Bible/New/John19",[Biblecontroller::class,"John19"])->name("john19");
 Route::get("/Bible/New/John20",[Biblecontroller::class,"John20"])->name("john20");
 Route::get("/Bible/New/John21",[Biblecontroller::class,"John21"])->name("john21");
+// Acts
+Route::get("/Bible/New/Acts1",[Biblecontroller::class,"Acts1"])->name("acts1");
+Route::get("/Bible/New/Acts2",[Biblecontroller::class,"Acts2"])->name("acts2");
+Route::get("/Bible/New/Acts3",[Biblecontroller::class,"Acts3"])->name("acts3");
+Route::get("/Bible/New/Acts4",[Biblecontroller::class,"Acts4"])->name("acts4");
+Route::get("/Bible/New/Acts5",[Biblecontroller::class,"Acts5"])->name("acts5");
+Route::get("/Bible/New/Acts6",[Biblecontroller::class,"Acts6"])->name("acts6");
+Route::get("/Bible/New/Acts7",[Biblecontroller::class,"Acts7"])->name("acts7");
+Route::get("/Bible/New/Acts8",[Biblecontroller::class,"Acts8"])->name("acts8");
+Route::get("/Bible/New/Acts9",[Biblecontroller::class,"Acts9"])->name("acts9");
+Route::get("/Bible/New/Acts10",[Biblecontroller::class,"Acts10"])->name("acts10");
+Route::get("/Bible/New/Acts11",[Biblecontroller::class,"Acts11"])->name("acts11");
+Route::get("/Bible/New/Acts12",[Biblecontroller::class,"Acts12"])->name("acts12");
+Route::get("/Bible/New/Acts13",[Biblecontroller::class,"Acts13"])->name("acts13");
+Route::get("/Bible/New/Acts14",[Biblecontroller::class,"Acts14"])->name("acts14");
+Route::get("/Bible/New/Acts15",[Biblecontroller::class,"Acts15"])->name("acts15");
+Route::get("/Bible/New/Acts16",[Biblecontroller::class,"Acts16"])->name("acts16");
+Route::get("/Bible/New/Acts17",[Biblecontroller::class,"Acts17"])->name("acts17");
+Route::get("/Bible/New/Acts18",[Biblecontroller::class,"Acts18"])->name("acts18");
+Route::get("/Bible/New/Acts19",[Biblecontroller::class,"Acts19"])->name("acts19");
+Route::get("/Bible/New/Acts20",[Biblecontroller::class,"Acts20"])->name("acts20");
+Route::get("/Bible/New/Acts21",[Biblecontroller::class,"Acts21"])->name("acts21");
+Route::get("/Bible/New/Acts22",[Biblecontroller::class,"Acts22"])->name("acts22");
+Route::get("/Bible/New/Acts23",[Biblecontroller::class,"Acts23"])->name("acts23");
+Route::get("/Bible/New/Acts24",[Biblecontroller::class,"Acts24"])->name("acts24");
+Route::get("/Bible/New/Acts25",[Biblecontroller::class,"Acts25"])->name("acts25");
+Route::get("/Bible/New/Acts26",[Biblecontroller::class,"Acts26"])->name("acts26");
+Route::get("/Bible/New/Acts27",[Biblecontroller::class,"Acts27"])->name("acts27");
+Route::get("/Bible/New/Acts28",[Biblecontroller::class,"Acts28"])->name("acts28");
 //Second Corinthians
 Route::get("/Bible/New/2Corinthians1",[Biblecontroller::class,"SecondCorinthians1"])->name("2cor1");
 Route::get("/Bible/New/2Corinthians2",[Biblecontroller::class,"SecondCorinthians2"])->name("2cor2");
