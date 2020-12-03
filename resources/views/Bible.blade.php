@@ -2319,44 +2319,44 @@
                                   <div class="modal-body">
                                     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="/Bible/new/Act/Act1.html" class="btn-g" role="button" aria-pressed="true">၁</a>
-                                        <a href="/Bible/new/Act/Act2.html" class="btn-g" role="button" aria-pressed="true">၂</a>
-                                        <a href="/Bible/new/Act/Act3.html" class="btn-g" role="button" aria-pressed="true">၃</a>
-                                        <a href="/Bible/new/Act/Act4.html" class="btn-g" role="button" aria-pressed="true">၄</a>
-                                        <a href="/Bible/new/Act/Act5.html" class="btn-g" role="button" aria-pressed="true">၅</a>
+                                        <a href="{{route('acts1')}}" class="btn-g" role="button" aria-pressed="true">၁</a>
+                                        <a href="{{route('acts2')}}" class="btn-g" role="button" aria-pressed="true">၂</a>
+                                        <a href="{{route('acts3')}}" class="btn-g" role="button" aria-pressed="true">၃</a>
+                                        <a href="{{route('acts4')}}" class="btn-g" role="button" aria-pressed="true">၄</a>
+                                        <a href="{{route('acts5')}}" class="btn-g" role="button" aria-pressed="true">၅</a>
                                       </div>
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="/Bible/new/Act/Act6.html" class="btn-g" role="button" aria-pressed="true">၆</a>
-                                        <a href="/Bible/new/Act/Act7.html" class="btn-g" role="button" aria-pressed="true">၇</a>
-                                        <a href="/Bible/new/Act/Act8.html" class="btn-g" role="button" aria-pressed="true">၈</a>
-                                        <a href="/Bible/new/Act/Act9.html" class="btn-g" role="button" aria-pressed="true">၉</a>
-                                        <a href="/Bible/new/Act/Act10.html" class="btn-g" role="button" aria-pressed="true">၁၀</a>
+                                        <a href="{{route('acts6')}}" class="btn-g" role="button" aria-pressed="true">၆</a>
+                                        <a href="{{route('acts7')}}" class="btn-g" role="button" aria-pressed="true">၇</a>
+                                        <a href="{{route('acts8')}}" class="btn-g" role="button" aria-pressed="true">၈</a>
+                                        <a href="{{route('acts9')}}" class="btn-g" role="button" aria-pressed="true">၉</a>
+                                        <a href="{{route('acts10')}}" class="btn-g" role="button" aria-pressed="true">၁၀</a>
                                       </div>
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="/Bible/new/Act/Act11.html" class="btn-g" role="button" aria-pressed="true">၁၁</a>
-                                        <a href="/Bible/new/Act/Act12.html" class="btn-g" role="button" aria-pressed="true">၁၂</a>
-                                        <a href="/Bible/new/Act/Act13.html" class="btn-g" role="button" aria-pressed="true">၁၃</a>
-                                        <a href="/Bible/new/Act/Act14.html" class="btn-g" role="button" aria-pressed="true">၁၄</a>
-                                        <a href="/Bible/new/Act/Act15.html" class="btn-g" role="button" aria-pressed="true">၁၅</a>
+                                        <a href="{{route('acts11')}}" class="btn-g" role="button" aria-pressed="true">၁၁</a>
+                                        <a href="{{route('acts12')}}" class="btn-g" role="button" aria-pressed="true">၁၂</a>
+                                        <a href="{{route('acts13')}}" class="btn-g" role="button" aria-pressed="true">၁၃</a>
+                                        <a href="{{route('acts14')}}" class="btn-g" role="button" aria-pressed="true">၁၄</a>
+                                        <a href="{{route('acts15')}}" class="btn-g" role="button" aria-pressed="true">၁၅</a>
                                       </div>
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="/Bible/new/Act/Act16.html" class="btn-g" role="button" aria-pressed="true">၁၆</a>
-                                        <a href="/Bible/new/Act/Act17.html" class="btn-g" role="button" aria-pressed="true">၁၇</a>
-                                        <a href="/Bible/new/Act/Act18.html" class="btn-g" role="button" aria-pressed="true">၁၈</a>
-                                        <a href="/Bible/new/Act/Act19.html" class="btn-g" role="button" aria-pressed="true">၁၉</a>
-                                        <a href="/Bible/new/Act/Act20.html" class="btn-g" role="button" aria-pressed="true">၂၀</a>
+                                        <a href="{{route('acts16')}}" class="btn-g" role="button" aria-pressed="true">၁၆</a>
+                                        <a href="{{route('acts17')}}" class="btn-g" role="button" aria-pressed="true">၁၇</a>
+                                        <a href="{{route('acts18')}}" class="btn-g" role="button" aria-pressed="true">၁၈</a>
+                                        <a href="{{route('acts19')}}" class="btn-g" role="button" aria-pressed="true">၁၉</a>
+                                        <a href="{{route('acts20')}}" class="btn-g" role="button" aria-pressed="true">၂၀</a>
                                       </div>
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="/Bible/new/Act/Act21.html" class="btn-g" role="button" aria-pressed="true">၂၁</a>
-                                        <a href="/Bible/new/Act/Act22.html" class="btn-g" role="button" aria-pressed="true">၂၂</a>
-                                        <a href="/Bible/new/Act/Act23.html" class="btn-g" role="button" aria-pressed="true">၂၃</a>
-                                        <a href="/Bible/new/Act/Act24.html" class="btn-g" role="button" aria-pressed="true">၂၄</a>
-                                        <a href="/Bible/new/Act/Act25.html" class="btn-g" role="button" aria-pressed="true">၂၅</a>
+                                        <a href="{{route('acts21')}}" class="btn-g" role="button" aria-pressed="true">၂၁</a>
+                                        <a href="{{route('acts22')}}" class="btn-g" role="button" aria-pressed="true">၂၂</a>
+                                        <a href="{{route('acts23')}}" class="btn-g" role="button" aria-pressed="true">၂၃</a>
+                                        <a href="{{route('acts24')}}" class="btn-g" role="button" aria-pressed="true">၂၄</a>
+                                        <a href="{{route('acts25')}}" class="btn-g" role="button" aria-pressed="true">၂၅</a>
                                       </div>
                                       <div class="btn-group" role="group" aria-label="First group">
-                                        <a href="/Bible/new/Act/Act26.html" class="btn-g" role="button" aria-pressed="true">၂၆</a>
-                                        <a href="/Bible/new/Act/Act27.html" class="btn-g" role="button" aria-pressed="true">၂၇</a>
-                                        <a href="/Bible/new/Act/Act28.html" class="btn-g" role="button" aria-pressed="true">၂၈</a>
+                                        <a href="{{route('acts26')}}" class="btn-g" role="button" aria-pressed="true">၂၆</a>
+                                        <a href="{{route('acts27')}}" class="btn-g" role="button" aria-pressed="true">၂၇</a>
+                                        <a href="{{route('acts28')}}" class="btn-g" role="button" aria-pressed="true">၂၈</a>
                                       </div>
                                     </div>  
                                   </div>
