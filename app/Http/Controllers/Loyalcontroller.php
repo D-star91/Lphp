@@ -63,7 +63,7 @@ class Loyalcontroller extends Controller
         }
         // Bible Study
         function Biblestudy(){
-            return view("Biblestudy");
+            return view("Biblestudy.Biblestudy");
         }
         function StudyAcc(){
             return "StudyAcc";
