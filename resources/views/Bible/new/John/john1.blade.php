@@ -10,7 +10,7 @@
             <div class="col-md-4">
               <div class="dropdown">
                 <button class="btn btn-outline-danger dropdown-toggle mt-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  ရှင်လုကာခရစ်ဝင် အခန်းကြီး
+                  ရှင်ယောဟန်ခရစ်ဝင် အခန်းကြီး
                 </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                       <div class="card-body">
