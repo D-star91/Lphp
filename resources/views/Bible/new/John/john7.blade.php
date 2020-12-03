@@ -53,7 +53,7 @@
             </div>
             <div class="col-md-4">
               <div class="new-title">
-                <h3>ရှင်ယောဟန်ခရစ်ဝင် - ၅</h3>
+                <h3>ရှင်ယောဟန်ခရစ်ဝင် - ၇</h3>
               </div>
           </div>
           </div>
