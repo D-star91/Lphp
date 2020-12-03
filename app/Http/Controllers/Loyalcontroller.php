@@ -32,14 +32,30 @@ class Loyalcontroller extends Controller
         function Book(){
             return view("Book");
         }
-        function Prayer(){
-            return view("Prayer");
-        }
         function About(){
             return view("About");
         }
         function Registe(){
             return view("Registered");
+        }
+        // Prayer
+        function Prayer(){
+            return view("Prayer");
+        }
+        function Prayuser(Request $req){
+            $validation=$req->validate([
+                "prayname"=>"required",
+                "prayselect"=>"required",
+                "praytextarea"=>"required"
+            ]);
+            if($validation){
+                $Prayname=$req->prayname;
+                $Prayselect=$req->prayselect;
+                $Praytextar=$req->praytextarea;
+                return back()->with("pray");
+            }else{
+                return back()->withErrors($validation);
+            }
         }
         // Bible Study
         function Biblestudy(){
