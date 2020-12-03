@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Praycontact;
 use App\Models\useremail;
 use Illuminate\Http\Request;
 
@@ -40,19 +41,22 @@ class Loyalcontroller extends Controller
         }
         // Prayer
         function Prayer(){
-            return view("Prayer");
+            $Prayers=Praycontact::all();
+            return view('Prayer',['Prayers'=>$Prayers]);
         }
         function Prayuser(Request $req){
             $validation=$req->validate([
-                "prayname"=>"required",
-                "prayselect"=>"required",
-                "praytextarea"=>"required"
+                "Prayname"=>"required",
+                "Prayselect"=>"required",
+                "Praytextarea"=>"required"
             ]);
             if($validation){
-                $Prayname=$req->prayname;
-                $Prayselect=$req->prayselect;
-                $Praytextar=$req->praytextarea;
-                return back()->with("pray");
+                $praycontact=new Praycontact();
+                $praycontact->prayname=$req->Prayname;
+                $praycontact->prayselect=$req->Prayselect;
+                $praycontact->praytextarea=$req->Praytextarea;
+                $praycontact->save();
+                return back()->with("pray","Success! I will get back to you soon.");
             }else{
                 return back()->withErrors($validation);
             }

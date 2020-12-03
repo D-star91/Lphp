@@ -27,7 +27,7 @@
           <div class="row ">
             <div class="col-md-5" id="Prayform">
               <!-- prayform -->
-                <form class="prayform teal lighten-4" action="" method="POST">
+                <form class="prayform teal lighten-4" action="{{route('prayuser')}}" method="POST">
                 @csrf
                     <h4 class="h mb-2 ">ဆုတောင်းချက်တင်ရန်</h4><hr>
                     <p>ကျေးဇူးပြု၍ ဇယားကွက်တွင် ဆုတောင်းချက် သို့မဟုတ် ကျေးဇူးတော်ချီးမွမ်းခြင်းကို တစ်ခုသာ ရေးပေးပါ။</p>
@@ -36,19 +36,27 @@
                     <p>Please do not enter sensitive information that cannot be published</p><hr>
                   <!-- Default input -->
                   <label for="inputDisabledEx2" class="disabled mt-2">အမည်/Name</label>
-                  <input type="text" id="inputDisabledEx2" class="form-control" >
-                  <!-- type -->
+                  <input type="text" id="inputDisabledEx2" class="form-control" name="Prayname">
+                  @error("Prayname")
+                      <p class="text-danger" >ကျေးဇူးပြု၍အမည်ရေးထည့်ပေးပါ။</p>
+                  @enderror
                   <label for="inputDisabledEx3" class="disabled mt-3 ">အမျိုးအစား/Type</label>
-                  <select class="ll-select">
+                  <select class="ll-select" name="Prayselect">
                     <option value="" disabled>Select</option>
-                    <option value="0">Prayer</option>
-                    <option value="1">Praise</option>
+                    <option value="Prayer">Prayer</option>
+                    <option value="Praise">Praise</option>
                   </select>
-                  <!-- textarea -->
                   <label for="exampleFormControlTextarea5" class="disabled lable">ဆုတောင်းချက်/Text</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea5" rows="3"></textarea>
-                  <!-- Sign in button -->
+                    <textarea class="form-control" id="exampleFormControlTextarea5" rows="3" name="Praytextarea"></textarea>
+                  @error("Praytextarea")
+                      <p class="text-danger" >ကျေးဇူးပြု၍ဆုတောင်းချက်ရေးပေးပါ။</p>
+                  @enderror
                   <button class="btn-pray" type="submit">Save</button>
+                  @if(Session('pray'))
+                    <div class="text-center mt-2">
+                      {{Session('pray')}}
+                    </div>   
+                  @endif
                 </form>
             </div>
             <div class="col-7">
