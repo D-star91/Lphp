@@ -72,6 +72,19 @@
 
 
     @yield("content")
+<!-- Footer -->
+<footer class="BS-footer">
+  <div class="col-md-4  text-left">
+    <h3>Loyal Land</h3>
+      <p>174(B), U Aung Min(KwinPaing)St,<br>
+        (2)Qtr, Mayangon Township,<br>
+        Yangon, Myanmar.<br>
+        +95 9785596113, 9 <br>
+          © 2020 Copyright:<a href=""> Loyalland.org</a></p>
+      </p>
+  </div>
+</footer>
+<!-- Footer -->
        <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Bootstrap tooltips -->
