@@ -20,7 +20,7 @@
 <nav class="mb-0 navbar navbar-expand-lg navbar-dark fixed-top teal lighten-4 scrolling-navbar">
   
     <div class="container">
-    <a class="navbar-brand " href="#"><img src="{{asset('Image/loyallogo4.png')}}" height="35" alt=""></a>
+    <a class="navbar-brand " href="#"><img src="{{asset('Image/loyallogo3.png')}}" height="35" alt=""></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
     aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

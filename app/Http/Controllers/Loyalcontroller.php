@@ -71,7 +71,13 @@ class Loyalcontroller extends Controller
         function BibleLogin(){
             return view("Biblestudy.BibleLogin");
         }
+        function Biblelog(){
+            return "login";
+        }
         function BibleSignup(){
             return view("Biblestudy.Biblesignup");
+        }
+        function BibleSig(){
+            return "Signup";
         }
 }   

@@ -15,46 +15,39 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
 </head>
 <body>
-<!--Navbar -->
-<nav class="mb-1 navbar navbar-expand-lg navbar-dark fixed-top blue-grey darken-4 scrolling-navbar">
-  
-    <div class="container">
-    <a class="navbar-brand " href="#"><img src="{{asset('Image/loyallogo4.png')}}" height="50" alt=""></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+ <!--Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark elegant-color">
+    <a class="navbr-font-sty" href="{{route('bible')}}">
+      Loyal Bible 
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
     aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
-  </button>
+    </button>
+    <div class="container">
       <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
-        <ul class="navbar-nav mr-auto ml-5">
+        <ul class="navbar-nav mr-auto mt-2">
+            <li class="nav-item">
+                <a class="navbr-font-br mr-3" href="{{route('home')}}">HOME
+                  <span class="sr-only">(current)</span>
+                </a>
+            </li>
           <li class="nav-item">
-          <a class="navbr-font" href="{{route('home')}}">Home
-            <span class="sr-only">(current)</span>
-          </a>
+            <a class="navbr-font-br mr-3" href="{{route('bible')}}">BIBLE</a>
           </li>
           <li class="nav-item">
-          <a class=" navbr-font" href="{{route('bible')}}">Bible</a>
+            <a class="navbr-font-br mr-3" data-toggle="modal" data-target="#exampleModal1" href="#">OLD TESTAMENT</a>
           </li>
           <li class="nav-item">
-          <a class=" navbr-font" href="{{route('book')}}">Books</a>
+            <a class="navbr-font-br mr-3" data-toggle="modal" data-target="#exampleModal2" href="#">NEW TESTAMENT</a>
           </li>
           <li class="nav-item">
-          <a class=" navbr-font" href="{{route('prayer')}}">Prayer</a>
+            <a class="navbr-font-br mr-3" href="">VERSES</a>
           </li>
-          <li class="nav-item">
-          <a class=" navbr-font" href="{{route('contact')}}">Contact</a>
-          </li>
-          <li class="nav-item">
-          <a class=" navbr-font" href="{{route('about')}}">About</a>
-          </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0 ml-auto">
-    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-white btn-md my-2 my-sm-0 ml-3" type="submit">Search</button>
-  </form>
+        </ul>
       </div>
-    </div>
+  </div>
 </nav>
-<!--/.Navbar -->
 
 
     @yield("content")

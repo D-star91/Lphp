@@ -22,7 +22,9 @@ Route::post("/Prayer",[Loyalcontroller::class,"Prayuser"]) ->name("prayuser");
 Route::get("/BibleStudy",[Loyalcontroller::class,"Biblestudy"]) ->name("Biblestudy");
 Route::post("/BibleStudy",[Loyalcontroller::class,"StudyAcc"]) ->name("studyacc");
 Route::get("/BibleStudy/Login",[Loyalcontroller::class,"BibleLogin"]) ->name("Biblelogin");
+Route::post("/BibleStudy/Login",[Loyalcontroller::class,"Biblelog"]) ->name("biblelog");
 Route::get("/BibleStudy/Signup",[Loyalcontroller::class,"BibleSignup"]) ->name("Biblesignup");
+Route::post("/BibleStudy/Signup",[Loyalcontroller::class,"BibleSig"]) ->name("biblesig");
 // Bible study
 // Bible
 Route::get("/Bible",[Biblecontroller::class,"Bible"])->name("bible");

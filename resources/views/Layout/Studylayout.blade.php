@@ -17,7 +17,7 @@
 <body class="special-color-dark">
     <nav class="navbar navbar-dark teal lighten-4">
         <a class="navbr-font-sty" href="#">
-            <img src="{{asset('Image/loyallogo4.png')}}" height="30" alt="mdb logo" class="mr-2 ml-5">Loyal Bible School
+            <img src="{{asset('Image/loyallogo3.png')}}" height="30" alt="mdb logo" class="mr-2 ml-5">Loyal Bible School
         </a>
     </nav>
     <!--Navbar -->

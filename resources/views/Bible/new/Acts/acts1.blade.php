@@ -2,69 +2,68 @@
 @section("content")
 
         <div class="main-new">
-        
-        </div>
-      <div class="content-new">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-4">
-              <div class="dropdown">
-                <button class="btn btn-outline-danger dropdown-toggle mt-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  တမန်တော်ဝတ္ထု အခန်းကြီး
-                </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <div class="card-body">
-                        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                          <div class="btn-group mr-2" role="group" aria-label="First group">
-                            <a href="{{route('acts1')}}" class="btn-g2" role="button" aria-pressed="true">၁</a>
-                            <a href="{{route('acts2')}}" class="btn-g2" role="button" aria-pressed="true">၂</a>
-                            <a href="{{route('acts3')}}" class="btn-g2" role="button" aria-pressed="true">၃</a>
-                            <a href="{{route('acts4')}}" class="btn-g2" role="button" aria-pressed="true">၄</a>
-                            <a href="{{route('acts5')}}" class="btn-g2" role="button" aria-pressed="true">၅</a>
-                            <a href="{{route('acts6')}}" class="btn-g2" role="button" aria-pressed="true">၆</a>
-                            <a href="{{route('acts7')}}" class="btn-g2" role="button" aria-pressed="true">၇</a>
-                            <a href="{{route('acts8')}}" class="btn-g2" role="button" aria-pressed="true">၈</a>
-                            <a href="{{route('acts9')}}" class="btn-g2" role="button" aria-pressed="true">၉</a>
-                            <a href="{{route('acts10')}}" class="btn-g2" role="button" aria-pressed="true">၁၀</a>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <div class="new-title">
+                  <h3>တမန်တော်ဝတ္ထု - ၁</h3>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="dropdown">
+                  <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    တမန်တော်ဝတ္ထု အခန်းကြီး
+                  </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <div class="card-body">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                            <div class="btn-group mr-2" role="group" aria-label="First group">
+                              <a href="{{route('acts1')}}" class="btn-g2" role="button" aria-pressed="true">၁</a>
+                              <a href="{{route('acts2')}}" class="btn-g2" role="button" aria-pressed="true">၂</a>
+                              <a href="{{route('acts3')}}" class="btn-g2" role="button" aria-pressed="true">၃</a>
+                              <a href="{{route('acts4')}}" class="btn-g2" role="button" aria-pressed="true">၄</a>
+                              <a href="{{route('acts5')}}" class="btn-g2" role="button" aria-pressed="true">၅</a>
+                              <a href="{{route('acts6')}}" class="btn-g2" role="button" aria-pressed="true">၆</a>
+                              <a href="{{route('acts7')}}" class="btn-g2" role="button" aria-pressed="true">၇</a>
+                              <a href="{{route('acts8')}}" class="btn-g2" role="button" aria-pressed="true">၈</a>
+                              <a href="{{route('acts9')}}" class="btn-g2" role="button" aria-pressed="true">၉</a>
+                              <a href="{{route('acts10')}}" class="btn-g2" role="button" aria-pressed="true">၁၀</a>
+                            </div>
                           </div>
-                        </div>
-                        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                          <div class="btn-group mr-2" role="group" aria-label="First group">
-                            <a href="{{route('acts11')}}" class="btn-g2" role="button" aria-pressed="true">၁၁</a>
-                            <a href="{{route('acts12')}}" class="btn-g2" role="button" aria-pressed="true">၁၂</a>
-                            <a href="{{route('acts13')}}" class="btn-g2" role="button" aria-pressed="true">၁၃</a>
-                            <a href="{{route('acts14')}}" class="btn-g2" role="button" aria-pressed="true">၁၄</a>
-                            <a href="{{route('acts15')}}" class="btn-g2" role="button" aria-pressed="true">၁၅</a>
-                            <a href="{{route('acts16')}}" class="btn-g2" role="button" aria-pressed="true">၁၆</a>
-                            <a href="{{route('acts17')}}" class="btn-g2" role="button" aria-pressed="true">၁၇</a>
-                            <a href="{{route('acts18')}}" class="btn-g2" role="button" aria-pressed="true">၁၈</a>
-                            <a href="{{route('acts19')}}" class="btn-g2" role="button" aria-pressed="true">၁၉</a>
-                            <a href="{{route('acts20')}}" class="btn-g2" role="button" aria-pressed="true">၂၀</a>
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                            <div class="btn-group mr-2" role="group" aria-label="First group">
+                              <a href="{{route('acts11')}}" class="btn-g2" role="button" aria-pressed="true">၁၁</a>
+                              <a href="{{route('acts12')}}" class="btn-g2" role="button" aria-pressed="true">၁၂</a>
+                              <a href="{{route('acts13')}}" class="btn-g2" role="button" aria-pressed="true">၁၃</a>
+                              <a href="{{route('acts14')}}" class="btn-g2" role="button" aria-pressed="true">၁၄</a>
+                              <a href="{{route('acts15')}}" class="btn-g2" role="button" aria-pressed="true">၁၅</a>
+                              <a href="{{route('acts16')}}" class="btn-g2" role="button" aria-pressed="true">၁၆</a>
+                              <a href="{{route('acts17')}}" class="btn-g2" role="button" aria-pressed="true">၁၇</a>
+                              <a href="{{route('acts18')}}" class="btn-g2" role="button" aria-pressed="true">၁၈</a>
+                              <a href="{{route('acts19')}}" class="btn-g2" role="button" aria-pressed="true">၁၉</a>
+                              <a href="{{route('acts20')}}" class="btn-g2" role="button" aria-pressed="true">၂၀</a>
+                            </div>
                           </div>
-                        </div>
-                        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                          <div class="btn-group mr-2" role="group" aria-label="First group">
-                            <a href="{{route('acts21')}}" class="btn-g2" role="button" aria-pressed="true">၂၁</a>
-                            <a href="{{route('acts22')}}" class="btn-g2" role="button" aria-pressed="true">၂၂</a>
-                            <a href="{{route('acts23')}}" class="btn-g2" role="button" aria-pressed="true">၂၃</a>
-                            <a href="{{route('acts24')}}" class="btn-g2" role="button" aria-pressed="true">၂၄</a>
-                            <a href="{{route('acts25')}}" class="btn-g2" role="button" aria-pressed="true">၂၅</a>
-                            <a href="{{route('acts26')}}" class="btn-g2" role="button" aria-pressed="true">၂၆</a>
-                            <a href="{{route('acts27')}}" class="btn-g2" role="button" aria-pressed="true">၂၇</a>
-                            <a href="{{route('acts28')}}" class="btn-g2" role="button" aria-pressed="true">၂၈</a>
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                            <div class="btn-group mr-2" role="group" aria-label="First group">
+                              <a href="{{route('acts21')}}" class="btn-g2" role="button" aria-pressed="true">၂၁</a>
+                              <a href="{{route('acts22')}}" class="btn-g2" role="button" aria-pressed="true">၂၂</a>
+                              <a href="{{route('acts23')}}" class="btn-g2" role="button" aria-pressed="true">၂၃</a>
+                              <a href="{{route('acts24')}}" class="btn-g2" role="button" aria-pressed="true">၂၄</a>
+                              <a href="{{route('acts25')}}" class="btn-g2" role="button" aria-pressed="true">၂၅</a>
+                              <a href="{{route('acts26')}}" class="btn-g2" role="button" aria-pressed="true">၂၆</a>
+                              <a href="{{route('acts27')}}" class="btn-g2" role="button" aria-pressed="true">၂၇</a>
+                              <a href="{{route('acts28')}}" class="btn-g2" role="button" aria-pressed="true">၂၈</a>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
+                </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="new-title">
-                <h3>တမန်တော်ဝတ္ထု - ၁</h3>
-              </div>
           </div>
-          </div>
-          </div>  
+        </div>
+      <div class="content-new"> 
           <div class="row justify-content-center">
                   <div class="col-md-1">
                       <div class="BB">
