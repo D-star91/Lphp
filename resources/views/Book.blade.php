@@ -1,4 +1,4 @@
-@extends("Layout.Layout")
+@extends("Layout.Booklayout")
 @section("content")
 
     <div class="book-bg">
@@ -37,7 +37,7 @@
                            <div class="tab-pane fade show active" id="list-allbook" role="tabpanel" aria-labelledby="list-allbook-list">
                               <div class="row">
                                 <div class="col-xl-3 col-md-4 mb-3 text-right animate__animated animate__pulse wow">
-                                   <a href=""> <img src="{{asset('Image/fatherhood.jpg')}}" class="img-fluid z-depth-1 img-thumbnail" alt="Responsive image"></a>
+                                   <a href="{{route('fatherhood')}}"> <img src="{{asset('Image/fatherhood.jpg')}}" class="img-fluid z-depth-1 img-thumbnail" alt="Responsive image"></a>
                                 </div>
                                 <div class="col-xl-3 col-md-4 mb-3 text-right animate__animated animate__pulse wow">
                                     <a href=""> <img src="{{asset('Image/IMG_20201013_104212.jpg')}}" class="img-fluid z-depth-1 img-thumbnail" alt="Responsive image"></a>

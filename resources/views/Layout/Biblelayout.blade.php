@@ -16,7 +16,7 @@
 </head>
 <body>
  <!--Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark elegant-color">
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark elegant-color">
     <a class="navbr-font-sty" href="{{route('bible')}}">
       Loyal Bible 
     </a>
@@ -46,8 +46,8 @@
           </li>
         </ul>
       </div>
-  </div>
-</nav>
+    </div>
+  </nav>
 
 
     @yield("content")

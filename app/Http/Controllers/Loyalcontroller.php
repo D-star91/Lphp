@@ -61,23 +61,4 @@ class Loyalcontroller extends Controller
                 return back()->withErrors($validation);
             }
         }
-        // Bible Study
-        function Biblestudy(){
-            return view("Biblestudy.Biblestudy");
-        }
-        function StudyAcc(){
-            return "StudyAcc";
-        }
-        function BibleLogin(){
-            return view("Biblestudy.BibleLogin");
-        }
-        function Biblelog(){
-            return "login";
-        }
-        function BibleSignup(){
-            return view("Biblestudy.Biblesignup");
-        }
-        function BibleSig(){
-            return "Signup";
-        }
 }   

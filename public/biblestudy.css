@@ -22,8 +22,9 @@
   box-shadow: 8px 8px 20px rgba(233, 232, 232, 0.356);
 }
 .form-bg h3{
-  font-size: 35px;
-  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Bree Serif', serif;
   color: crimson;
 }
 .form-bg p{
@@ -50,4 +51,39 @@
   background-size: cover;
   color: white;
   font-size: 12px;
+}
+.li-user{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Lobster', cursive;
+  transition-duration: 1000ms;
+}
+.li-user:hover{
+  color: crimson;
+}
+.Study-bg{
+  height: 80%;
+  padding-top: 10%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Study-title{
+  text-align: center;
+}
+.Study-title-h3{
+  font-size: 80px;
+  font-weight: bold;
+  font-family: 'Bree Serif', serif;
+  color: crimson;
+}
+.Study-title-h4{
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Bree Serif', serif;
+  color: crimson;
+}
+.Study-title-p{
+  color: white;
 }

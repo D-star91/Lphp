@@ -1,8 +1,10 @@
 <?php
 
 use App\Http\Controllers\Biblecontroller;
+use App\Http\Controllers\Bookcontroller;
 use App\Http\Controllers\Contactcontroller;
 use App\Http\Controllers\Loyalcontroller;
+use App\Http\Controllers\Studycontroller;
 use Illuminate\Support\Facades\Route;
 
 Route::get("/",[Loyalcontroller::class,"index"]) ->name("home");
@@ -19,13 +21,19 @@ Route::get("/Prayer",[Loyalcontroller::class,"Prayer"]) ->name("prayer");
 Route::post("/Prayer",[Loyalcontroller::class,"Prayuser"]) ->name("prayuser");
 // Prayer
 // Bible study
-Route::get("/BibleStudy",[Loyalcontroller::class,"Biblestudy"]) ->name("Biblestudy");
-Route::post("/BibleStudy",[Loyalcontroller::class,"StudyAcc"]) ->name("studyacc");
-Route::get("/BibleStudy/Login",[Loyalcontroller::class,"BibleLogin"]) ->name("Biblelogin");
-Route::post("/BibleStudy/Login",[Loyalcontroller::class,"Biblelog"]) ->name("biblelog");
-Route::get("/BibleStudy/Signup",[Loyalcontroller::class,"BibleSignup"]) ->name("Biblesignup");
-Route::post("/BibleStudy/Signup",[Loyalcontroller::class,"BibleSig"]) ->name("biblesig");
+Route::get("/Bible_Study/home",[Studycontroller::class,"Biblehome"]) ->name("Biblehome");
+Route::post("/Bible_Study/home",[Studycontroller::class,"StudyAcc"]) ->name("studyacc");
+Route::get("/BibleStudy/login",[Studycontroller::class,"BibleLogin"]) ->name("Biblelogin");
+Route::post("/BibleStudy/login",[Studycontroller::class,"Biblelog"]) ->name("biblelog");
+Route::get("/BibleStudy/signup",[Studycontroller::class,"BibleSignup"]) ->name("Biblesignup");
+Route::post("/BibleStudy/signup",[Studycontroller::class,"BibleSig"]) ->name("biblesig");
+// Bible user accout
+Route::get("/Bible_Lesson",[Studycontroller::class,"BibleLesson"]) ->name("Biblelesson");
+Route::get("/Bible_Study_Home",[Studycontroller::class,"BibleStudy"]) ->name("BibleStudy");
 // Bible study
+// Book
+Route::get("/FatherHood",[Bookcontroller::class,"Fatherhood"]) ->name("fatherhood");
+// Book
 // Bible
 Route::get("/Bible",[Biblecontroller::class,"Bible"])->name("bible");
 // New

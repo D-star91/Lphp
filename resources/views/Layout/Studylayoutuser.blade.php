@@ -30,18 +30,18 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="navbr-font-br mr-3" href="{{route('Biblehome')}}">HOME
+                <a class="navbr-font-br mr-3" href="{{route('BibleStudy')}}">HOME
                   <span class="sr-only">(current)</span>
                 </a>
             </li>
           <li class="nav-item">
-            <a class="navbr-font-br mr-3 disabled" href="{{route('Biblelesson')}}">LESSON</a>
+            <a class="navbr-font-br mr-3" href="{{route('Biblelesson')}}">LESSON</a>
           </li>
           <li class="nav-item">
-            <a class="navbr-font-br mr-3 disabled" href="#">CATALOG</a>
+            <a class="navbr-font-br mr-3" href="#">CATALOG</a>
           </li>
           <li class="nav-item">
-            <a class="navbr-font-br mr-3 disabled" href="#">FAQS</a>
+            <a class="navbr-font-br mr-3" href="#">FAQS</a>
           </li>
           <li class="nav-item">
             <a class="navbr-font-br mr-3" href="#">ABOUT</a>
@@ -51,17 +51,16 @@
           </li>
         </ul>
         <ul class="navbar-nav ml-auto nav-flex-icons">
-            <li class="nav-item"><a class="nav-link waves-effect waves-light">
-                <i class="fas fa-sign-in-alt"></i>
-              </a>
+            <li class="nav-item"><h3 class="li-user mt-1 mr-4">Username</h3>
+            </li>
             <li class="nav-item">
-              <a class="navbr-font-br waves-effect mt-1 mr-2" href="{{route('Biblesignup')}}">
-                SIGN UP
+              <a class="navbr-font-br waves-effect mt-1" href="">
+                <i class="fas fa-user-circle"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="navbr-font-br waves-effect mt-1" href="{{route('Biblelogin')}}">
-                LOG IN
+              <a class="navbr-font-br waves-effect mt-1" href="">
+                <i class="fas fa-sign-out-alt"></i>
               </a>
             </li>
           </ul>
