@@ -56,7 +56,7 @@
               </a>
             <li class="nav-item">
               <a class="navbr-font-br waves-effect mt-1 mr-2" href="{{route('Biblesignup')}}">
-                SIGN UP
+                REGISTER
               </a>
             </li>
             <li class="nav-item">

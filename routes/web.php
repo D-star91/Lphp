@@ -9,31 +9,44 @@ use Illuminate\Support\Facades\Route;
 
 Route::get("/",[Loyalcontroller::class,"index"]) ->name("home");
 Route::post("/",[Loyalcontroller::class,"usermail"])->name("usermail");
-Route::get("/Registered",[Loyalcontroller::class,"EmailReg"])->name("registered");
 
 Route::get("/Book",[Loyalcontroller::class,"Book"]) ->name("book");
 Route::get("/Contact",[Contactcontroller::class,"Contact"]) ->name("contact");
 Route::post("/Contact",[Contactcontroller::class,"usercontact"]) ->name("usercontact");
 Route::get("/About",[Loyalcontroller::class,"About"]) ->name("about");
-Route::get("/Registered",[Loyalcontroller::class,"Registe"]) ->name("registe");
+Route::get("/Registered",[Loyalcontroller::class,"Registe"]) ->name("registered");
 // Prayer
 Route::get("/Prayer",[Loyalcontroller::class,"Prayer"]) ->name("prayer");
 Route::post("/Prayer",[Loyalcontroller::class,"Prayuser"]) ->name("prayuser");
 // Prayer
 // Bible study
-Route::get("/Bible_Study/home",[Studycontroller::class,"Biblehome"]) ->name("Biblehome");
-Route::post("/Bible_Study/home",[Studycontroller::class,"StudyAcc"]) ->name("studyacc");
-Route::get("/BibleStudy/login",[Studycontroller::class,"BibleLogin"]) ->name("Biblelogin");
-Route::post("/BibleStudy/login",[Studycontroller::class,"Biblelog"]) ->name("biblelog");
-Route::get("/BibleStudy/signup",[Studycontroller::class,"BibleSignup"]) ->name("Biblesignup");
-Route::post("/BibleStudy/signup",[Studycontroller::class,"BibleSig"]) ->name("biblesig");
+Route::middleware('study')->group(function(){
 // Bible user accout
 Route::get("/Bible_Lesson",[Studycontroller::class,"BibleLesson"]) ->name("Biblelesson");
 Route::get("/Bible_Study_Home",[Studycontroller::class,"BibleStudy"]) ->name("BibleStudy");
+Route::get('/Bible_Study/User_profile',[Studycontroller::class,"Userprofile"])->("profile");
+// Bible study loguot
+Route::get("/Bible_Study/logout",[Studycontroller::class,"Biblogout"])->name("biblogout");
+});
+// Guest
+Route::middleware('guest')->group(function(){
+    Route::get("/Bible_Study/home",[Studycontroller::class,"Biblehome"]) ->name("Biblehome");
+    Route::post("/Bible_Study/home",[Studycontroller::class,"StudyAcc"]) ->name("studyacc");
+    // Bible study login&regester
+    Route::get("/Bible_Study/login",[Studycontroller::class,"BibleLogin"]) ->name("Biblelogin");
+    Route::post('/Bible_Study/login',[Studycontroller::class,"Biblelog"]) ->name("biblelog");
+    Route::get("/Bible_Study/register",[Studycontroller::class,"BibleSignup"]) ->name("Biblesignup");
+    Route::post("/Bible_Study/register",[Studycontroller::class,"BibleSig"]) ->name("biblesig");
+    
+});
+
 // Bible study
+
+
 // Book
 Route::get("/FatherHood",[Bookcontroller::class,"Fatherhood"]) ->name("fatherhood");
 // Book
+
 // Bible
 Route::get("/Bible",[Biblecontroller::class,"Bible"])->name("bible");
 // New

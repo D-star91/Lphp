@@ -51,7 +51,7 @@
           </li>
         </ul>
         <ul class="navbar-nav ml-auto nav-flex-icons">
-            <li class="nav-item"><h3 class="li-user mt-1 mr-4">Username</h3>
+            <li class="nav-item"><h3 class="li-user mt-1 mr-4">{{auth()->user()->name}}</h3>
             </li>
             <li class="nav-item">
               <a class="navbr-font-br waves-effect mt-1" href="">
@@ -59,7 +59,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="navbr-font-br waves-effect mt-1" href="">
+              <a class="navbr-font-br waves-effect mt-1" href="{{route('biblogout')}}">
                 <i class="fas fa-sign-out-alt"></i>
               </a>
             </li>
