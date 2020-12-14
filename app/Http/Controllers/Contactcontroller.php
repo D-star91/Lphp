@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Post;
 use App\Models\Testimony;
+use App\Models\Testimonypost;
+use App\Models\Testpost;
 use App\Models\usercontact;
 use Illuminate\Http\Request;
 use PHPUnit\Util\Test;
@@ -42,13 +45,18 @@ class Contactcontroller extends Controller
             "testimony"=>"required",
         ]);
         if($validation){
-            $testimony=new Testimony();
-            $testimony->name=request()->name;
-            $testimony->testimony=request()->testimony;
-            $testimony->save();
-            return back()->with("success","Your testimony has been received.");
+            $test=new Post();
+            $test->name=$validation['name'];
+            $test->Testimony=$validation['testimony'];
+            $test->save();
+            return redirect()->route('testposts')->with('message','Your testimony has been received');
         }else{
-            return back()->withErrors($validation);
+            return back()->withErrors('$validation');
         }
+    }
+    function Testposts(){
+        $post=Post::all();
+
+        return view('User.Testimony_post',['Testpost'=>$post]);
     }
 }

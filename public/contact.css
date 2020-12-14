@@ -70,6 +70,25 @@
 .test-form{
   border: dashed #b6dfdd;
   padding: 25px;
-
+}
+.btn-test{
+  border: 2px solid #003f52;
+  padding: 5.2px 20.24px;
+  margin: 5px;
+  color: #012530;
+  background: #80e1ff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Lobster', cursive;
+}
+.btn-test:hover {
+  border: 2px solid #00c3ff;
+  border-radius: 5px;
+  padding: 5.2px 20.24px;
+  margin: 5px;
+  color: white;
+  background: #016888;
+  box-shadow: 1px 1px 10px 1px #616161;
 }
  /* contact */

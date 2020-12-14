@@ -216,7 +216,7 @@
                   style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
                 <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
                   <div>
-                    <h3 class="card-title pt-2"><strong>Share</strong></h3>
+                    <h3 class="card-title pt-2"><strong>Testimony</strong></h3>
                       <p>ထာဝရဘုရားသခင်သည် သင်၏အပေါ်၌ နေ့ရက်စဉ်ကောင်းမြတ်ခြင်းများကို ခွန်အားပေး၍ ပြန်လည်ဝေမျှနိုင်ပါသည်။ သင်၏သက်သေခံချက်များဖြင့်
                       ဖတ်ရှုမိသောသူအယောက်စီတိုင်းအတွက် ခွန်အားဖြစ်စေမည်မှာအမှန်ပေ။ ထိုကြောင့် ယခုပင် ဘုရားသခင်၏ကောင်းမြတ်ခြင်းကို သက်သေခံချက်များ ရေးသားပေးပို့နိုင်ပါသည်။
                       </p>

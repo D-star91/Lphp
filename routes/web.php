@@ -49,6 +49,7 @@ Route::middleware('guest')->group(function(){
 // Testimony
 Route::get("/Testimony_Form",[Contactcontroller::class,"Testimony"])->name("Testimony");
 Route::post("/Testimony_Form",[Contactcontroller::class,"Testimony_post"])->name("Testimony_post");
+Route::get("/Testimony_Posts",[Contactcontroller::class,"Testposts"])->name('testposts');
 // Testimony
 
 
