@@ -15,10 +15,12 @@ Route::get("/Contact",[Contactcontroller::class,"Contact"]) ->name("contact");
 Route::post("/Contact",[Contactcontroller::class,"usercontact"]) ->name("usercontact");
 Route::get("/About",[Loyalcontroller::class,"About"]) ->name("about");
 Route::get("/Registered",[Loyalcontroller::class,"Registe"]) ->name("registered");
+
 // Prayer
 Route::get("/Prayer",[Loyalcontroller::class,"Prayer"]) ->name("prayer");
 Route::post("/Prayer",[Loyalcontroller::class,"Prayuser"]) ->name("prayuser");
 // Prayer
+
 // Bible study
 Route::middleware('study')->group(function(){
 // Bible user accout
@@ -43,6 +45,11 @@ Route::middleware('guest')->group(function(){
 });
 
 // Bible study
+
+// Testimony
+Route::get("/Testimony_Form",[Contactcontroller::class,"Testimony"])->name("Testimony");
+Route::post("/Testimony_Form",[Contactcontroller::class,"Testimony_post"])->name("Testimony_post");
+// Testimony
 
 
 // Book

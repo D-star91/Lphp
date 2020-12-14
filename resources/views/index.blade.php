@@ -149,9 +149,8 @@
           <div class="row">
             <section class="section pb-3 text-center">
               <h1 class="section-heading h1 pt-4">Testimony</h1>
-                <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
-                  numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur
-                  accusamus veniam.
+                <p class="section-description">ထာဝရဘုရားသခင်သည် လူသားများအပေါ် ကောင်းမြတ်ခြင်းသက်သေများကို ခံစားရ၍ ပြန်လည်ဝေမျှသက်သေခံချက်များကို 
+                ဖတ်ရှု၍ ခွန်အားယူလိုက်ပါ။ 
                 </p>
             <div class="row">
               <!-- Testimony 1 -->
@@ -217,12 +216,11 @@
                   style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
                 <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
                   <div>
-                    <h3 class="card-title pt-2"><strong>Contact us</strong></h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-                          optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
-                          Odit sed qui, dolorum!.
+                    <h3 class="card-title pt-2"><strong>Share</strong></h3>
+                      <p>ထာဝရဘုရားသခင်သည် သင်၏အပေါ်၌ နေ့ရက်စဉ်ကောင်းမြတ်ခြင်းများကို ခွန်အားပေး၍ ပြန်လည်ဝေမျှနိုင်ပါသည်။ သင်၏သက်သေခံချက်များဖြင့်
+                      ဖတ်ရှုမိသောသူအယောက်စီတိုင်းအတွက် ခွန်အားဖြစ်စေမည်မှာအမှန်ပေ။ ထိုကြောင့် ယခုပင် ဘုရားသခင်၏ကောင်းမြတ်ခြင်းကို သက်သေခံချက်များ ရေးသားပေးပို့နိုင်ပါသည်။
                       </p>
-                      <a class="btn btn-pink" href="{{route('contact')}}"><i class="fas fa-clone left"></i> Join</a>
+                      <a class="btn btn-pink" href="{{route('Testimony')}}"><i class="fas fa-clone left"></i> သက်သေခံချက်ရေးရန် </a>
                   </div>
                 </div>
 

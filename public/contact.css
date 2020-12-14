@@ -50,4 +50,26 @@
   font-family: "Merienda", cursive;
   font-size: 35px;
  }
+ /* Testimony */
+.Testimony{
+    padding-top: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.test-titel{
+  font-size: 30px;
+  font-weight: bold;
+  color: crimson;
+  text-align: center;
+}
+.test-p{
+  text-align: center;
+}
+.test-form{
+  border: dashed #b6dfdd;
+  padding: 25px;
+
+}
  /* contact */
