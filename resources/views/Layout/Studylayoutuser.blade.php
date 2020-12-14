@@ -13,6 +13,8 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
 <!-- Material Design Bootstrap -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body class="special-color-dark">
     <nav class="navbar navbar-dark teal lighten-4">
@@ -51,15 +53,15 @@
           </li>
         </ul>
         <ul class="navbar-nav ml-auto nav-flex-icons">
-            <li class="nav-item"><h3 class="li-user mt-1 mr-4">{{auth()->user()->name}}</h3>
+            <li class="nav-item"><h3 class="li-user mt-2 mr-4">{{auth()->user()->name}}</h3>
             </li>
             <li class="nav-item">
-              <a class="navbr-font-br waves-effect mt-1" href="">
+              <a class="navbr-font-br waves-effect mt-1 mr-2" href="{{route('Bprofile')}}" data-toggle="tooltip" data-placement="top" title="Profile">
                 <i class="fas fa-user-circle"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="navbr-font-br waves-effect mt-1" href="{{route('biblogout')}}">
+              <a class="navbr-font-br waves-effect mt-1" href="{{route('biblogout')}}" data-toggle="tooltip" data-placement="top" title="Logout">
                 <i class="fas fa-sign-out-alt"></i>
               </a>
             </li>
@@ -67,6 +69,11 @@
       </div>
   </div>
 </nav>
+<script>
+  $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
 <!--/.Navbar -->
 
 
@@ -92,6 +99,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
-<script  src="study.js"></script>
+
+
 </body>
 </html>

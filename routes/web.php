@@ -24,7 +24,9 @@ Route::middleware('study')->group(function(){
 // Bible user accout
 Route::get("/Bible_Lesson",[Studycontroller::class,"BibleLesson"]) ->name("Biblelesson");
 Route::get("/Bible_Study_Home",[Studycontroller::class,"BibleStudy"]) ->name("BibleStudy");
-Route::get('/Bible_Study/User_profile',[Studycontroller::class,"Userprofile"])->("profile");
+// Bible user profile
+Route::get("/Bible_Study/userprofile",[Studycontroller::class,"Userprofile"]) ->name("Bprofile");
+Route::post("/Bible_Study/userprofile",[Studycontroller::class,"Changeprofile"]) ->name("Chprofile");
 // Bible study loguot
 Route::get("/Bible_Study/logout",[Studycontroller::class,"Biblogout"])->name("biblogout");
 });

@@ -77,5 +77,32 @@ class Studycontroller extends Controller
     function BibleStudy(){
         return view("Biblestudy.Bible_Study_User.BibleStudy");
     }
+    function Userprofile(){
+        return view("Biblestudy.Bible_Study_User.Bprofile");
+    }
+    function Changeprofile(){
+        $name=request('name');
+        $email=request('email');
+        $old_password=request('old_password');
+        $new_password=request('new_password');
+        
+        $id=auth()->user()->id;
+        $current_user=User::find($id);
+        $current_user->name=$name;
+        $current_user->email=$email;
+        
+        if($old_password && $new_password){
+            if(Hash::check($old_password,$current_user->password)){
+                $current_user->password=$new_password;
+                $current_user->update();
+                return back()->with('success','password changed');
+            }else{
+                return back()->with('error','old password is not same');
+            }
+        }
+        $current_user->update();
+        return back();
+        
+    }
     // Bible Study
 }

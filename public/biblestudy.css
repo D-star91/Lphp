@@ -54,7 +54,7 @@
 }
 .li-user{
   font-size: 20px;
-  color: white;
+  color: #e0f2f1;
   font-weight: bold;
   font-family: 'Lobster', cursive;
   transition-duration: 1000ms;
@@ -87,3 +87,49 @@
 .Study-title-p{
   color: white;
 }
+/* Bible Study profile */
+.B-profile{
+  height: 120%;
+  padding-top: 5%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profile{
+  text-align: center;
+}
+.pro-title{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Bree Serif', serif;
+  transition-duration: 1000ms;
+  color: #e0f2f1;
+}
+.pro-title:hover{
+  color: crimson;
+}
+.avatar-pic {
+  width: 80px;
+  }
+.pro-card{
+  margin: 20px;
+  padding: 30px;
+  font-family: 'Bree Serif', serif;
+  
+}
+.form-text{
+  color: #e0f2f1;
+  font-size: 18px;
+  font-family: 'Bree Serif', serif;
+}
+.hr{
+  height: 3px;
+  width: 180px;
+  background-color: #e0f2f1;
+}
+.hr-1{
+  height: 1px;
+  width: 180px;
+  background-color: #e0f2f1;
+}
+

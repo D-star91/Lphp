@@ -30,25 +30,11 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="navbr-font-br mr-3" href="{{route('Biblehome')}}">HOME
+                <a class="navbr-font-br mr-3" href="{{route('home')}}">HOME
                   <span class="sr-only">(current)</span>
                 </a>
             </li>
-          <li class="nav-item">
-            <a class="navbr-font-br mr-3 disabled" href="{{route('Biblelesson')}}">LESSON</a>
-          </li>
-          <li class="nav-item">
-            <a class="navbr-font-br mr-3 disabled" href="#">CATALOG</a>
-          </li>
-          <li class="nav-item">
-            <a class="navbr-font-br mr-3 disabled" href="#">FAQS</a>
-          </li>
-          <li class="nav-item">
-            <a class="navbr-font-br mr-3" href="#">ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a class="navbr-font-br mr-3" href="#">CONTACT US</a>
-          </li>
+          
         </ul>
         <ul class="navbar-nav ml-auto nav-flex-icons">
             <li class="nav-item"><a class="nav-link waves-effect waves-light">
