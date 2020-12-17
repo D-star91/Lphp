@@ -1,5 +1,4 @@
-@extends("Layout.Layout")
-@section("content")
+<x-Layout>
 
     <div class="Testimony">
         <div class="container">
@@ -39,4 +38,4 @@
         </div>
     </div>
 
-@endsection
+</x-Layout>

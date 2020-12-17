@@ -1,5 +1,4 @@
-@extends("Layout.Booklayout")
-@section("content")
+<x-Booklayout>
 
     <div class="book-main">
         <div class="container">
@@ -18,8 +17,19 @@
                         </ul>
                     </div>
                 </div>
+                <div class="col-md-5">
+                    <div class="label-list">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-@endsection
+</x-Booklayout>

@@ -1,5 +1,4 @@
-@extends("Layout.Layout")
-@section("content")
+<x-Layout>
 
     <div class="bg-pray">
         <div class="mask rgba-cyan-light align-items-center">
@@ -197,4 +196,4 @@
           </div>
         </div>
 
-@endsection
+</x-Layout>

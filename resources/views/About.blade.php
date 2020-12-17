@@ -1,5 +1,4 @@
-@extends("Layout.Layout")
-@section("content")
+<x-Layout>
 <!-- Card -->
 <div class="card card-cascade wider reverse">
 
@@ -38,4 +37,4 @@
 
 </div>
 <!-- Card -->
-@endsection
+</x-Layout>

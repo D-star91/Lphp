@@ -6,6 +6,14 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.lesson-bg{
+  height: 25%;
+  padding-top: 1%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1d492e;
+}
 .Log-bg{
   height: 100%;
   padding-top: 5%;
@@ -31,12 +39,8 @@
   color: white;
 }
 .BS-content{
-  height: 80%;
-  padding-top: 12%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-bottom: 1px solid white;
+  padding: 5px;
+  padding-bottom: 5%;
 }
 .BS-p{
   font-size: 20px;
@@ -136,4 +140,114 @@
   height: 1px;
   width: 100px;
   background-color: #e0f2f1;
+}
+.hr-3{
+  background-color: #e0f2f1;
+}
+/* Lesson Modal */
+.les-modal-body{
+  padding: 2px 50px;
+}
+.lesson-title1{
+  color:crimson ;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+  padding-bottom: 5px;
+}
+.lesson-title2{
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(158, 245, 216);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.lesson-main-title1{
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(158, 245, 216);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.lesson-main-title2{
+  font-size: 20px;
+  color: rgb(158, 245, 216);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.lesson-main-title3{
+  font-size: 20px;
+  color: rgb(158, 245, 216);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.les-modal-body{
+  color: crimson;
+}
+.les-modal-body li{
+  color: rgb(109, 3, 25);
+  font-weight: bold;
+}
+.li-color{
+  color: rgb(158, 245, 216);
+}
+.catalog-bg{
+  padding-top: 5%;
+}
+.lesson-coming{
+  font-size: 50px;
+}
+.lesson-content{
+  background: #e0f2f1;
+  border: 2px solid chocolate;
+  border-radius: 10px;
+  padding: 15px;
+}
+.les-1{
+  text-align: left;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 2px;
+
+}
+.les-2{
+  text-align: right;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.les-3{
+  text-align: left;
+  padding: 4px 10px;
+  font-size: 16px;
+}
+.les-4{
+  text-align: left;
+  padding: 8px;
+  padding-bottom: 1px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.les-5{
+  text-align: left;
+  padding: 8px;
+  padding-bottom: 1px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #e0f7fa;
+}
+.les-6{
+  text-align: left;
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #f53f08;
+}
+.les-p{
+  text-align: justify;
+  padding: 8px;
+  padding-top: 1px;
+  font-size: 16px;
 }

@@ -24,13 +24,15 @@ Route::post("/Prayer",[Loyalcontroller::class,"Prayuser"]) ->name("prayuser");
 // Bible study
 Route::middleware('study')->group(function(){
 // Bible user accout
-Route::get("/Bible_Lesson",[Studycontroller::class,"BibleLesson"]) ->name("Biblelesson");
-Route::get("/Bible_Study_Home",[Studycontroller::class,"BibleStudy"]) ->name("BibleStudy");
+Route::get("/Bible_study_home",[Studycontroller::class,"BibleStudy"]) ->name("BibleStudy");
+Route::get("/Bible_lesson",[Studycontroller::class,"BibleLesson"]) ->name("Biblelesson");
+Route::get("/Bible_catalog",[Studycontroller::class,"BibleCatalog"]) ->name("Biblecatalog");
 // Bible user profile
-Route::get("/Bible_Study/userprofile",[Studycontroller::class,"Userprofile"]) ->name("Bprofile");
-Route::post("/Bible_Study/userprofile",[Studycontroller::class,"Changeprofile"]) ->name("Chprofile");
+Route::get("/Bible_study/userprofile",[Studycontroller::class,"Userprofile"]) ->name("Bprofile");
+Route::post("/Bible_study/userprofile",[Studycontroller::class,"Changeprofile"]) ->name("Chprofile");
 // Bible study loguot
-Route::get("/Bible_Study/logout",[Studycontroller::class,"Biblogout"])->name("biblogout");
+Route::get("/Bible_study/logout",[Studycontroller::class,"Biblogout"])->name("biblogout");
+
 });
 // Guest
 Route::middleware('guest')->group(function(){
@@ -50,6 +52,7 @@ Route::middleware('guest')->group(function(){
 Route::get("/Testimony_Form",[Contactcontroller::class,"Testimony"])->name("Testimony");
 Route::post("/Testimony_Form",[Contactcontroller::class,"Testimony_post"])->name("Testimony_post");
 Route::get("/Testimony_Posts",[Contactcontroller::class,"Testposts"])->name('testposts');
+Route::get("/posts",[Contactcontroller::class,"ShowpostID"])->name('ShowpostID');
 // Testimony
 
 

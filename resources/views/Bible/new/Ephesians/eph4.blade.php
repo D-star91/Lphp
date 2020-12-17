@@ -1,5 +1,4 @@
-@extends("Layout.Biblelayout")
-@section("content")
+<x-Biblelayout>
 
         <div class="main-new">
         
@@ -94,4 +93,4 @@
         </div>
         </div>
       </div>  
-@endsection
+</x-Biblelayout>

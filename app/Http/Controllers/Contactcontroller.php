@@ -45,9 +45,11 @@ class Contactcontroller extends Controller
             "testimony"=>"required",
         ]);
         if($validation){
+            $name=request('name');
+            $testimony=request('testimony');
             $test=new Post();
-            $test->name=$validation['name'];
-            $test->Testimony=$validation['testimony'];
+            $test->name=$name;
+            $test->Testimony=$testimony;
             $test->save();
             return redirect()->route('testposts')->with('message','Your testimony has been received');
         }else{
@@ -55,8 +57,11 @@ class Contactcontroller extends Controller
         }
     }
     function Testposts(){
-        $post=Post::all();
-
-        return view('User.Testimony_post',['Testpost'=>$post]);
+        $post=Post::latest()->get();
+        return view('User.Testimony_post',['Testposts'=>$post]);
+    }
+    function ShowpostID(){
+        // return $id;
+        return view("User.ShowTestpos"); 
     }
 }

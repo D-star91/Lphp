@@ -1,5 +1,4 @@
-@extends("Layout.Studylayoutuser")
-@section("content")
+<x-Studylayoutuser>
 
     <div class="Study-bg">
         <div class="container">
@@ -31,4 +30,4 @@
         </div>
     </div>
 
-@endsection
+</x-Studylayoutuser>

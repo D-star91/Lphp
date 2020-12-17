@@ -1,5 +1,4 @@
-@extends("Layout.Layout")
-@section("content")
+<x-Layout>
     <div class="Reg-bg">
         <!-- Content -->
         <div class="container">
@@ -89,4 +88,4 @@
             <div class="row"></div>
         </div>
     </div>
-@endsection
+</x-Layout>

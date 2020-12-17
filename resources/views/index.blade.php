@@ -1,5 +1,4 @@
-@extends("Layout.Layout")
-@section("content")
+<x-Layout>
     
       <div class="bg">
         <div class="mask rgba-cyan-light align-items-center">
@@ -53,11 +52,9 @@
                   @endif
                 </form>
             </div>
-            <div class="col-7">
+            <div class="col-7 align-self-center">
               <div class="mt-5 text-center ">
                 <h3 class="h mb-4">နေ့စဉ်ကျမ်းပိုဒ်</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fuga explicabo aspernatur! Accusantium, sed omnis quam inventore dignissimos labore accusamus corrupti consequatur sit iusto vitae saepe aut eos quaerat repudiandae?</p><hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fuga explicabo aspernatur! Accusantium, sed omnis quam inventore dignissimos labore accusamus corrupti consequatur sit iusto vitae saepe aut eos quaerat repudiandae?</p><hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fuga explicabo aspernatur! Accusantium, sed omnis quam inventore dignissimos labore accusamus corrupti consequatur sit iusto vitae saepe aut eos quaerat repudiandae?</p><hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
               </div>
             </div>
@@ -136,80 +133,14 @@
                         <h6 class="h6 pb-1"><i class="fas fa-bible pr-1"></i>Lesson</h6>
                       </a>
                         <h4 class="h4 mb-4">Bible Study</h4>
-                        <p class="font-weight-normal">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam
-                        rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                        dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
-                        <p class="font-weight-normal">by <a><strong>Carine Fox</strong></a>, 19/08/2016</p>
-                      <a class="btn btn-success" href="{{route('Biblehome')}}">Read more</a>
+                        <p class="font-weight-normal">နှုတ်ကပတ်တော်ကို အခမဲ့ online ပေါ်တွင် လေ့လာသင်ကြားခံယူနိုင်ပါပြီး။ <br>
+                        အမည်စာရင်းပေးသွင်း စတင်လေ့လာလိုက်ပါ။</p>
+                      <a class="btn btn-success" href="{{route('Biblehome')}}">စာရင်းပေးသွင်းမည်။</a>
                 </div>
               </div>
             </div>
           </div><hr>
           <!-- Testimony -->
-          <div class="row">
-            <section class="section pb-3 text-center">
-              <h1 class="section-heading h1 pt-4">Testimony</h1>
-                <p class="section-description">ထာဝရဘုရားသခင်သည် လူသားများအပေါ် ကောင်းမြတ်ခြင်းသက်သေများကို ခံစားရ၍ ပြန်လည်ဝေမျှသက်သေခံချက်များကို 
-                ဖတ်ရှု၍ ခွန်အားယူလိုက်ပါ။ 
-                </p>
-            <div class="row">
-              <!-- Testimony 1 -->
-              <div class="col-lg-4 col-md-12 mb-4">
-                <div class="card testimonial-card">
-                  <div class="card-up indigo lighten-1"></div>
-                  <div class="avatar mx-auto white mt-2">
-                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle"
-                      alt="woman avatar">
-                  </div>
-                  <div class="card-body test-a">
-                    <h4 class="card-title">Anna Doe</h4>
-                    <hr>
-                      <p><i class="fas fa-quote-left"></i> 
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci
-                      </p>
-                    <a href="">Read more</a>
-                  </div>
-                </div>
-              </div>
-              <!-- Testimony 2 -->
-              <div class="col-lg-4 col-md-12 mb-4">
-                <div class="card testimonial-card">
-                  <div class="card-up indigo lighten-1"></div>
-                    <div class="avatar mx-auto white mt-2">
-                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle"
-                        alt="woman avatar">
-                    </div>
-                    <div class="card-body test-a">
-                      <h4 class="card-title">Anna Doe</h4>
-                      <hr>
-                        <p><i class="fas fa-quote-left"></i> 
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci
-                        </p>
-                      <a href="">Read more</a>
-                    </div>
-                  </div>
-                </div>
-                <!-- Testimony 3 -->
-                <div class="col-lg-4 col-md-12 mb-4">
-                  <div class="card testimonial-card">
-                    <div class="card-up indigo lighten-1"></div>
-                      <div class="avatar mx-auto white mt-2">
-                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle"
-                          alt="woman avatar">
-                      </div>
-                      <div class="card-body test-a">
-                        <h4 class="card-title">Anna Doe</h4>
-                      <hr>
-                        <p><i class="fas fa-quote-left"></i> 
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci
-                        </p>
-                        <a href="">Read more</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </section>
-          </div><hr>
           <div class="row">
             <div class="col-md-12">
               <div class="card card-image mb-4"
@@ -226,10 +157,10 @@
 
               </div>
             </div>
-          </div>
+          </div><hr>
         </div>
       </div>
 
         
     
-@endsection
+</x-Layout>

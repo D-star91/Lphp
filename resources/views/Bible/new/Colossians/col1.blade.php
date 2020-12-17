@@ -1,37 +1,36 @@
-@extends("Layout.Biblelayout")
-@section("content")
-
+<x-Biblelayout>
         <div class="main-new">
-        
-        </div>
-      <div class="content-new ">
-        <div class="container">
-          <div class="row justify-content-center ">
-            <div class="col-md-4 ">
-              <div class="dropdown">
-                <button class="btn btn-outline-danger dropdown-toggle mt-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  ကောလောသဲဩဝါဒစာ အခန်းကြီး
-                </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <div class="card-body">
-                        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                          <div class="btn-group mr-2" role="group" aria-label="First group">
-                            <a href="{{route('col1')}}" class="btn-g2" role="button" aria-pressed="true">၁</a>
-                            <a href="{{route('col2')}}" class="btn-g2" role="button" aria-pressed="true">၂</a>
-                            <a href="{{route('col3')}}" class="btn-g2" role="button" aria-pressed="true">၃</a>
-                            <a href="{{route('col4')}}" class="btn-g2" role="button" aria-pressed="true">၄</a>
+          <div class="container">
+            <div class="row justify-content-center ">
+              <div class="col-md-4">
+                <div class="new-title">
+                <h3>ကောလောသဲဩဝါဒစာ - ၁<h3>
+                </div>
+              </div>
+              <div class="col-md-4 ">
+                <div class="dropdown">
+                  <button class="btn btn-outline-danger dropdown-toggle mt-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    ကောလောသဲဩဝါဒစာ အခန်းကြီး
+                  </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <div class="card-body">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                            <div class="btn-group mr-2" role="group" aria-label="First group">
+                              <a href="{{route('col1')}}" class="btn-g2" role="button" aria-pressed="true">၁</a>
+                              <a href="{{route('col2')}}" class="btn-g2" role="button" aria-pressed="true">၂</a>
+                              <a href="{{route('col3')}}" class="btn-g2" role="button" aria-pressed="true">၃</a>
+                              <a href="{{route('col4')}}" class="btn-g2" role="button" aria-pressed="true">၄</a>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="new-title">
-              <h3>ကောလောသဲဩဝါဒစာ - ၁<h3>
+                </div>
               </div>
             </div>
           </div>
+        </div>
+      <div class="content-new ">
+        <div class="container"> 
           </div>
           <div class="row justify-content-center">
                   <div class="col-md-1">
@@ -87,4 +86,5 @@
         </div>
         </div>
       </div>  
-@endsection
+</x-Biblelayout>
+

@@ -1,5 +1,4 @@
-@extends("Layout.Studylayoutuser")
-@section("content")
+<x-Studylayoutuser>
 
     <div class="B-profile">
         <div class="container">
@@ -71,4 +70,4 @@ $('.mdb-select').materialSelect();
 });
     </script>
 
-@endsection
+</x-Studylayoutuser>

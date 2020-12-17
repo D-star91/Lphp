@@ -70,13 +70,17 @@ class Studycontroller extends Controller
         Auth::logout();
         return redirect()->route('Biblehome');
     }
-    // Bible Acc
+    // Bible Study
     function BibleLesson(){
         return view("Biblestudy.Bible_Study_User.BibleLesson");
     }
     function BibleStudy(){
         return view("Biblestudy.Bible_Study_User.BibleStudy");
     }
+    function BibleCatalog(){
+        return view("Biblestudy.Bible_Study_User.Catalog");
+    }
+    // Profile
     function Userprofile(){
         return view("Biblestudy.Bible_Study_User.Bprofile");
     }
