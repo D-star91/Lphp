@@ -40,6 +40,7 @@
 }
 .BS-content{
   padding: 5px;
+  padding-top: 2%;
   padding-bottom: 5%;
 }
 .BS-p{
@@ -247,7 +248,12 @@
 }
 .les-p{
   text-align: justify;
-  padding: 8px;
-  padding-top: 1px;
+  padding: 10px;
+  margin-bottom: 2px;
   font-size: 16px;
+}
+.les-7{
+  text-align: justify;
+  font-size: 16px;
+  font-weight: bold;
 }

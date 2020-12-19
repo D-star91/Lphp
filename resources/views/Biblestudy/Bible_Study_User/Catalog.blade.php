@@ -29,45 +29,45 @@
                                                 ကောင်းကင်အရာဖြစ်စေ၊ မြေကြီးအရာဖြစ်စေ၊ ခပ်သိမ်းသောအရာတို့ကို သားတော်အားဖြင့် ဘုရားသခင်နှင့် မိတ်သဟာယဖွဲ့စေခြင်းငှါလည်းကောင်း
                                                 အလိုရှိတော်မူ၏။" ကောလောသဲဩဝါဒစာ ၁:၁၉-၂၀ <hr>
                                                 <ul class=" ml-5">
-                                                    <h5>သင်ခန်းစာခေါင်းစဉ်များ</h5>
+                                                    <h5>မာတိကာ</h5>
                                                     <li>ကောင်းကင်နှင့်မြေကြီးကိုဖန်းဆင်းတော်မူသော ဘုရားသခင် 
-                                                        <div class="text-truncate li-color">Praeterea iter est quasdam res quas ex communi.</div>
+                                                        <div class="text-truncate li-color">ဘုရားသခင်သည် အရာခပ်သိမ်းကို ဖန်ဆင်းတော်မူ၏။</div>
                                                     </li>
                                                     <li>လူကို အထူးဖန်ဆင်းခြင်း
-                                                        <div class="text-truncate li-color">Praeterea iter est quasdam res quas ex communi.</div>
+                                                        <div class="text-truncate li-color">ဘုရားသခင်နှင့်၎င်း၊ မိမိတို့အချင်းချင်းနှင့်၎င်း၊ အထူးမိတ်သဟာယဖွဲ့ရန် ဖန်ဆင်းခဲ့သည်။</div>
                                                     </li>
                                                     <li>လိမ်လည်လှည့်ဖြားသူ "စာတန်"
-                                                        <div class="text-truncate li-color">Praeterea iter est quasdam res quas ex communi.</div>
+                                                        <div class="text-truncate li-color">သူသည် ခိုးခြင်း၊ သတ်ခြင်းနှင့် ဖျက်ဆီးခြင်းငှါလာသည်။</div>
                                                     </li>
                                                     <li>အာဒံနှင့်ဧဝ ဘုရားသခင်အား မနာခြင်း
-                                                        <div class="text-truncate li-color">Praeterea iter est quasdam res quas ex communi.</div>
+                                                        <div class="text-truncate li-color">ကျွန်ုပ်တို့ ယခုကျိန်ခြင်းအမင်္ဂလာအောက်တွင် အသက်ရှင်နေကြရသည်။</div>
                                                     </li>
                                                     <li>ရွေးကောက်ခံရသော မိသားစု
-                                                        <div class="text-truncate li-color">Praeterea iter est quasdam res quas ex communi.</div>
+                                                        <div class="text-truncate li-color">အာဗြဟံနှင့်အတူ ဘုရားသခင်၏အထူးမိတ်သဟာယဖွဲ့ခြင်း။</div>
                                                     </li>
                                                     <li>ဘုရားသခင်သည် အာဗြဟံအားစစ်ဆေးသည်
-                                                        <div class="text-truncate li-color">Praeterea iter est quasdam res quas ex communi.</div>
+                                                        <div class="text-truncate li-color">ဘုရားသခင်အား အာဗြဟံနာခံခဲ့သည်။</div>
                                                     </li>
                                                     <li>သေပြီးနောက်တွင် ရှင်သန်မှုဘဝရှိဦးမည်
-                                                        <div class="text-truncate li-color">Praeterea iter est quasdam res quas ex communi.</div>
+                                                        <div class="text-truncate li-color">သေပြီးနောက် ရှင်သန်မှုမှာ ကောင်းကင်နိုင်ငံ (သို့) ငရဲတွင် ဖြစ်လိမ့်မည်။</div>
                                                     </li>
                                                     <li>ယေရှုခရစ်တော်
-                                                        <div class="text-truncate li-color">Praeterea iter est quasdam res quas ex communi.</div>
+                                                        <div class="text-truncate li-color">အကယ်စင်စစ် ဘုရားဖြစ်တော်မူ၍ လူသားစင်စစ်လည်းဖြစ်သည်။</div>
                                                     </li>
                                                     <li>လူအမျိုးမျိုးအတွက် ဘုရားသခင်ပြန်လည်သင့်မြတ်ခြင်းအစီအစဉ်
-                                                        <div class="text-truncate li-color">Praeterea iter est quasdam res quas ex communi.</div>
+                                                        <div class="text-truncate li-color">အပြစ်အတွက် အပြစ်ဒဏ်ကိုခံယူပြီး မိတ်သဟာယကို ပြန်လည်ရယူခြင်း။</div>
                                                     </li>
                                                     <li>ယေရှုသည် သေခြင်းတရားကိုအောင်မြင်ခဲ့သည်
-                                                        <div class="text-truncate li-color">Praeterea iter est quasdam res quas ex communi.</div>
+                                                        <div class="text-truncate li-color">သူ၏ရှင်ပြန်ထမြောက်ခြင်းသည် သူမည်သူဖြစ်ကြောင်း သက်သေပြခဲ့သည်။</div>
                                                     </li>
                                                     <li>ကယ်တင်ခြင်းခံရဖို့ ကျွန်ုပ်တို့ဘာလုပ်ရမလဲ
-                                                        <div class="text-truncate li-color">Praeterea iter est quasdam res quas ex communi.</div>
+                                                        <div class="text-truncate li-color">ယုံကြည်ပါ။</div>
                                                     </li>
                                                     <li>ဘုရားသခင်၏မေတ္တာတော်အား ကျွန်ုပ်တို့မည့်ကဲ့သို့တုန့်ပြန်မလဲ
-                                                        <div class="text-truncate li-color">Praeterea iter est quasdam res quas ex communi.</div>
+                                                        <div class="text-truncate li-color">နောင်တရပါ</div>
                                                     </li>
                                                     <li>ကျွန်ုပ်သည် ယေရှု၏မိတ်ဆွေဖြစ်သည်
-                                                        <div class="text-truncate li-color">Praeterea iter est quasdam res quas ex communi.</div>
+                                                        <div class="text-truncate li-color">ခရစ်တော်၏မိန့်တော်မူသမျှကို နာခံခြင်းအားဖြင့် သူ၏မေတ္တာ၌ကျွန်ုပ်တည်နေ၏။</div>
                                                     </li>
                                                 </ul><hr>
                                                     သင်ခန်းစာအတွဲ (၁) တွင် သင်ခန်းစာ(၁၃)ခန်းပါဝင်၍ သင်ခန်းစာတခုချင်းစီတိုင်းကို သေချာစွာလေ့လာခြင်းဖြင့်
@@ -76,7 +76,7 @@
                                         </div>
                                         <div class="modal-footer justify-content-center">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">လေ့လာမည်</button>
+                                        <a  class="btn btn-primary" href="{{route('bfam_1')}}">လေ့လာမည်</a>
                                         </div>
                                     </div>
                                     </div>

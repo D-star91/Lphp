@@ -29,7 +29,7 @@ class Studycontroller extends Controller
 
         $auth=Auth::attempt(["email"=>request('email'),'password'=>request('password')]);
          if($auth){
-            return redirect()->route('Biblelesson');
+            return redirect()->route('BibleStudy');
         }else{
             return back()->with('error','tray again');
         }
@@ -59,7 +59,7 @@ class Studycontroller extends Controller
             $user->save();
             
             if(Auth::attempt(["email"=>request('useremail'),'password'=>request('userpassword')])){
-                return redirect()->route('Biblelesson');
+                return redirect()->route('BibleStudy');
             }
         }else{
             return back()->withErrors($validation);
@@ -71,14 +71,15 @@ class Studycontroller extends Controller
         return redirect()->route('Biblehome');
     }
     // Bible Study
-    function BibleLesson(){
-        return view("Biblestudy.Bible_Study_User.BibleLesson");
-    }
     function BibleStudy(){
         return view("Biblestudy.Bible_Study_User.BibleStudy");
     }
-    function BibleCatalog(){
+    function Biblelesson(){
         return view("Biblestudy.Bible_Study_User.Catalog");
+    }
+    // Lesson
+    function Bfam_1(){
+        return view("Biblestudy.BFAM.Bfam_1");
     }
     // Profile
     function Userprofile(){

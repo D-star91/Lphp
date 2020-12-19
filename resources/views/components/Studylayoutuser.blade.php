@@ -40,9 +40,6 @@
             <a class="navbr-font-br mr-3" href="{{route('Biblelesson')}}">LESSON</a>
           </li>
           <li class="nav-item">
-            <a class="navbr-font-br mr-3" href="{{route('Biblecatalog')}}">CATALOG</a>
-          </li>
-          <li class="nav-item">
             <a class="navbr-font-br mr-3" href="#">FAQS</a>
           </li>
           <li class="nav-item">

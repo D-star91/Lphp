@@ -7,6 +7,24 @@ use App\Http\Controllers\Loyalcontroller;
 use App\Http\Controllers\Studycontroller;
 use Illuminate\Support\Facades\Route;
 
+
+
+// Bible study
+Route::middleware('study')->group(function(){
+// Bible user accout
+Route::get("/Bible_study_home",[Studycontroller::class,"BibleStudy"]) ->name("BibleStudy");
+Route::get("/Bible_lesson",[Studycontroller::class,"Biblelesson"]) ->name("Biblelesson");
+// Bible user profile
+Route::get("/Bible_study/userprofile",[Studycontroller::class,"Userprofile"]) ->name("Bprofile");
+Route::post("/Bible_study/userprofile",[Studycontroller::class,"Changeprofile"]) ->name("Chprofile");
+// Bible study loguot
+Route::get("/Bible_study/logout",[Studycontroller::class,"Biblogout"])->name("biblogout");
+// Lesson
+Route::get("/Bible_bfam_1",[Studycontroller::class,"Bfam_1"]) ->name("bfam_1");
+});
+// Guest
+Route::middleware('guest')->group(function(){
+
 Route::get("/",[Loyalcontroller::class,"index"]) ->name("home");
 Route::post("/",[Loyalcontroller::class,"usermail"])->name("usermail");
 
@@ -20,22 +38,7 @@ Route::get("/Registered",[Loyalcontroller::class,"Registe"]) ->name("registered"
 Route::get("/Prayer",[Loyalcontroller::class,"Prayer"]) ->name("prayer");
 Route::post("/Prayer",[Loyalcontroller::class,"Prayuser"]) ->name("prayuser");
 // Prayer
-
-// Bible study
-Route::middleware('study')->group(function(){
-// Bible user accout
-Route::get("/Bible_study_home",[Studycontroller::class,"BibleStudy"]) ->name("BibleStudy");
-Route::get("/Bible_lesson",[Studycontroller::class,"BibleLesson"]) ->name("Biblelesson");
-Route::get("/Bible_catalog",[Studycontroller::class,"BibleCatalog"]) ->name("Biblecatalog");
-// Bible user profile
-Route::get("/Bible_study/userprofile",[Studycontroller::class,"Userprofile"]) ->name("Bprofile");
-Route::post("/Bible_study/userprofile",[Studycontroller::class,"Changeprofile"]) ->name("Chprofile");
-// Bible study loguot
-Route::get("/Bible_study/logout",[Studycontroller::class,"Biblogout"])->name("biblogout");
-
-});
-// Guest
-Route::middleware('guest')->group(function(){
+     // Bible study
     Route::get("/Bible_Study/home",[Studycontroller::class,"Biblehome"]) ->name("Biblehome");
     Route::post("/Bible_Study/home",[Studycontroller::class,"StudyAcc"]) ->name("studyacc");
     // Bible study login&regester
@@ -43,10 +46,6 @@ Route::middleware('guest')->group(function(){
     Route::post('/Bible_Study/login',[Studycontroller::class,"Biblelog"]) ->name("biblelog");
     Route::get("/Bible_Study/register",[Studycontroller::class,"BibleSignup"]) ->name("Biblesignup");
     Route::post("/Bible_Study/register",[Studycontroller::class,"BibleSig"]) ->name("biblesig");
-    
-});
-
-// Bible study
 
 // Testimony
 Route::get("/Testimony_Form",[Contactcontroller::class,"Testimony"])->name("Testimony");
@@ -297,3 +296,5 @@ Route::get("/Bible/New/Jude1",[Biblecontroller::class,"Jude1"])->name("Jud1");
 Route::get("/Bible/New/Revelation1",[Biblecontroller::class,"Revelation1"])->name("Rev1");
 // New
 // Bible
+});
+
