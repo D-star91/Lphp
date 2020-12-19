@@ -7,7 +7,7 @@
                     <div class="lesson-main">
                         <div class="mt-4"> 
                             <h4 class="lesson-main-title1">အသီးသီးခြင်းနှင့် တိုးပွားခြင်း</h4>
-                            <h5 class="lesson-main-title2 d-inline p-2">သင်ခန်းစာအတွဲ (၁)</h5><h5 class="d-inline p-2 lesson-main-title3">တိုက်ထောင့်အမြစ်ကျောက်</h5>
+                            <h5 class="lesson-main-title2 d-inline p-2">သင်ခန်းစာအတွဲ (၂)</h5><h5 class="d-inline p-2 lesson-main-title3">တိုက်ထောင့်အမြစ်ကျောက်</h5>
                         </div>
                     </div>
                 </div>
@@ -273,5 +273,4 @@
                 $('#myInput').trigger('focus')
                 })
             </script>
-            
 </x-Studylayoutuser>

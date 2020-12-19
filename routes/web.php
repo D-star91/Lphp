@@ -21,6 +21,8 @@ Route::post("/Bible_study/userprofile",[Studycontroller::class,"Changeprofile"])
 Route::get("/Bible_study/logout",[Studycontroller::class,"Biblogout"])->name("biblogout");
 // Lesson
 Route::get("/Bible_bfam_1",[Studycontroller::class,"Bfam_1"]) ->name("bfam_1");
+Route::post("/Bible_bfam_1",[Studycontroller::class,"Bfam_post_1"]) ->name("bfam_post_1");
+Route::get("/Bible_bfam_2",[Studycontroller::class,"Bfam_2"]) ->name("bfam_2");
 });
 // Guest
 Route::middleware('guest')->group(function(){

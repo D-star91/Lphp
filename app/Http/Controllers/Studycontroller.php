@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Bfam1answer;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -81,6 +82,52 @@ class Studycontroller extends Controller
     function Bfam_1(){
         return view("Biblestudy.BFAM.Bfam_1");
     }
+    function Bfam_post_1(){
+        $validation=request()->validate([
+            "answer1"=>"required",
+            "answer2"=>"required",
+            "answer3"=>"required",
+            "answer4"=>"required",
+            "answer5"=>"required",
+            "answer6"=>"required",
+            "answer7"=>"required",
+            "answer8"=>"required",
+            "answer9"=>"required",
+            "answer10"=>"required",
+        ]);
+        if($validation){
+            $answer1=request('answer1');
+            $answer2=request('answer2');
+            $answer3=request('answer3');
+            $answer4=request('answer4');
+            $answer5=request('answer5');
+            $answer6=request('answer6');
+            $answer7=request('answer7');
+            $answer8=request('answer8');
+            $answer9=request('answer9');
+            $answer10=request('answer10');
+
+            $bfam1=new Bfam1answer();
+            $bfam1->user_id=auth()->user()->id;
+            $bfam1->answer1=$answer1;
+            $bfam1->answer2=$answer2;
+            $bfam1->answer3=$answer3;
+            $bfam1->answer4=$answer4;
+            $bfam1->answer5=$answer5;
+            $bfam1->answer6=$answer6;
+            $bfam1->answer7=$answer7;
+            $bfam1->answer8=$answer8;
+            $bfam1->answer9=$answer9;
+            $bfam1->answer10=$answer10;
+            $bfam1->save();
+            return redirect()->route('bfam_2')->with('message','Receipt received');
+        }else{
+            return back()->withErrors('$validation');
+        }
+    }
+    function Bfam_2(){
+        return view("Biblestudy.BFAM.Bfam_2");
+    }
     // Profile
     function Userprofile(){
         return view("Biblestudy.Bible_Study_User.Bprofile");
@@ -100,7 +147,7 @@ class Studycontroller extends Controller
             if(Hash::check($old_password,$current_user->password)){
                 $current_user->password=$new_password;
                 $current_user->update();
-                return back()->with('success','password changed');
+                return back()->with('answer','Receipt received');
             }else{
                 return back()->with('error','old password is not same');
             }
